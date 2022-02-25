@@ -28,7 +28,7 @@
 <meta property="og:description" content="这是大三上学期准备遥感图像解译考试梳理的东西。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-02-24T15:11:38.000Z">
-<meta property="article:modified_time" content="2022-02-25T04:33:54.495Z">
+<meta property="article:modified_time" content="2022-02-25T04:51:58.117Z">
 <meta property="article:author" content="Zerol Acqua">
 <meta property="article:tag" content="课程学习">
 <meta name="twitter:card" content="summary">
@@ -225,7 +225,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-02-25 12:33:54" itemprop="dateModified" datetime="2022-02-25T12:33:54+08:00">2022-02-25</time>
+                <time title="修改时间：2022-02-25 12:51:58" itemprop="dateModified" datetime="2022-02-25T12:51:58+08:00">2022-02-25</time>
               </span>
 
           <br>
@@ -1572,17 +1572,13 @@
 </li>
 <li><p>特殊地物对几何分辨率的要求</p>
 </li>
-<li><p>摄影图像比例尺与图像几何分辨力之间近似关系</p>
-<ul>
-<li>$R_g\approx \cfrac{1(mm)}{7(线 对)}\times\cfrac{1(m)}{1000(mm)}\times M$</li>
-</ul>
+<li><p>摄影图像比例尺与图像几何分辨力之间近似关系<br>-$R_g\approx \cfrac{1(mm)}{7(线 对)}\times\cfrac{1(m)}{1000(mm)}\times M$</p>
 </li>
 </ul>
 </li>
 <li><p>空间分辨率与成图比例尺</p>
+<p>-$e\times M\times 10^{-3}&#x3D;C\times R$</p>
 <ul>
-<li><p>$e\times M\times 10^{-3}&#x3D;C\times R$</p>
-</li>
 <li><p>R：遥感图像空间分辨率 (m)</p>
 </li>
 <li><p>M：可制作的合理成图比例尺(比例尺分母)</p>
@@ -1998,10 +1994,7 @@
 <ul>
 <li><p>在一mm长的图像上能够将绝对反差的线条分开成像的数量。</p>
 </li>
-<li><p>摄影图像的反差换算成分解力的公式为</p>
-<ul>
-<li>$R_K&#x3D;R(1-10^{-\Delta D})$</li>
-</ul>
+<li><p>摄影图像的反差换算成分解力的公式为<br>-$R_K&#x3D;R(1-10^{-\Delta D})$</p>
 </li>
 </ul>
 </li>
@@ -2060,7 +2053,7 @@
 </li>
 <li><p>方法二</p>
 <ul>
-<li><p>分别计算n个检测点和n个同名点组成的封闭多边形的重心坐标 $𝑋<em>o$, $𝑌_𝑜$ , $𝑋</em>{𝑜𝑡}$, $𝑌_{𝑜𝑡}$</p>
+<li><p>分别计算n个检测点和n个同名点组成的封闭多边形的重心坐标$X_o,Y_o ,𝑋_{𝑜𝑡},𝑌_{𝑜𝑡}$</p>
 </li>
 <li><p>计算检测点到其多边形重心的距离之和$𝐷_𝑆^\prime$</p>
 </li>
@@ -2285,8 +2278,7 @@
 <li><p>一般来讲，<u>它们有特殊的（典型的）形状</u>，这是解译人员必须关注的可能得到可靠结果的手段</p>
 </li>
 <li><p>简单人工地物识别概率的数学表示形式</p>
-<ul>
-<li><p>$P&#x3D;Ce^{-(B \cfrac{A}{L})^2}$</p>
+<p>-$P&#x3D;Ce^{-(B \cfrac{A}{L})^2}$</p>
 <ul>
 <li><p>L——地物尺寸</p>
 </li>
@@ -2295,8 +2287,6 @@
 <li><p>B——形状的识别系数</p>
 </li>
 <li><p>C——影响复杂地物元素解译质量的相互位置系数。</p>
-</li>
-</ul>
 </li>
 </ul>
 </li>
@@ -2343,9 +2333,8 @@
 </ul>
 <h4 id="提高地物解译概率的途径"><a href="#提高地物解译概率的途径" class="headerlink" title="提高地物解译概率的途径"></a>提高地物解译概率的途径</h4><ul>
 <li><p><u>在给定图像比例尺的情况下，根据图像识别地物的概率，通过三个途径加以提高</u></p>
+<p>-$P&#x3D;e^{-(B\cfrac{m}{2RL\sqrt{\Delta D}})^2}$</p>
 <ul>
-<li><p>$P&#x3D;e^{-(B\cfrac{m}{2RL\sqrt{\Delta D}})^2}$</p>
-</li>
 <li><p>提高图像的分解力（$R$）</p>
 </li>
 <li><p>提高图像反差（$\Delta D$）</p>
@@ -2375,27 +2364,16 @@
 </ul>
 </li>
 <li><p>不同比例尺图像的成像能力</p>
-<ul>
-<li><p>$C_{pa}$是成像能力的平均值</p>
-</li>
-<li><p>$m_c$是图像比例尺</p>
-</li>
-</ul>
+<p>-$C_{pa}$是成像能力的平均值</p>
+<p>-$m_c$是图像比例尺</p>
 </li>
 <li><p>不同比例尺的图像量测能力</p>
-<ul>
-<li><p>$C_{ba}$是量测能力的平均值</p>
-</li>
-<li><p>$m_c$是图像比例尺</p>
+<p>-$C_{ba}$是量测能力的平均值</p>
+<p>-$m_c$是图像比例尺</p>
 </li>
 </ul>
 </li>
-</ul>
-</li>
-<li><p>遥感图像的信息容量</p>
-<ul>
-<li>$Q&#x3D;Q_{paS}+Q_{mbS}$</li>
-</ul>
+<li><p>遥感图像的信息容量<br>-$Q&#x3D;Q_{paS}+Q_{mbS}$</p>
 </li>
 </ul>
 <h4 id="识别过程的模式"><a href="#识别过程的模式" class="headerlink" title="识别过程的模式"></a><del>识别过程的模式</del></h4><h4 id="思考题-3"><a href="#思考题-3" class="headerlink" title="思考题"></a>思考题</h4><ul>
@@ -3152,10 +3130,7 @@
 </li>
 </ul>
 </li>
-<li><p>绿度(植被指数)</p>
-<ul>
-<li>$NVI&#x3D;(IR-R)&#x2F;(IR+R)$)</li>
-</ul>
+<li><p>绿度(植被指数)<br>-$NVI&#x3D;(IR-R)&#x2F;(IR+R)$)</p>
 </li>
 <li><p>反照度</p>
 <ul>
@@ -3186,11 +3161,9 @@
 <li>根据自己的理解给出像元形状指数（PSI）的含义</li>
 </ul>
 <hr>
-<h3 id="第六章-遥感图像解译方法"><a href="#第六章-遥感图像解译方法" class="headerlink" title="第六章 遥感图像解译方法"></a>第六章 遥感图像解译方法</h3><ul>
-<li><p>$d_i(X)&#x3D;f(X,M_i,\Sigma_i,…\ ,\omega_i)$</p>
-</li>
-<li><p>$y&#x3D;f(DN_\lambda)&#x3D;aDN_\lambda+b$</p>
-</li>
+<h3 id="第六章-遥感图像解译方法"><a href="#第六章-遥感图像解译方法" class="headerlink" title="第六章 遥感图像解译方法"></a>第六章 遥感图像解译方法</h3><p>-$d_i(X)&#x3D;f(X,M_i,\Sigma_i,…\ ,\omega_i)$</p>
+<p>-$y&#x3D;f(DN_\lambda)&#x3D;aDN_\lambda+b$</p>
+<ul>
 <li><p>提取的信息类别及应用</p>
 <table>
 <thead>
@@ -5194,10 +5167,7 @@
 <li>目标与背景反射（或发射）率差异最显著的波长区间，即为最佳的遥感波段。选择最佳波段的方式：最佳波段的选择一般用均方差方法选出那些要素（地物）之间光谱反射（或发射）率均方差较大的波段作为遥感通道。均方差较大的通道说明地物反射（或发射）率差异大，易于区分各类地物</li>
 </ul>
 </li>
-<li><p>目标与背景反射（或发射）率差异最显著的波长</p>
-<ul>
-<li>$\sigma_\lambda&#x3D;\sqrt{\cfrac{\sum^n_{i&#x3D;1}(r_{i\lambda}-\bar{r_\lambda})^2}{n-1}}$</li>
-</ul>
+<li><p>目标与背景反射（或发射）率差异最显著的波长<br>-$\sigma_\lambda&#x3D;\sqrt{\cfrac{\sum^n_{i&#x3D;1}(r_{i\lambda}-\bar{r_\lambda})^2}{n-1}}$</p>
 </li>
 </ul>
 </li>
@@ -5360,10 +5330,7 @@
 </li>
 <li><p>色彩和色扇：半径大小反映了饱和度的变化， 扇形弧度反应色调标志。色扇分析：通过将作为标准的地物按光谱属性的差异分别将它们标在扇形相应的位置上，可以得到地物解译的色彩标准， 可进行解译工作。</p>
 </li>
-<li><p>绿度（植被指数）</p>
-<ul>
-<li>$NVI &#x3D;\cfrac{(IR- R)}{(IR+ R)}$采用该公式的依据：植被在近红外波段上有高反射</li>
-</ul>
+<li><p>绿度（植被指数）<br>-$NVI &#x3D;\cfrac{(IR- R)}{(IR+ R)}$采用该公式的依据：植被在近红外波段上有高反射</p>
 </li>
 <li><p>反照度：太阳入射地面后，地面照度发射到卫星上去的物理总量</p>
 </li>
