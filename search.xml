@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>坦克大战记录</title>
+      <link href="/posts/8baa3f41.html"/>
+      <url>/posts/8baa3f41.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是大一时写的代码了，有时间了把它放上来，顺便看看自己现在写代码有没有长进。印象中大一写这个坦克大战时真的是被逼得死去活来的，难是真的难，不知道现在这门课还是不是这个坦克大战的作业了，如果要借鉴的话一定注意不要照搬啊！</p><h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><p>坦克大战程序实现了游戏中<strong>水池</strong>、<strong>石墙</strong>、<strong>草丛</strong>、<strong>铁墙</strong>的基本功能，还创新地添加了<strong>木箱</strong>。坦克、炮弹、方块之间可以进行<strong>碰撞检测</strong>。并且实现了游戏的<strong>结束判定</strong>。使用<code>WSAD</code>移动，<code>space</code>发射子弹，<code>K</code>自杀，<code>P</code>开启“作弊”（铁墙保护和生命增加等）</p><ul><li><p>生命值：被敌人击中生命会减少，并且回到重生点，生命值为0，游戏结束。</p></li><li><p>水池：子弹能通过，但坦克无法通过。</p></li><li><p>木箱：子弹不能通过，坦克无法通过，并且木箱在接触子弹或其它方块时被摧毁，可以是唯一可以被坦克推动的方块。</p></li><li><p>砖墙： 子弹不能通过，坦克无法通过，并且在接触子弹后被摧毁。</p></li><li><p>草丛：子弹、坦克均可通过，并且会被掩藏。</p></li><li><p>铁墙：任何物体都不可通过，无法摧毁。</p></li><li><p>基地：被子弹打中或被敌人入侵游戏即结束，友方坦克可以通过。</p></li></ul><h2 id="主要类"><a href="#主要类" class="headerlink" title="主要类"></a>主要类</h2><h3 id="object类"><a href="#object类" class="headerlink" title="object类"></a><code>object</code>类</h3><p><code>object</code>类是所有物体的基类。</p><p><strong>属性</strong></p><ul><li><code>m_rct</code>：位置</li><li><code>m_nDir</code>：方向</li><li><code>m_nSpeed</code>：速度</li><li><code>m_movable</code>：可否移动</li></ul><p><strong>函数</strong></p><ul><li>基本的碰撞的函数</li></ul><h3 id="Tank类"><a href="#Tank类" class="headerlink" title="Tank类"></a><code>Tank</code>类</h3><p><code>Tank</code>类继承自<code>object</code>类。</p><p><strong>属性</strong></p><ul><li><code>m_life</code>：生命</li></ul><p><strong>函数</strong></p><ul><li><p>虚函数</p><ul><li><code>show()</code></li><li><code>fire()</code></li></ul></li><li><p>普通函数</p><ul><li><code>life_decease()</code>：生命减少</li><li><code>TisOverlap()</code>：坦克碰撞函数</li><li><code>TOisOverlap()</code>：坦克碰撞函数</li></ul></li></ul><h3 id="MyTank类"><a href="#MyTank类" class="headerlink" title="MyTank类"></a><code>MyTank</code>类</h3><p><code>MyTank</code>类继承自<code>Tank</code>类。</p><p>属性</p><ul><li><code>m_move</code>：是否处于移动状态，是实现移动开炮同时进行的变量</li><li><code>m_respanpos</code>：重生点</li><li><code>m_img</code>：静态成员变量、存储贴图</li></ul><p>函数</p><ul><li><p>虚函数</p><ul><li><code>Show()</code>：重写虚函数</li></ul></li><li><p>普通函数</p><ul><li><code>respan()</code>：重生</li><li><code>gameover()</code>：游戏结束</li><li><code>show_life()</code>：生命显示</li><li><code>myMove()</code>：移动</li><li><code>setDir()</code>：转向</li></ul></li></ul><h3 id="EneTank类"><a href="#EneTank类" class="headerlink" title="EneTank类"></a><code>EneTank</code>类</h3><p><code>EneTank</code>类继承自<code>Tank</code>类。</p><p>属性</p><ul><li><p><code>ene_img</code>：静态成员变量，存储贴图</p></li><li><p><code>level</code>：静态成员变量，存储难度</p></li><li><p><code>total_num</code>：静态成员变量，存储消灭坦克数量</p></li><li><p><code>m_time</code>：记录开炮时间</p></li><li><p><code>m_firetime</code>：记录运动的时间</p></li><li><p><code>m_span</code>：开炮时间间隔</p></li><li><p><code>m_firespan</code>：开火时间间隔</p></li></ul><p>函数</p><ul><li><p>虚函数</p><ul><li><code>Show()</code>：重写虚函数</li></ul></li><li><p>普通函数</p><ul><li><code>AutoMove()</code>：自动移动</li><li><code>ChangeDir()</code>：自动转向</li><li><code>re_time()</code>：立即转向</li><li><code>fireClock()</code>：开炮计与重置时</li><li><code>eme_down()</code>：敌人死亡</li></ul></li></ul><h3 id="Shell类"><a href="#Shell类" class="headerlink" title="Shell类"></a><code>Shell</code>类</h3><p><code>Shell</code>类继承自<code>object</code>类。</p><p>属性</p><ul><li><code>m_inbox</code>：是否在界面内</li><li><code>m_time</code>：飞行时间</li><li><code>m_iniRct</code>：初始位置</li><li><code>s_img</code>：静态成员变量、存储贴图</li></ul><p>函数</p><ul><li>虚函数<code>Show()</code>：重写</li><li>其他函数<ul><li><code>create()</code>：创建</li><li><code>SSisOverlap()</code>：炮弹碰撞</li><li><code>UpdatePos()</code>：更新位置</li></ul></li></ul><h3 id="Wall类"><a href="#Wall类" class="headerlink" title="Wall类"></a><code>Wall</code>类</h3><p><code>Wall</code>类继承自<code>object</code>类。</p><p>属性</p><ul><li><code>type</code>：墙的类型<ul><li><code>ShellPass</code></li><li><code>TankPass</code></li></ul></li><li><code>destroyable</code>：是否可破坏</li><li><code>w_img</code>：静态成员变量、存储贴图</li></ul><p>函数</p><ul><li><p>虚函数</p><ul><li><code>Show()</code>：重写</li><li><code>Move()</code>：重写</li><li><code>disappear()</code></li></ul></li><li><p>其他函数</p></li></ul><h2 id="关键功能"><a href="#关键功能" class="headerlink" title="关键功能"></a>关键功能</h2><h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><h3 id="碰撞检测"><a href="#碰撞检测" class="headerlink" title="碰撞检测"></a>碰撞检测</h3><h3 id="计时器"><a href="#计时器" class="headerlink" title="计时器"></a>计时器</h3><h3 id="屏幕绘制"><a href="#屏幕绘制" class="headerlink" title="屏幕绘制"></a>屏幕绘制</h3><h3 id="按键检测"><a href="#按键检测" class="headerlink" title="按键检测"></a>按键检测</h3><h3 id="随机行为"><a href="#随机行为" class="headerlink" title="随机行为"></a>随机行为</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> c++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日常记录</title>
       <link href="/posts/535d1ea3.html"/>
       <url>/posts/535d1ea3.html</url>
