@@ -6,7 +6,7 @@
   <link href="http://zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="http://zerolacqua.top/"/>
-  <updated>2022-04-11T10:56:45.735Z</updated>
+  <updated>2022-04-12T05:01:12.380Z</updated>
   <id>http://zerolacqua.top/</id>
   
   <author>
@@ -21,7 +21,9 @@
     <link href="http://zerolacqua.top/posts/9df20c2d.html"/>
     <id>http://zerolacqua.top/posts/9df20c2d.html</id>
     <published>2022-04-11T10:53:17.000Z</published>
-    <updated>2022-04-11T10:56:45.735Z</updated>
+    <updated>2022-04-12T05:01:12.380Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本次作业是采用地形无关的控制方案建立 RPC 模型。</p><hr>]]></content>
     
     
     <summary type="html">卫星摄影测量编程记录。</summary>
