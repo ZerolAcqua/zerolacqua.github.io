@@ -142,7 +142,7 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="丘卡饮品店" type="application/atom+xml">
+    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="丘卡饮品店" type="application/atom+xml">
 </head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "/images/lazyload.gif" data-lazy-src="/images/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">丘卡饮品店</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">TIN的三种构建方式</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-05T15:02:38.000Z" title="发表于 2022-04-05 23:02:38">2022-04-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-04-13T06:30:50.228Z" title="更新于 2022-04-13 14:30:50">2022-04-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/">课程学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>13分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="TIN的三种构建方式"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="三种TIN的生成方法"><a href="#三种TIN的生成方法" class="headerlink" title="三种TIN的生成方法"></a>三种TIN的生成方法</h1><h2 id="生长算法"><a href="#生长算法" class="headerlink" title="生长算法"></a>生长算法</h2><p>生长算法有两种：递归生长和凸闭包收缩算法。通俗来讲就是前者是从点集中心向外扩展，后者是由外向内收敛。</p>
 <p>以递归生长算法为例，其基本步骤是：</p>
 <ol>
@@ -166,10 +166,12 @@
 <p><em>Delaunay</em> 三角网中，任一点的点角为该点所构成的三角形中该点的角度之和。如下图所示，在 <em>Delaunay</em> 三角网中，点 $P_4$ 所在的三角形有 $\triangle P_4P_6P_5,\ \triangle P_4P_3P_6,\ \triangle P_4P_2P_3,\ \triangle P_4P_1P_2,\ \triangle P_4P_5P_1$ ，易知 $P_4$ 的点角为:</p>
 </li>
 </ol>
-<p>$$<br>   \begin{equation}<br>   \angle P_4&#x3D;\angle 1+\angle 2+\angle 3+\angle 4+\angle 5&#x3D;360°<br>   \end{equation}<br>$$</p>
-<p>   显然，除了 <em>Delaunay</em> 三角网中凸包点（最外层多边形构成的点）外，其他任何点的点角都为 360°。为了保证统一且算法更易实现，规定凸包点的点角也为 360°，如下图中三角网点 $P_2$ 的点角为 $\angle P_2&#x3D; \angle6+\angle7+\angle8&#x3D;360°$。如此，在构造 <em>Delaunay</em> 三角形之前需先寻找离散点的凸包，计算边界点的点角。</p>
-<p>   <img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/1.png" alt="图1"></p>
-<ol start="2">
+<script type="math/tex; mode=display">
+   \begin{equation}
+   \angle P_4=\angle 1+\angle 2+\angle 3+\angle 4+\angle 5=360°
+   \end{equation}</script><p>   显然，除了 <em>Delaunay</em> 三角网中凸包点（最外层多边形构成的点）外，其他任何点的点角都为 360°。为了保证统一且算法更易实现，规定凸包点的点角也为 360°，如下图中三角网点 $P_2$ 的点角为 $\angle P_2= \angle6+\angle7+\angle8=360°$。如此，在构造 <em>Delaunay</em> 三角形之前需先寻找离散点的凸包，计算边界点的点角。</p>
+<p>   <img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN的三种构建方式/1.png" alt="图1"></p>
+<ol>
 <li><p><strong>计算凸壳</strong></p>
 <p>常规的三角网生长算法不需要计算凸壳，这里主要是为查找凸包点并计算每个凸包点的外角，将其赋值为该点的点角，并为确定初始基线边做准备。</p>
 <p>使用格雷厄姆方法来求点集的凸壳。</p>
@@ -181,33 +183,47 @@
 <li><p>线段按夹角大小排序（夹角相同时，按点到 $P_1$ 的距离排序），得到一序列 $P_1，P_2,\cdots,P_n$ ；</p>
 </li>
 <li><p>依次连接所有点，便得到一多边形。显然，$P_1，P_2,\cdots,P_n$ 是凸壳边界上的点（见下图）。依据“凸多边形的各顶点必在该多边形的任意一条边同侧”的原则，删去边界序列中的非凸点，从而得到凸壳点集，并以顺时针连接各凸壳点形成有向凸多边形（见下图）。</p>
-<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/2.png" alt="图2"></p>
-</li>
-</ul>
-</li>
-<li><p><strong>CCW 方位测试</strong></p>
-<p>CCW 方位测试（简称 CCW 检测）主要用来查找符合条件的点构成 <em>Delaunay</em> 三角形，可以判断出点与方向线的相互关系，CCW 方位测试如图下所示。</p>
-<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/3.png" alt="图3"></p>
-<p>$$<br>\begin{equation}<br>CCW(c,a,b)&#x3D;<br>\begin{vmatrix}<br>a_x&amp;a_y&amp;1\\<br>b_x&amp;b_y&amp;1\\<br>c_x&amp;c_y&amp;1\\<br>\end{vmatrix}&#x3D;<br>\begin{vmatrix}<br>a_x-c_x&amp;a_y-c_y\\<br>b_x-c_x&amp;b_y-c_y\\<br>\end{vmatrix}<br>\end{equation}<br>$$</p>
-<p>根据公式 $(2)$ 计算出来的结果的正负性 $(&gt;0,\ &lt;0,\ &#x3D;0)$，可判断出点 $c$ 在 $\overrightarrow{ab}$ 的左侧、右侧或直线上。</p>
-<p>该论文在构造 <em>Delaunay</em> 三角形时，只有 $\overrightarrow{ab}$ 右侧的点才能与 $\overrightarrow{ab}$ 构成三角形。</p>
-</li>
-<li><p><strong>构建三角网</strong></p>
-<ul>
-<li><p>确定初始基线边，如下图 b 所示，子块的凸壳形成后，以纵坐标最小的点为初始基线边的第一点，从图中易知 $\overrightarrow {P_1 P_{11}}$ 便是初始基线边，且凸多边形每条有向边都是待扩展的基线边。</p>
-</li>
-<li><p>构建首个三角形，从所有离散点中查找能与 $\overrightarrow {P_1 P_{11}}$ 构三角形最优的点，形成首个三角形存入 <em>Triangle</em> 中。如下图 b，首个三角形为 $\triangle P_1P_{10}P_{11}$，同时，计算该三角形每个点的点角，其中 $P_{10}$ 的点角为 $\angle P_{10}&#x3D; \angle 1$，$P_1$  的点角为 $\angle P1&#x3D; \angle 2+\angle 3$，$P_{11}$  的点角 $\angle P_{11}&#x3D; \angle 4+\angle 5$。首个三角形同时也形成了三条有向边，将 $\overrightarrow {P_{1} P_{10}},\ \overrightarrow {P_{10} P_{11}}$ 存入 <em>Edge</em>（待扩展基线边）中， $\overrightarrow {P_{11} P_{1}}$ 与 $\overrightarrow {P_1 P_{11}}$ 则不再需要扩展，从 Edge 中删除 $\overrightarrow {P_1 P_{11}}$ 的记录（ $\overrightarrow {P_{11} P_{1}}$ 直接不需存）。</p>
-</li>
-<li><p>扩展三角网，按顺序从 <em>Edge</em>（待扩展基线边）中取出一条边，从点角不为360°的点集中查找最优点构建 <em>Delaunay</em> 三角形。每扩展一个三角形，需要从 <em>Edge</em> 中删除该有向边，同时计算三个角的点角，生成两条新的有向边。判断 <em>Edge</em> 中有无与新生成的边方向相反且点相同的边，若有，则从 <em>Edge</em> 中删除该边，否则存入新生成的有向边。当 <em>Edge</em> 中无元素时子三角网构建完成，此时点集中所有点的点角为360°。</p>
-<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/4.png" alt="图4"></p>
 </li>
 </ul>
 </li>
 </ol>
-<h3 id="个人看法"><a href="#个人看法" class="headerlink" title="个人看法"></a>个人看法</h3><p>在另一个生长算法的论文$^{[3]}$中提到了几个概念，与上述论文有一定相通之处。</p>
+<pre><code> ![图2](/images/blogs/TIN的三种构建方式/2.png)
+</code></pre><ol>
+<li><p><strong>CCW 方位测试</strong></p>
+<p>CCW 方位测试（简称 CCW 检测）主要用来查找符合条件的点构成 <em>Delaunay</em> 三角形，可以判断出点与方向线的相互关系，CCW 方位测试如图下所示。</p>
+</li>
+</ol>
+<p>   <img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN的三种构建方式/3.png" alt="图3"></p>
+<script type="math/tex; mode=display">
+   \begin{equation}
+   CCW(c,a,b)=
+   \begin{vmatrix}
+   a_x&a_y&1\\\\
+   b_x&b_y&1\\\\
+   c_x&c_y&1\\\\
+   \end{vmatrix}=
+   \begin{vmatrix}
+   a_x-c_x&a_y-c_y\\\\
+   b_x-c_x&b_y-c_y\\\\
+   \end{vmatrix}
+   \end{equation}</script><p>   根据公式 $(2)$ 计算出来的结果的正负性 $(&gt;0,\ &lt;0,\ =0)$，可判断出点 $c$ 在 $\overrightarrow{ab}$ 的左侧、右侧或直线上。</p>
+<p>   该论文在构造 <em>Delaunay</em> 三角形时，只有 $\overrightarrow{ab}$ 右侧的点才能与 $\overrightarrow{ab}$ 构成三角形。</p>
+<ol>
+<li><strong>构建三角网</strong></li>
+</ol>
+<ul>
+<li><p>确定初始基线边，如下图 b 所示，子块的凸壳形成后，以纵坐标最小的点为初始基线边的第一点，从图中易知 $\overrightarrow {P_1 P_{11}}$ 便是初始基线边，且凸多边形每条有向边都是待扩展的基线边。</p>
+</li>
+<li><p>构建首个三角形，从所有离散点中查找能与 $\overrightarrow {P_1 P_{11}}$ 构三角形最优的点，形成首个三角形存入 <em>Triangle</em> 中。如下图 b，首个三角形为 $\triangle P_1P_{10}P_{11}$，同时，计算该三角形每个点的点角，其中 $P_{10}$ 的点角为 $\angle P_{10}= \angle 1$，$P_1$  的点角为 $\angle P1= \angle 2+\angle 3$，$P_{11}$  的点角 $\angle P_{11}= \angle 4+\angle 5$。首个三角形同时也形成了三条有向边，将 $\overrightarrow {P_{1} P_{10}},\ \overrightarrow {P_{10} P_{11}}$ 存入 <em>Edge</em>（待扩展基线边）中， $\overrightarrow {P_{11} P_{1}}$ 与 $\overrightarrow {P_1 P_{11}}$ 则不再需要扩展，从 Edge 中删除 $\overrightarrow {P_1 P_{11}}$ 的记录（ $\overrightarrow {P_{11} P_{1}}$ 直接不需存）。</p>
+</li>
+<li><p>扩展三角网，按顺序从 <em>Edge</em>（待扩展基线边）中取出一条边，从点角不为360°的点集中查找最优点构建 <em>Delaunay</em> 三角形。每扩展一个三角形，需要从 <em>Edge</em> 中删除该有向边，同时计算三个角的点角，生成两条新的有向边。判断 <em>Edge</em> 中有无与新生成的边方向相反且点相同的边，若有，则从 <em>Edge</em> 中删除该边，否则存入新生成的有向边。当 <em>Edge</em> 中无元素时子三角网构建完成，此时点集中所有点的点角为360°。</p>
+</li>
+</ul>
+<pre><code> ![图4](/images/blogs/TIN的三种构建方式/4.png)
+</code></pre><h3 id="个人看法"><a href="#个人看法" class="headerlink" title="个人看法"></a>个人看法</h3><p>在另一个生长算法的论文$^{[3]}$中提到了几个概念，与上述论文有一定相通之处。</p>
 <p><strong>排除封闭点</strong></p>
 <p>在寻找第三点构网的过程中会不断产生封闭点。以 $P1$ 为起始点经过3次遍历后的结果如下图所示，此时点 $P3$ 已被三角形所包围，称之为封闭点。封闭点将不再参与下一次遍历边集寻找第三点的过程，因此第 4 次遍历前可将点 $P3$ 从备选点集中移除。通过动态地排除封闭点，可将第三点的备选范围不断缩小，以减少寻点时间。</p>
-<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/5.png" alt="图5"></p>
+<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN的三种构建方式/5.png" alt="图5"></p>
 <p>这里的<strong>封闭点</strong>，其实和<strong>点角</strong>的概念相近，只不过<strong>点角</strong>是<strong>封闭点</strong>一个具体判断方法。</p>
 <p>由于以前参加编程小组学习建TIN的时候，就是顺着相似的思路写了一个简陋的算法，看到<strong>点角</strong>就有种亲切感，所以生长算法篇幅就比较多。</p>
 <h2 id="逐点插入法"><a href="#逐点插入法" class="headerlink" title="逐点插入法"></a>逐点插入法</h2><p>逐点插入法的基本步骤$^{[1]}$：</p>
@@ -269,9 +285,10 @@
 </ol>
 <h3 id="个人看法-1"><a href="#个人看法-1" class="headerlink" title="个人看法"></a>个人看法</h3><ol>
 <li>在上述论文的描述中，虽然并没有明确地使用 <em>LOP</em> 算法。但是个人认为实际上在<strong>新插入一个顶点的过程</strong>中，“寻找外接圆包含插入点的三角形，并删去这些三角形，再连接新插入点”的操作，就等效于使用了 <em>LOP</em> 算法。</li>
-<li>无论是在生长算法，还是逐点插入法中，排序都是很重要的一种优化思路，如论文 [3,4] 都提到了排序的必要性。并且能连接成三角形的点基本上距离很近。结合无人机摄影中学到的 <em>KD</em>-树的概念，我们是否能采用类似的树结构进行优化呢？在论文 [5] 中也确实有四叉树划分点云数据文件进行并行计算动态调度的思路。</li>
+<li><p>无论是在生长算法，还是逐点插入法中，排序都是很重要的一种优化思路，如论文 [3,4] 都提到了排序的必要性。并且能连接成三角形的点基本上距离很近。结合无人机摄影中学到的 <em>KD</em>-树的概念，我们是否能采用类似的树结构进行优化呢？在论文 [5] 中也确实有四叉树划分点云数据文件进行并行计算动态调度的思路。</p>
+<h2 id="分割-合并算法"><a href="#分割-合并算法" class="headerlink" title="分割-合并算法"></a>分割-合并算法</h2></li>
 </ol>
-<h2 id="分割-合并算法"><a href="#分割-合并算法" class="headerlink" title="分割-合并算法"></a>分割-合并算法</h2><p>将分治算法思想应用于生成 <em>Delaunay</em> 三角网，递归地分割点集，直至子集中只包含三个点而形成三角形，然后自下而上地逐级合并生成最终的三角网。其基本步骤如下$^{[1]}$：</p>
+<p>将分治算法思想应用于生成 <em>Delaunay</em> 三角网，递归地分割点集，直至子集中只包含三个点而形成三角形，然后自下而上地逐级合并生成最终的三角网。其基本步骤如下$^{[1]}$：</p>
 <ul>
 <li>把点集 $V$ 以横坐标为主，纵坐标为辅按升序排序，然后递归地执行以下步骤；</li>
 <li>把点集 $V$ 分为近似相等的两个子集 $V_L$ 和 $V_R$ ；</li>
@@ -310,7 +327,7 @@
 </li>
 <li><p>局部优化过程（<em>LOP</em>）</p>
 <p>局部优化过程（<em>LOP</em>）是所有生成 <em>Delaunay</em> 三角网的算法都要用到的关键过程。理论上说，不论用何种方法生成的三角网，只要用 <em>LOP</em> 过程进行处理，就能使它变为 <em>Delaunay</em> 三角网。这样一个重要的过程其实非常简单，它就是运用 <em>Delaunay</em> 三角网的性质，对由两个有公共边的三角形组成的四边形进行判断。如果其中一个三角形的外接圆包含第四个顶点，则将这个四边形的对角线交换。</p>
-<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/6.png" alt="图6"></p>
+<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN的三种构建方式/6.png" alt="图6"></p>
 </li>
 </ul>
 </li>
@@ -320,7 +337,7 @@
 </li>
 <li><p>子三角网归并过程</p>
 <p>子三角网的合并过程也是一个迭代过程，它从连接 $H_L,H_R$ 的底线开始，在两个子三角网 $T_L,T_R$ 中寻找与底线组成 <em>Delaunay</em> 三角形的第三点 $L_1,R_1$ ，选其中外接圆半径小的一个插入到最最终的三角网中。新生成的连接左右两个子三角网的边成为新的底线，逐步上推直到顶线结束，如下图所示。</p>
-<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN%E7%9A%84%E4%B8%89%E7%A7%8D%E6%9E%84%E5%BB%BA%E6%96%B9%E5%BC%8F/7.png" alt="图7"></p>
+<p><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/TIN的三种构建方式/7.png" alt="图7"></p>
 </li>
 </ol>
 <h3 id="个人看法-2"><a href="#个人看法-2" class="headerlink" title="个人看法"></a>个人看法</h3><p>逐点插入算法实现比较简单，占用内存较小，但它的时间复杂度高；分治算法时间复杂度方面最好，但由于递归执行，内存占用大。为了均衡各种算法的不足，有不少新算法都是围绕着将多种算法融合的思路提出的，如论文 [6,7]，以及上面提到的论文 [1] 。</p>
@@ -336,7 +353,7 @@
 <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1]武晓波, 王世新, 肖春生. Delaunay三角网的生成算法研究[J]. 测绘学报, 1999, 28(1):28-35.</p>
 <p>[2]李建平,徐猛.利用点角改进Delaunay三角网生长算法[J].地理空间信息,2018,16(02):82-84+12.</p>
 <p>[3]韦云舰,卢中.Delaunay三角网生长法的优化与应用[J].地理空间信息,2021,19(05):101-103+119+6.</p>
-<p>[4]宋晓宇,王守金,王永会. 一种改进的Delaunay三角剖分快速实现算法[C]&#x2F;&#x2F;.2008’中国信息技术与应用学术论坛论文集（二）.,2008:129-131.</p>
+<p>[4]宋晓宇,王守金,王永会. 一种改进的Delaunay三角剖分快速实现算法[C]//.2008’中国信息技术与应用学术论坛论文集（二）.,2008:129-131.</p>
 <p>[5]LI Jian, LI Deren, SHAO Zhenfeng. A Streaming Data Delaunay Triangulation Algorithm Based on Parallel Computing[J]. Geomatics and Information Science of Wuhan University, 2013, 38(7): 794-798.</p>
 <p>[6]芮一康,王结臣.Delaunay三角形构网的分治扫描线算法[J].测绘学报,2007(03):358-362.</p>
 <p>[7]刘云,夏兴东,黄北生.基于分治算法与逐点插入法的Delaunay三角网建立算法的改进[J].现代测绘,2010,33(04):14-16.</p>
