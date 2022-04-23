@@ -6,7 +6,7 @@
   <link href="http://zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="http://zerolacqua.top/"/>
-  <updated>2022-04-23T02:10:50.959Z</updated>
+  <updated>2022-04-23T08:15:38.251Z</updated>
   <id>http://zerolacqua.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://zerolacqua.top/posts/ef2fa561.html"/>
     <id>http://zerolacqua.top/posts/ef2fa561.html</id>
     <published>2022-04-22T08:22:22.000Z</published>
-    <updated>2022-04-23T02:10:50.959Z</updated>
+    <updated>2022-04-23T08:15:38.251Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>地理建模方法编程使用 <a href="http://ccl.northwestern.edu/netlogo/">NetLogo</a> 进行编程。具体使用方法参见<a href="http://ccl.northwestern.edu/netlogo/4.0.4/docs/NetLogo_manual_chinese.pdf">中文用户手册</a></p><h2 id="选题"><a href="#选题" class="headerlink" title="选题"></a>选题</h2><p>选题灵感来自博弈论游戏——<strong>《信任的进化》</strong>。</p>]]></content>
     
@@ -30,7 +30,7 @@
     
     
     
-    <category term="课程学习" scheme="http://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="编程作业" scheme="http://zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E4%BD%9C%E4%B8%9A/"/>
     
     
     <category term="地理建模" scheme="http://zerolacqua.top/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/"/>
@@ -138,9 +138,9 @@
     <category term="课程学习" scheme="http://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="摄影测量" scheme="http://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
-    
     <category term="遥感" scheme="http://zerolacqua.top/tags/%E9%81%A5%E6%84%9F/"/>
+    
+    <category term="摄影测量" scheme="http://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
   </entry>
   
