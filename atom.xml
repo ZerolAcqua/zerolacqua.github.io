@@ -166,29 +166,6 @@
   </entry>
   
   <entry>
-    <title>卫星摄影测量知识整理</title>
-    <link href="http://zerolacqua.top/posts/deb7f8ad.html"/>
-    <id>http://zerolacqua.top/posts/deb7f8ad.html</id>
-    <published>2022-03-21T08:09:21.000Z</published>
-    <updated>2022-05-03T16:51:40.016Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note warning modern"><p>具体内容待更新！</p></div><h2 id="复习题"><a href="#复习题" class="headerlink" title="复习题"></a>复习题</h2><h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><ol><li><strong>什么是瞬时像平面坐标系？</strong></li><li><strong>如何定义轨道坐标系、本体坐标系？</strong></li><li><strong>写出本体坐标系到地心直角坐标系的坐标变换的主要过程。</strong></li><li><strong>线阵相机成像原理？</strong></li><li><strong>卫星线阵相机立体影像获取的方式？各有什么特点?</strong></li><li><strong>如何建立卫星CCD传感器姿轨模型？</strong></li><li><strong>CCD传感器线性姿轨模型（12参数）？</strong></li><li><strong>基于共线方程的严格成像模型有什么优缺点？</strong></li><li><strong>线阵影像反投影原理？方法？主要过程？</strong></li><li><strong>卫星CCD影像光束法平差物方坐标系的选择？</strong></li><li><strong>如何理解中心投影与平行投影的关系？</strong></li><li><strong>平行投影的仿射变换模型等效替代严格模型？</strong></li><li><strong>高分辨率遥感卫星仿射变换成像模型建立的原理？有什么特点？</strong></li><li><strong>如何将中心投影转换为平行投影？（平坦地区、地形起伏地区）</strong></li><li><strong>如何计算平行投影的仿射变换模型参数？</strong></li><li><strong>非线性平行投影模型？</strong></li><li><strong>如何根据导航数据计算非线性平行投影模型参数？</strong></li></ol><h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><ol><li><strong>物理传感器模型特点？</strong></li><li><strong>通用传感器模型特点？</strong></li><li><strong>有理函数模型？有何特点？</strong></li><li><strong>标准化参数？作用？</strong></li><li><strong>单片RFM解算的主要步骤？</strong></li><li><strong>简述单片RFM解算的两种控制方案？优缺点？</strong></li><li><strong>RFM三维重建算法。</strong></li><li><strong>RPC模型的系统误差补偿方案？</strong></li><li><strong>RPC扩展模型？像方系统误差补偿原理？</strong></li><li><strong>RPC模型区域网平差原理及主要过程?</strong></li></ol><h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><ol><li><strong>框幅式相机成像特点？推扫式相机成像特点？</strong></li><li><strong>立体影像的核面、核线？</strong></li><li><strong>框幅式、推扫式相机影像的核线各有什么特点？</strong></li><li><strong>核线的应用、核线影像重采样的目的？</strong></li><li><strong>推导框幅式影像的核线模型。</strong></li><li><strong>推导线阵推扫影像的核线模型。</strong></li><li><strong>如何理解立体影像核线对的概念？</strong></li><li><strong>线阵推扫影像上，局部场景和全局场景的核线有何特点？</strong></li><li><strong>平行投影影像上核线的特点？</strong></li><li><strong>利用平行投影模型进行核线重采样的主要过程？</strong></li><li><strong>线性平行投影模型、非线性平行投影模型。</strong></li><li><strong>线阵推扫影像核曲线获取原理？核曲线与物方高程范围关系？</strong></li><li><strong>分段立体核曲线对生成原理？</strong></li><li><strong>分段核线影像重采样的方法？</strong></li><li><strong>基于RPC的分段核线影像生成的主要过程？</strong></li></ol>]]></content>
-    
-    
-    <summary type="html">卫星摄影测量学习堆积处。</summary>
-    
-    
-    
-    <category term="课程学习" scheme="http://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="摄影测量" scheme="http://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
-    
-    <category term="遥感" scheme="http://zerolacqua.top/tags/%E9%81%A5%E6%84%9F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>近景摄影测量编程与实习</title>
     <link href="http://zerolacqua.top/posts/5f0fff90.html"/>
     <id>http://zerolacqua.top/posts/5f0fff90.html</id>
