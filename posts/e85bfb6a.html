@@ -1,0 +1,609 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>C与C++的文件读写 | 丘卡饮品店</title><meta name="keywords" content="c++"><meta name="author" content="Zerol Acqua"><meta name="copyright" content="Zerol Acqua"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="记录总结C和C++文件读写的低质量水贴">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C与C++的文件读写">
+<meta property="og:url" content="http://zerolacqua.top/posts/e85bfb6a.html">
+<meta property="og:site_name" content="丘卡饮品店">
+<meta property="og:description" content="记录总结C和C++文件读写的低质量水贴">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://zerolacqua.top/images/blogs/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99.jpg">
+<meta property="article:published_time" content="2022-06-17T08:46:17.286Z">
+<meta property="article:modified_time" content="2022-06-17T16:55:28.338Z">
+<meta property="article:author" content="Zerol Acqua">
+<meta property="article:tag" content="c++">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://zerolacqua.top/images/blogs/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99.jpg"><link rel="shortcut icon" href="/images/favicon.png"><link rel="canonical" href="http://zerolacqua.top/posts/e85bfb6a"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Zerol Acqua","link":"链接: ","source":"来源: 丘卡饮品店","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'C与C++的文件读写',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-06-18 00:55:28'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet"><style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="丘卡饮品店" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "/images/lazyload.gif" data-lazy-src="/images/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">丘卡饮品店</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">C与C++的文件读写</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-17T08:46:17.286Z" title="发表于 2022-06-17 16:46:17">2022-06-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-06-17T16:55:28.338Z" title="更新于 2022-06-18 00:55:28">2022-06-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AF%BE%E5%A4%96%E5%AD%A6%E4%B9%A0/">课外学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="C与C++的文件读写"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><h2 id="前言-2">前言</h2>
+<p>虽然我已经大三了，但是面对夏令营随时可能犯病的编程要求，我还是要准备一下文件读取的。毕竟文件读写还是挺重要的，而编程题目里的文件格式乱七八糟的，不清楚是否允许使用C++的读写方式，所以做一做总结吧。</p>
+<h2 id="打开关闭文件">打开关闭文件</h2>
+<h3 id="C-语言风格">C 语言风格</h3>
+<p>使用 C 标准库 <code>stdio.h</code></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">FILE *<span class="title function_">fopen</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *filename, <span class="type">const</span> <span class="type">char</span> *mode)</span>;</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>模式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r</td>
+<td>打开一个已有的文本文件，允许读取文件。</td>
+</tr>
+<tr>
+<td>w</td>
+<td>打开一个文本文件，允许写入文件。如果文件不存在，则会创建一个新文件。在这里，您的程序会从文件的开头写入内容。如果文件存在，则该会被截断为零长度，重新写入。</td>
+</tr>
+<tr>
+<td>a</td>
+<td>打开一个文本文件，以追加模式写入文件。如果文件不存在，则会创建一个新文件。在这里，您的程序会在已有的文件内容中追加内容。</td>
+</tr>
+<tr>
+<td>r+</td>
+<td>打开一个文本文件，允许读写文件。</td>
+</tr>
+<tr>
+<td>w+</td>
+<td>打开一个文本文件，允许读写文件。如果文件已存在，则文件会被截断为零长度，如果文件不存在，则会创建一个新文件。</td>
+</tr>
+<tr>
+<td>a+</td>
+<td>打开一个文本文件，允许读写文件。如果文件不存在，则会创建一个新文件。读取会从文件的开头开始，写入则只能是追加模式。</td>
+</tr>
+</tbody>
+</table>
+<p>如果处理的是二进制文件，则需使用下面的访问模式来取代上面的访问模式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;rb&quot;, &quot;wb&quot;, &quot;ab&quot;, &quot;rb+&quot;, &quot;r+b&quot;, &quot;wb+&quot;, &quot;w+b&quot;, &quot;ab+&quot;, &quot;a+b&quot;</span><br></pre></td></tr></table></figure>
+<p>如果需要关闭文件，使用 <code>fclose()</code> 函数：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">fclose</span><span class="params">(FILE *fp)</span>;</span><br></pre></td></tr></table></figure>
+<p>如果成功关闭文件，<code>fclose()</code> 函数返回零，如果关闭文件时发生错误，函数返回 <code>EOF</code>。这个函数实际上，会清空缓冲区中的数据，关闭文件，并释放用于该文件的所有内存。<code>EOF</code> 是一个定义在头文件 <code>stdio.h</code> 中的常量。</p>
+<p>C 标准库提供了各种函数来按字符或者以固定长度字符串的形式读写文件。</p>
+<h3 id="C-风格">C++ 风格</h3>
+<p>使用 C++ 标准库 <code>fstream</code>，它定义了三个新的数据类型：</p>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ofstream</td>
+<td>该数据类型表示输出文件流，用于创建文件并向文件写入信息。</td>
+</tr>
+<tr>
+<td>ifstream</td>
+<td>该数据类型表示输入文件流，用于从文件读取信息。</td>
+</tr>
+<tr>
+<td>fstream</td>
+<td>该数据类型通常表示文件流，且同时具有 <code>ofstream</code> 和 <code>ifstream</code> 两种功能，这意味着它可以创建文件，向文件写入信息，从文件读取信息。</td>
+</tr>
+</tbody>
+</table>
+<p>要在 C++ 中进行文件处理，必须在 C++ 源代码文件中包含头文件 <code>&lt;iostream&gt;</code> 和 <code>&lt;fstream&gt;</code>。</p>
+<p>同样的，利用 <code>open()</code> 函数打开文件。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">open</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *filename, ios::openmode mode)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>在这里，<code>open()</code> 成员函数的第一参数指定要打开的文件的名称和位置，第二个参数定义文件被打开的模式。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">模式标志</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ios::app</td>
+<td style="text-align:left">追加模式。所有写入都追加到文件末尾。</td>
+</tr>
+<tr>
+<td style="text-align:left">ios::ate</td>
+<td style="text-align:left">文件打开后定位到文件末尾。</td>
+</tr>
+<tr>
+<td style="text-align:left">ios::in</td>
+<td style="text-align:left">打开文件用于读取。</td>
+</tr>
+<tr>
+<td style="text-align:left">ios::out</td>
+<td style="text-align:left">打开文件用于写入。</td>
+</tr>
+<tr>
+<td style="text-align:left">ios::trunc</td>
+<td style="text-align:left">如果该文件已经存在，其内容将在打开文件之前被截断，即把文件长度设为 0。</td>
+</tr>
+</tbody>
+</table>
+<p>对于 <code>ifstream</code>，可以直接在构造函数中提供以上参数，则不需要 <code>open()</code>。</p>
+<p>当 C++ 程序终止时，它会自动关闭刷新所有流，释放所有分配的内存，并关闭所有打开的文件。但程序员应该养成一个好习惯，在程序终止前关闭所有打开的文件。</p>
+<p>下面是 <code>close()</code> 函数的标准语法，<code>close()</code> 函数是 <code>fstream</code>、<code>ifstream</code> 和 <code>ofstream</code> 对象的一个成员。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">close</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
+<h2 id="读取文件">读取文件</h2>
+<h3 id="C-语言风格-2">C 语言风格</h3>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">fgetc</span><span class="params">(FILE * fp)</span>; <span class="comment">// 读取单个字符</span></span><br><span class="line"><span class="type">char</span> *<span class="title function_">fgets</span><span class="params">(<span class="type">char</span> *buf, <span class="type">int</span> n, FILE *fp)</span>; <span class="comment">// 读取一段字符串</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">fscanf</span><span class="params">(FILE *fp, <span class="type">const</span> <span class="type">char</span> *format, ...)</span> <span class="comment">// 格式化读取</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>
+<p><code>fgetc()</code> 函数从 <code>fp</code> 所指向的输入文件中读取一个字符。返回值是读取的字符，如果发生错误则返回 <code>EOF</code>。</p>
+</li>
+<li>
+<p><code>fgets()</code> 函数从 <code>fp</code> 所指向的输入流中读取 <code>n - 1</code> 个字符。它会把读取的字符串复制到缓冲区 <code>buf</code>，并在最后追加一个 <code>null</code> 字符来终止字符串。</p>
+<p>如果这个函数在读取最后一个字符之前就遇到一个换行符 <code>'\n'</code> 或文件的末尾 <code>EOF</code>，则只会返回读取到的字符，<u>包括换行符</u>。当 <code>fget()</code>读取失败，如已经达到 <code>EOF</code> 时，返回 <code>NULL</code>，借此可以判断文件是否读取完成。</p>
+</li>
+<li>
+<p><code>fscanf()</code> 函数从文件中读取字符串，但是在<u>遇到第一个空格和换行符时，它会停止读取</u>。如果成功，该函数返回成功匹配和<b>赋值</b>的个数。如果到达文件末尾或发生读错误，则返回 <code>EOF</code>。<code>format</code> 的格式请见 <a target="_blank" rel="noopener" href="https://www.runoob.com/cprogramming/c-function-fscanf.html">C 库函数 – fscanf() | 菜鸟教程 (runoob.com)</a></p>
+<blockquote>
+<p>也就是说，如果使用类似 <code>%*d</code> 的方式忽视了匹配的内容，则不会计入返回的成功匹配和<b>赋值</b>计数中。</p>
+</blockquote>
+</li>
+<li>
+<p>如果想再从头开始读取，使用以下函数：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">rewind</span><span class="params">(FILE *stream)</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>读取文件时需要注意这两个代码的差异</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* --- data.txt --- </span></span><br><span class="line"><span class="comment">3</span></span><br><span class="line"><span class="comment">3N,1E,1N,3E,2S,1W</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">FILE* infile = fopen(<span class="string">&quot;data.txt&quot;</span>, <span class="string">&quot;r&quot;</span>);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="type">char</span> c1 = <span class="number">0</span>;</span><br><span class="line"><span class="built_in">fscanf</span>(infile, <span class="string">&quot;%d&quot;</span>,&amp;i); <span class="comment">// 这里没有空格</span></span><br><span class="line"><span class="built_in">fscanf</span>(infile, <span class="string">&quot;%c&quot;</span>, &amp;c1); <span class="comment">// c1=&#x27;\n&#x27;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">FILE* infile = fopen(<span class="string">&quot;data.txt&quot;</span>, <span class="string">&quot;r&quot;</span>);</span><br><span class="line"><span class="type">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="type">char</span> c1 = <span class="number">0</span>;</span><br><span class="line"><span class="built_in">fscanf</span>(infile, <span class="string">&quot;%d&quot;</span>,&amp;i);<span class="comment">// 这里有空格</span></span><br><span class="line"><span class="built_in">fscanf</span>(infile, <span class="string">&quot;%c&quot;</span>, &amp;c1); <span class="comment">// c1=&#x27;3&#x27;</span></span><br></pre></td></tr></table></figure>
+<h3 id="C-风格-2">C++ 风格</h3>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">infile &gt;&gt; tmp;</span><br><span class="line"><span class="function">std::istream &amp;<span class="title">getline</span><span class="params">(<span class="type">char</span>* _Str, std::streamsize _count)</span></span>;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>
+<p>使用类似 <code>cin</code>的写法，利用 <code>&gt;&gt;</code> 运算符读取。这种方法遇到流中的空格、换行、制表符等空白字符就会停止读取，但是它不会读入这些空白字符，而是将其丢弃，所以可以连续使用进行读取。</p>
+</li>
+<li>
+<p>类方法 <code>getline()</code> 与 C 语言中的 <code>fgets()</code> 类似。如果它读取的字符少于给定的大小 <code>n - 1</code>,或到达 <code>EOF</code> ，它会追加空字符后读入内存中。<b>但是</b>，它会把每行结尾的 <code>'\n'</code> 丢弃。</p>
+</li>
+<li>
+<p>判断文件是否读取完毕需要用 <code>eof()</code>方法。</p>
+<div class="note warning modern"><p>注意，以下写法会出现问题。</p>
+</div>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* --- data.txt --- </span></span><br><span class="line"><span class="comment">1234</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function">fstream <span class="title">infile</span> <span class="params">(<span class="string">&quot;data.txt&quot;</span>)</span></span>;</span><br><span class="line"><span class="type">char</span> c = <span class="number">0</span>;</span><br><span class="line">cout &lt;&lt; <span class="string">&quot;输出结果：&quot;</span>;</span><br><span class="line"><span class="keyword">while</span> (!infile.<span class="built_in">eof</span>())</span><br><span class="line">&#123;</span><br><span class="line">	infile &gt;&gt; c;</span><br><span class="line">    cout &lt;&lt; c;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出结果：12344</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>原因是 <code>C++</code> 判定文件读取到 <code>EOF</code> 的时机，是尝试读取最后一个元素后面的数据时，而不是读取完最后一个数据就到了 <code>EOF</code>。所以，当 <code>'4'</code> 被读取后，还未达到 <code>EOF</code>, <code>!infile.eof()</code> 为 <code>true</code> ，还会再进入一次循环，经过一次读取后才达到 <code>EOF</code>, <code>!infile.eof()</code> 才会变为 <code>false</code>。</p>
+</li>
+<li>
+<p><code>istream</code> 和 <code>ostream</code> 都提供了用于重新定位文件位置指针的成员函数。这些成员函数包括关于 <code>istream</code> 的 <code>seekg</code>（“seek get”）和关于 <code>ostream</code> 的 <code>seekp</code>（“seek put”）。</p>
+<p><code>seekg</code> 和 <code>seekp</code> 的参数通常是一个长整型。第二个参数可以用于指定查找方向。查找方向可以是 <code>ios::beg</code>（默认的，从流的开头开始定位），也可以是 <code>ios::cur</code>（从流的当前位置开始定位），也可以是 <code>ios::end</code>（从流的末尾开始定位）。</p>
+<p>文件位置指针是一个整数值，指定了从文件的起始位置到指针所在位置的字节数。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定位到 fileObject 的第 n 个字节（假设是 ios::beg）</span></span><br><span class="line">fileObject.<span class="built_in">seekg</span>(n);</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 把文件的读指针从 fileObject 当前位置向后移 n 个字节</span></span><br><span class="line">fileObject.<span class="built_in">seekg</span>(n,ios::cur);</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 把文件的读指针从 fileObject 末尾往回移 n 个字节</span></span><br><span class="line">fileObject.<span class="built_in">seekg</span>(n,ios::end);</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 定位到 fileObject 的末尾</span></span><br><span class="line">fileObject.<span class="built_in">seekg</span>(<span class="number">0</span>,ios::end);</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="写入文件">写入文件</h2>
+<h3 id="C-语言风格-3">C 语言风格</h3>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">fgetc</span><span class="params">( FILE * fp )</span></span>;</span><br><span class="line"><span class="function"><span class="type">char</span> *<span class="title">fgets</span><span class="params">( <span class="type">char</span> *buf, <span class="type">int</span> n, FILE *fp )</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">fprintf</span><span class="params">(FILE *fp,<span class="type">const</span> <span class="type">char</span> *format, ...)</span> </span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>函数 <code>fputc()</code> 把参数 <code>c</code> 的字符值写入到 <code>fp</code> 所指向的输出流中。如果写入成功，它会返回写入的字符，如果发生错误，则会返回 <code>EOF</code>。</li>
+<li>函数 <code>fputs()</code> 把字符串 <code>s</code> 写入到 <code>fp</code> 所指向的输出流中。如果写入成功，它会返回一个非负值，如果发生错误，则会返回 <code>EOF</code>。</li>
+<li>函数 <code>fprintf</code> 把一个字符串写入到文件中。</li>
+</ul>
+<h3 id="C-风格-3">C++ 风格</h3>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">infile &lt;&lt; tmp;</span><br></pre></td></tr></table></figure>
+<p>使用类似 <code>cout</code>的写法，利用 <code>&lt;&lt;</code> 运算符写入。</p>
+<p>写入的格式与 <code>cout</code> 的写法相同。需要包含 <code>iomanip</code>。</p>
+<blockquote>
+<p>注意：“流操纵算子”一栏中的星号<code>*</code>不是算子的一部分，星号表示在没有使用任何算子的情况下，就等效于使用了该算子。例如，在默认情况下，整数是用十进制形式输出的，等效于使用了 dec 算子。</p>
+</blockquote>
+<table>
+    <tr>
+			<th>
+				流操纵算子</th>
+			<th colspan="2">
+				作 &nbsp;用</th>
+		</tr>
+		<tr>
+			<td>
+				*dec</td>
+			<td>
+				以十进制形式输出整数</td>
+			<td rowspan="13">
+				常用</td>
+		</tr>
+		<tr>
+			<td>
+				hex</td>
+			<td>
+				以十六进制形式输出整数</td>
+		</tr>
+		<tr>
+			<td>
+				oct</td>
+			<td>
+				以八进制形式输出整数</td>
+		</tr>
+		<tr>
+			<td>
+				fixed</td>
+			<td>
+				以普通小数形式输出浮点数</td>
+		</tr>
+		<tr>
+			<td>
+				scientific</td>
+			<td>
+				以科学计数法形式输出浮点数</td>
+		</tr>
+		<tr>
+			<td>
+				left</td>
+			<td>
+				左对齐，即在宽度不足时将填充字符添加到右边</td>
+		</tr>
+		<tr>
+			<td>
+				*right</td>
+			<td>
+				右对齐，即在宽度不足时将填充字符添加到左边</td>
+		</tr>
+		<tr>
+			<td>
+				setbase(b)</td>
+			<td>
+				设置输出整数时的进制，b=8、10 或 16</td>
+		</tr>
+		<tr>
+			<td>
+				setw(w)</td>
+			<td>
+				指定输出宽度为 w 个字符，或输入字符串时读入 w 个字符</td>
+		</tr>
+		<tr>
+			<td>
+				setfill(c)</td>
+			<td>
+				在指定输出宽度的情况下，输出的宽度不足时用字符 c 填充（默认情况是用空格填充）</td>
+		</tr>
+		<tr>
+			<td>
+				setprecision(n)</td>
+			<td>
+				设置输出浮点数的精度为 n。<br />
+				<br />
+				在使用非 fixed 且非 scientific&nbsp;方式输出的情况下，n 即为有效数字最多的位数，如果有效数字位数超过 n，则小数部分四舍五人，或自动变为科学计数法输出并保留一共 n 位有效数字。<br />
+				<br />
+				在使用 fixed 方式和 scientific 方式输出的情况下，n 是小数点后面应保留的位数。</td>
+		</tr>
+		<tr>
+			<td>
+				setiosflags(flag)</td>
+			<td>
+				将某个输出格式标志置为 1</td>
+		</tr>
+		<tr>
+			<td>
+				resetiosflags(flag)</td>
+			<td>
+				将某个输出格式标志置为 0</td>
+		</tr>
+		<tr>
+			<td>
+				boolapha</td>
+			<td>
+				把 true 和 false 输出为字符串</td>
+			<td rowspan="13">
+				不常用</td>
+		</tr>
+		<tr>
+			<td>
+				*noboolalpha</td>
+			<td>
+				把 true 和 false 输出为 0、1</td>
+		</tr>
+		<tr>
+			<td>
+				showbase</td>
+			<td>
+				输出表示数值的进制的前缀</td>
+		</tr>
+		<tr>
+			<td>
+				*noshowbase</td>
+			<td>
+				不输出表示数值的进制.的前缀</td>
+		</tr>
+		<tr>
+			<td>
+				showpoint</td>
+			<td>
+				总是输出小数点</td>
+		</tr>
+		<tr>
+			<td>
+				*noshowpoint</td>
+			<td>
+				只有当小数部分存在时才显示小数点</td>
+		</tr>
+		<tr>
+			<td>
+				showpos</td>
+			<td>
+				在非负数值中显示 +</td>
+		</tr>
+		<tr>
+			<td>
+				*noshowpos</td>
+			<td>
+				在非负数值中不显示 +</td>
+		</tr>
+		<tr>
+			<td>
+				*skipws</td>
+			<td>
+				输入时跳过空白字符</td>
+		</tr>
+		<tr>
+			<td>
+				noskipws</td>
+			<td>
+				输入时不跳过空白字符</td>
+		</tr>
+		<tr>
+			<td>
+				uppercase</td>
+			<td>
+				十六进制数中使用 A~E。若输出前缀，则前缀输出&nbsp;0X，科学计数法中输出 E</td>
+		</tr>
+		<tr>
+			<td>
+				*nouppercase</td>
+			<td>
+				十六进制数中使用 a~e。若输出前缀，则前缀输出 0x，科学计数法中输出 e。</td>
+		</tr>
+		<tr>
+			<td>
+				internal</td>
+			<td>
+				数值的符号（正负号）在指定宽度内左对齐，数值右对 齐，中间由填充字符填充。</td>
+		</tr>
+</table>
+<h2 id="参考网页">参考网页</h2>
+<ul>
+<li>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/cprogramming/c-file-io.html">C 文件读写 | 菜鸟教程 (runoob.com)</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/cplusplus/cpp-files-streams.html">C++ 文件和流 | 菜鸟教程 (runoob.com)</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="http://c.biancheng.net/view/275.html">C++ cout格式化输出（输出格式）完全攻略 (biancheng.net)</a></p>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://zerolacqua.top">Zerol Acqua</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://zerolacqua.top/posts/e85bfb6a.html">http://zerolacqua.top/posts/e85bfb6a.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://zerolacqua.top" target="_blank">丘卡饮品店</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/c/">c++</a></div><div class="post_share"><div class="social-share" data-image="/images/blogs/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/gh/overtrue/share.js@master/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/ff321836.html"><img class="next-cover" src= "/images/lazyload.gif" data-lazy-src="/images/blogs/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">C++矩阵类实现</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/ff321836.html" title="C++矩阵类实现"><img class="cover" src= "/images/lazyload.gif" data-lazy-src="/images/blogs/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-15</div><div class="title">C++矩阵类实现</div></div></a></div><div><a href="/posts/8baa3f41.html" title="坦克大战记录"><img class="cover" src= "/images/lazyload.gif" data-lazy-src="/images/blogs/%E5%9D%A6%E5%85%8B%E5%A4%A7%E6%88%98%E8%AE%B0%E5%BD%95/%E5%9D%A6%E5%85%8B%E5%A4%A7%E6%88%98%E8%AE%B0%E5%BD%95.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-03-13</div><div class="title">坦克大战记录</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Giscus</span><span class="switch-btn"></span><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "/images/lazyload.gif" data-lazy-src="/images/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Zerol Acqua</div><div class="author-info__description">一只喜欢小马和编程的 WHUer</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/ZerolAcqua" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://space.bilibili.com/26960382" target="_blank" title="bilibili"><i class="fab fa-bilibili"></i></a><a class="social-icon" href="https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2502727534" target="_blank" title="qq"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:hlc118@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">小店开业……啦？</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80-2"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%93%E5%BC%80%E5%85%B3%E9%97%AD%E6%96%87%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">打开关闭文件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E8%AF%AD%E8%A8%80%E9%A3%8E%E6%A0%BC"><span class="toc-number">2.1.</span> <span class="toc-text">C 语言风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A3%8E%E6%A0%BC"><span class="toc-number">2.2.</span> <span class="toc-text">C++ 风格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6"><span class="toc-number">3.</span> <span class="toc-text">读取文件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E8%AF%AD%E8%A8%80%E9%A3%8E%E6%A0%BC-2"><span class="toc-number">3.1.</span> <span class="toc-text">C 语言风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A3%8E%E6%A0%BC-2"><span class="toc-number">3.2.</span> <span class="toc-text">C++ 风格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E5%85%A5%E6%96%87%E4%BB%B6"><span class="toc-number">4.</span> <span class="toc-text">写入文件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E8%AF%AD%E8%A8%80%E9%A3%8E%E6%A0%BC-3"><span class="toc-number">4.1.</span> <span class="toc-text">C 语言风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#C-%E9%A3%8E%E6%A0%BC-3"><span class="toc-number">4.2.</span> <span class="toc-text">C++ 风格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E7%BD%91%E9%A1%B5"><span class="toc-number">5.</span> <span class="toc-text">参考网页</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/e85bfb6a.html" title="C与C++的文件读写"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C与C++的文件读写"/></a><div class="content"><a class="title" href="/posts/e85bfb6a.html" title="C与C++的文件读写">C与C++的文件读写</a><time datetime="2022-06-17T08:46:17.286Z" title="发表于 2022-06-17 16:46:17">2022-06-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/ff321836.html" title="C++矩阵类实现"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C++矩阵类实现"/></a><div class="content"><a class="title" href="/posts/ff321836.html" title="C++矩阵类实现">C++矩阵类实现</a><time datetime="2022-06-14T16:39:19.000Z" title="发表于 2022-06-15 00:39:19">2022-06-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/67588483.html" title="数学公式测试"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E6%B5%8B%E8%AF%95.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数学公式测试"/></a><div class="content"><a class="title" href="/posts/67588483.html" title="数学公式测试">数学公式测试</a><time datetime="2022-05-17T11:47:43.000Z" title="发表于 2022-05-17 19:47:43">2022-05-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/531cccb5.html" title="俄罗斯方块心得记录"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="俄罗斯方块心得记录"/></a><div class="content"><a class="title" href="/posts/531cccb5.html" title="俄罗斯方块心得记录">俄罗斯方块心得记录</a><time datetime="2022-05-03T11:52:13.000Z" title="发表于 2022-05-03 19:52:13">2022-05-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/ef2fa561.html" title="地理建模方法编程"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1%E6%96%B9%E6%B3%95%E7%BC%96%E7%A8%8B/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1%E6%96%B9%E6%B3%95%E7%BC%96%E7%A8%8B.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="地理建模方法编程"/></a><div class="content"><a class="title" href="/posts/ef2fa561.html" title="地理建模方法编程">地理建模方法编程</a><time datetime="2022-04-22T08:22:22.000Z" title="发表于 2022-04-22 16:22:22">2022-04-22</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Zerol Acqua</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadGiscus () {
+  let nowTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+
+  const config = Object.assign({
+    src: 'https://giscus.app/client.js',
+    'data-repo': 'zerolacqua/zerolacqua.github.io',
+    'data-repo-id': 'R_kgDOG5OeHg',
+    'data-category-id': 'DIC_kwDOG5OeHs4COj_3',
+    'data-mapping': 'pathname',
+    'data-theme': nowTheme,
+    'data-reactions-enabled': '1',
+    crossorigin: 'anonymous',
+    async: true
+  },null)
+
+  let ele = document.createElement('script')
+  for (let key in config) {
+    ele.setAttribute(key, config[key])
+  }
+  document.getElementById('giscus-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function changeGiscusTheme () {
+  const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  }
+
+  sendMessage({
+    setConfig: {
+      theme: theme
+    }
+  });
+}
+
+if ('Giscus' === 'Giscus' || !false) {
+  if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+  else loadGiscus()
+} else {
+  function loadOtherComment () {
+    loadGiscus()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://zerolacqua.top/posts/e85bfb6a.html'
+    this.page.identifier = 'posts/e85bfb6a.html'
+    this.page.title = 'C与C++的文件读写'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://zerolacqua.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+}
+
+if ('Giscus' === 'Disqus' || !false) {
+  if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
