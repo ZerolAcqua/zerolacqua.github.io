@@ -1,0 +1,323 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>GIS 可视化技术 | 丘卡饮品店</title><meta name="keywords" content="可视化"><meta name="author" content="Zerol Acqua"><meta name="copyright" content="Zerol Acqua"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="GIS 可视化技术课程相关总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GIS 可视化技术">
+<meta property="og:url" content="http://zerolacqua.top/posts/2ab674a7.html">
+<meta property="og:site_name" content="丘卡饮品店">
+<meta property="og:description" content="GIS 可视化技术课程相关总结">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://zerolacqua.top/images/blogs/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF.png">
+<meta property="article:published_time" content="2022-07-03T04:04:18.000Z">
+<meta property="article:modified_time" content="2022-07-03T12:58:02.095Z">
+<meta property="article:author" content="Zerol Acqua">
+<meta property="article:tag" content="可视化">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://zerolacqua.top/images/blogs/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF.png"><link rel="shortcut icon" href="/images/favicon.png"><link rel="canonical" href="http://zerolacqua.top/posts/2ab674a7"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Zerol Acqua","link":"链接: ","source":"来源: 丘卡饮品店","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'GIS 可视化技术',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-03 20:58:02'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet"><style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="丘卡饮品店" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "/images/lazyload.gif" data-lazy-src="/images/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">18</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">丘卡饮品店</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">GIS 可视化技术</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-03T04:04:18.000Z" title="发表于 2022-07-03 12:04:18">2022-07-03</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-03T12:58:02.095Z" title="更新于 2022-07-03 20:58:02">2022-07-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/">课程学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">136</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="GIS 可视化技术"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><h2 id="前言-3">前言</h2>
+<p>可视化网站汇总与作业相关</p>
+<h2 id="可视化网站与示例">可视化网站与示例</h2>
+<ul>
+<li>
+<p>经济领域</p>
+<ul>
+<li>帮助你理解金钱
+<ul>
+<li><a target="_blank" rel="noopener" href="https://howmuch.net/visualizations">Howmuch.net - Understanding Money</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>气象领域</p>
+<ul>
+<li>
+<p>这三个都是风场图</p>
+<ul>
+<li>
+<p><a target="_blank" rel="noopener" href="https://www.windy.com/">Windy</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://www.ventusky.com/">ventusky</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="http://www.senchalabs.org/philogl/PhiloGL/examples/winds/">PhiloGL - US Wind Patterns (senchalabs.org)</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>环境领域</p>
+<ul>
+<li>关于街道树种的可视化
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.cloudred.com/labprojects/nyctrees/">An Interactive Visualization of NYC Street Trees | A Project by Cloudred</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>涵盖各种领域</p>
+<ul>
+<li>利用畸变表现分布的网站
+<ul>
+<li><a target="_blank" rel="noopener" href="https://worldmapper.org/">Worldmapper | rediscover the world as you’ve never seen it before</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>可视化制图</p>
+<ul>
+<li>可视化交流分享平台
+<ul>
+<li><a target="_blank" rel="noopener" href="https://public.tableau.com/">Tableau Public</a></li>
+</ul>
+</li>
+<li>词云生成
+<ul>
+<li><a target="_blank" rel="noopener" href="https://wordart.com/">Word Cloud Art Generator - WordArt.com</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://zerolacqua.top">Zerol Acqua</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://zerolacqua.top/posts/2ab674a7.html">http://zerolacqua.top/posts/2ab674a7.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://zerolacqua.top" target="_blank">丘卡饮品店</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/">可视化</a></div><div class="post_share"><div class="social-share" data-image="/images/blogs/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/gh/overtrue/share.js@master/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/abd9a5f1.html"><img class="next-cover" src= "/images/lazyload.gif" data-lazy-src="/images/blogs/colmap%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/colmap%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">colmap 三维重建极简教程</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Giscus</span><span class="switch-btn"></span><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "/images/lazyload.gif" data-lazy-src="/images/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Zerol Acqua</div><div class="author-info__description">一只喜欢小马和编程的 WHUer</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">18</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/ZerolAcqua" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://space.bilibili.com/26960382" target="_blank" title="bilibili"><i class="fab fa-bilibili"></i></a><a class="social-icon" href="https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2502727534" target="_blank" title="qq"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:hlc118@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">小店开业……啦？</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80-3"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%AF%E8%A7%86%E5%8C%96%E7%BD%91%E7%AB%99%E4%B8%8E%E7%A4%BA%E4%BE%8B"><span class="toc-number">2.</span> <span class="toc-text">可视化网站与示例</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/2ab674a7.html" title="GIS 可视化技术"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF/GIS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="GIS 可视化技术"/></a><div class="content"><a class="title" href="/posts/2ab674a7.html" title="GIS 可视化技术">GIS 可视化技术</a><time datetime="2022-07-03T04:04:18.000Z" title="发表于 2022-07-03 12:04:18">2022-07-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/abd9a5f1.html" title="colmap 三维重建极简教程"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/colmap%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/colmap%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="colmap 三维重建极简教程"/></a><div class="content"><a class="title" href="/posts/abd9a5f1.html" title="colmap 三维重建极简教程">colmap 三维重建极简教程</a><time datetime="2022-06-25T12:10:18.000Z" title="发表于 2022-06-25 20:10:18">2022-06-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/8cdf92b0.html" title="ISPRS 阅读笔记"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/ISPRS%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/ISPRS%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ISPRS 阅读笔记"/></a><div class="content"><a class="title" href="/posts/8cdf92b0.html" title="ISPRS 阅读笔记">ISPRS 阅读笔记</a><time datetime="2022-06-20T12:23:22.000Z" title="发表于 2022-06-20 20:23:22">2022-06-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/e85bfb6a.html" title="C 与 C++ 的文件读写"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99/C%E4%B8%8EC++%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C 与 C++ 的文件读写"/></a><div class="content"><a class="title" href="/posts/e85bfb6a.html" title="C 与 C++ 的文件读写">C 与 C++ 的文件读写</a><time datetime="2022-06-18T02:21:57.000Z" title="发表于 2022-06-18 10:21:57">2022-06-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/ff321836.html" title="C++ 矩阵类实现"><img src= "/images/lazyload.gif" data-lazy-src="/images/blogs/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0/C++%E7%9F%A9%E9%98%B5%E7%B1%BB%E5%AE%9E%E7%8E%B0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="C++ 矩阵类实现"/></a><div class="content"><a class="title" href="/posts/ff321836.html" title="C++ 矩阵类实现">C++ 矩阵类实现</a><time datetime="2022-06-14T16:39:19.000Z" title="发表于 2022-06-15 00:39:19">2022-06-15</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Zerol Acqua</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadGiscus () {
+  let nowTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+
+  const config = Object.assign({
+    src: 'https://giscus.app/client.js',
+    'data-repo': 'zerolacqua/zerolacqua.github.io',
+    'data-repo-id': 'R_kgDOG5OeHg',
+    'data-category-id': 'DIC_kwDOG5OeHs4COj_3',
+    'data-mapping': 'pathname',
+    'data-theme': nowTheme,
+    'data-reactions-enabled': '1',
+    crossorigin: 'anonymous',
+    async: true
+  },null)
+
+  let ele = document.createElement('script')
+  for (let key in config) {
+    ele.setAttribute(key, config[key])
+  }
+  document.getElementById('giscus-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function changeGiscusTheme () {
+  const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  }
+
+  sendMessage({
+    setConfig: {
+      theme: theme
+    }
+  });
+}
+
+if ('Giscus' === 'Giscus' || !false) {
+  if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+  else loadGiscus()
+} else {
+  function loadOtherComment () {
+    loadGiscus()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://zerolacqua.top/posts/2ab674a7.html'
+    this.page.identifier = 'posts/2ab674a7.html'
+    this.page.title = 'GIS 可视化技术'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://zerolacqua.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+}
+
+if ('Giscus' === 'Disqus' || !false) {
+  if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
