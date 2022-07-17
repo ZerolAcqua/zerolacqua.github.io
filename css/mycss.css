@@ -1,7 +1,78 @@
+
+/* --- 字体修改 --- */
 body{
     font-family: 'ZCOOL KuaiLe';
 }
 
 #article-container.post-content{
     font-family: 'Noto Serif Simplified Chinese'
+}
+
+/* --- 透明度修改 --- */
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+    background:rgba(255, 255, 255, 0.85);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+  background:rgba(255, 255, 255, 0.85)!important;
+}
+/* 文章页面正文背景 */
+div#post{
+  background: rgba(255, 255, 255, 0.85);
+}
+/* 分页页面 */
+div#page{
+  background: rgba(255, 255, 255, 0.85);
+}
+/* 归档页面 */
+div#archive{
+  background: rgba(255, 255, 255, 0.85);
+}
+/* 标签页面 */
+div#tag{
+  background: rgba(255, 255, 255, 0.85);
+}
+/* 分类页面 */
+div#category{
+  background: rgba(255, 255, 255, 0.85);
+}
+/* 头图透明 */
+#page-header{
+    background: transparent!important;
+}
+
+/* --- 鼠标指针修改 --- */
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('assets/cursor/arrow.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('assets/cursor/btn.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url(assets/cursor/link.cur),auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url(assets/cursor/input.cur),auto;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url(assets/cursor/btn.cur),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url(assets/cursor/link.cur),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url(assets/cursor/hf.cur),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('assets/cursor/hf.cur'),auto;
 }
