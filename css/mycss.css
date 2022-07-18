@@ -9,38 +9,100 @@ body{
 }
 
 /* --- 透明度修改 --- */
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
+}
+/* 页脚透明 */
+#footer{
+background: transparent!important;
+}
+/* 页脚黑色透明玻璃效果移除 */
+#footer::before{
+  background: transparent!important;
+}
+/* -- 白天模式 -- */
 /* 首页文章卡片 */
+[data-theme="light"]
 #recent-posts > .recent-post-item{
     background:rgba(255, 255, 255, 0.85);
 }
 /* 首页侧栏卡片 */
+[data-theme="light"]
 .card-widget{
   background:rgba(255, 255, 255, 0.85)!important;
 }
 /* 文章页面正文背景 */
+[data-theme="light"]
 div#post{
   background: rgba(255, 255, 255, 0.85);
 }
 /* 分页页面 */
+[data-theme="light"]
 div#page{
   background: rgba(255, 255, 255, 0.85);
 }
 /* 归档页面 */
+[data-theme="light"]
 div#archive{
   background: rgba(255, 255, 255, 0.85);
 }
 /* 标签页面 */
+[data-theme="light"]
 div#tag{
   background: rgba(255, 255, 255, 0.85);
 }
 /* 分类页面 */
+[data-theme="light"]
 div#category{
   background: rgba(255, 255, 255, 0.85);
 }
-/* 头图透明 */
-#page-header{
-    background: transparent!important;
+/* -- 夜间模式 -- */
+/* 首页文章卡片 */
+[data-theme="dark"]
+#recent-posts > .recent-post-item{
+    background:rgba(30, 30, 30, 0.5);
 }
+/* 首页侧栏卡片 */
+[data-theme="dark"]
+.card-widget{
+  background:rgba(30, 30, 30, 0.5)!important;
+}
+/* 文章页面正文背景 */
+[data-theme="dark"]
+div#post{
+  background: rgba(30, 30, 30, 0.5);
+}
+/* 分页页面 */
+[data-theme="dark"]
+div#page{
+  background: rgba(30, 30, 30, 0.5);
+}
+/* 归档页面 */
+[data-theme="dark"]
+div#archive{
+  background: rgba(30, 30, 30, 0.5);
+}
+/* 标签页面 */
+[data-theme="dark"]
+div#tag{
+  background: rgba(30, 30, 30, 0.5);
+}
+/* 分类页面 */
+[data-theme="dark"]
+div#category{
+  background: rgba(30, 30, 30, 0.5);
+}
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"]
+  #footer::before{
+      background: transparent!important;
+    }
+[data-theme="dark"]
+  #page-header::before{
+    background: transparent!important;
+    }
+
 
 /* --- 鼠标指针修改 --- */
 /* 全局默认鼠标指针 */
