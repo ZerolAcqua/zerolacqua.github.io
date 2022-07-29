@@ -88,11 +88,28 @@ div#archive{
 div#tag{
   background: rgba(30, 30, 30, 0.5);
 }
+/* 标签页面夜晚模式下反差不够，故加上白色描边 */
+[data-theme="dark"]
+.tag-cloud-list.is-center a{
+  text-shadow: 0 0 2px rgb(193, 193, 193), 0 0 2px rgb(193, 193, 193);
+}
+/* 标签卡片也是一样的操作 */
+[data-theme="dark"]
+.card-tag-cloud a{
+  text-shadow: 0 0 2px rgb(193, 193, 193), 0 0 2px rgb(193, 193, 193);
+}
 /* 分类页面 */
 [data-theme="dark"]
 div#category{
   background: rgba(30, 30, 30, 0.5);
 }
+/* 资源页面（网站卡片） */
+[data-theme="dark"]
+.site-card-group .info{
+  text-shadow: 0 0 2px rgb(193, 193, 193), 0 0 2px rgb(193, 193, 193);
+}
+
+
 /*夜间模式伪类遮罩层透明*/
 [data-theme="dark"]
   #footer::before{
