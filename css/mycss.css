@@ -1,157 +1,164 @@
-
 /* --- 字体修改 --- */
-body{
-    font-family: ZCOOL KuaiLe;
+body {
+  font-family: ZCOOL KuaiLe;
 }
 
-#article-container.post-content{
-    font-family: Noto Serif Simplified Chinese
+#article-container.post-content {
+  font-family: Noto Serif Simplified Chinese
 }
 
 /* --- 透明度修改 --- */
 /* 头图透明 */
-#page-header{
-  background: transparent!important;
+#page-header {
+  background: transparent !important;
 }
+
 /* 页脚透明 */
-#footer{
-background: transparent!important;
+#footer {
+  background: transparent !important;
 }
+
 /* 页脚黑色透明玻璃效果移除 */
-#footer::before{
-  background: transparent!important;
+#footer::before {
+  background: transparent !important;
 }
+
 /* -- 白天模式 -- */
 /* 首页文章卡片 */
-[data-theme="light"]
-#recent-posts > .recent-post-item{
-    background:rgba(255, 255, 255, 0.85);
+[data-theme="light"] #recent-posts>.recent-post-item {
+  background: rgba(255, 255, 255, 0.85);
 }
+
 /* 首页侧栏卡片 */
-[data-theme="light"]
-.card-widget{
-  background:rgba(255, 255, 255, 0.85)!important;
+[data-theme="light"] .card-widget {
+  background: rgba(255, 255, 255, 0.85) !important;
 }
+
 /* 文章页面正文背景 */
-[data-theme="light"]
-div#post{
+[data-theme="light"] div#post {
   background: rgba(255, 255, 255, 0.85);
 }
+
 /* 分页页面 */
-[data-theme="light"]
-div#page{
+[data-theme="light"] div#page {
   background: rgba(255, 255, 255, 0.85);
 }
+
 /* 归档页面 */
-[data-theme="light"]
-div#archive{
+[data-theme="light"] div#archive {
   background: rgba(255, 255, 255, 0.85);
 }
+
 /* 标签页面 */
-[data-theme="light"]
-div#tag{
+[data-theme="light"] div#tag {
   background: rgba(255, 255, 255, 0.85);
 }
+
 /* 分类页面 */
-[data-theme="light"]
-div#category{
+[data-theme="light"] div#category {
   background: rgba(255, 255, 255, 0.85);
 }
+
 /* -- 夜间模式 -- */
 /* 首页文章卡片 */
-[data-theme="dark"]
-#recent-posts > .recent-post-item{
-    background:rgba(30, 30, 30, 0.5);
+[data-theme="dark"] #recent-posts>.recent-post-item {
+  background: rgba(30, 30, 30, 0.5);
 }
+
 /* 首页侧栏卡片 */
-[data-theme="dark"]
-.card-widget{
-  background:rgba(30, 30, 30, 0.5)!important;
+[data-theme="dark"] .card-widget {
+  background: rgba(30, 30, 30, 0.5) !important;
 }
+
 /* 文章页面正文背景 */
-[data-theme="dark"]
-div#post{
+[data-theme="dark"] div#post {
   background: rgba(30, 30, 30, 0.5);
 }
+
 /* 分页页面 */
-[data-theme="dark"]
-div#page{
+[data-theme="dark"] div#page {
   background: rgba(30, 30, 30, 0.5);
 }
+
 /* 归档页面 */
-[data-theme="dark"]
-div#archive{
+[data-theme="dark"] div#archive {
   background: rgba(30, 30, 30, 0.5);
 }
+
 /* 标签页面 */
-[data-theme="dark"]
-div#tag{
+[data-theme="dark"] div#tag {
   background: rgba(30, 30, 30, 0.5);
 }
+
 /* 标签页面夜晚模式下反差不够，故加上白色描边 */
-[data-theme="dark"]
-.tag-cloud-list.is-center a{
+[data-theme="dark"] .tag-cloud-list.is-center a {
   text-shadow: 0 0 2px rgb(193, 193, 193), 0 0 2px rgb(193, 193, 193);
 }
+
 /* 标签卡片也是一样的操作 */
-[data-theme="dark"]
-.card-tag-cloud a{
+[data-theme="dark"] .card-tag-cloud a {
   text-shadow: 0 0 2px rgb(193, 193, 193), 0 0 2px rgb(193, 193, 193);
 }
+
 /* 分类页面 */
-[data-theme="dark"]
-div#category{
+[data-theme="dark"] div#category {
   background: rgba(30, 30, 30, 0.5);
 }
+
 /* 资源页面（网站卡片） */
-[data-theme="dark"]
-.site-card-group .info{
+[data-theme="dark"] .site-card-group .info {
   text-shadow: 0 0 2px rgb(193, 193, 193), 0 0 2px rgb(193, 193, 193);
 }
 
 
 /*夜间模式伪类遮罩层透明*/
-[data-theme="dark"]
-  #footer::before{
-      background: transparent!important;
-    }
-[data-theme="dark"]
-  #page-header::before{
-    background: transparent!important;
-    }
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
 
 
 /* --- 鼠标指针修改 --- */
 /* 全局默认鼠标指针 */
 body,
-html{
-  cursor: url(/assets/cursor/arrow.cur),auto !important;
+html {
+  cursor: url(/assets/cursor/arrow.cur), auto !important;
 }
+
 /* 悬停图片时的鼠标指针 */
-img{
-  cursor: url(/assets/cursor/btn.cur),auto !important;
+img {
+  cursor: url(/assets/cursor/btn.cur), auto !important;
 }
+
 /* 选择链接标签时的鼠标指针 */
-a:hover{
-    cursor: url(/assets/cursor/link.cur),auto;
+a:hover {
+  cursor: url(/assets/cursor/link.cur), auto;
 }
+
 /* 选中输入框时的鼠标指针 */
-input:hover{
-    cursor: url(/assets/cursor/input.cur),auto;
+input:hover {
+  cursor: url(/assets/cursor/input.cur), auto;
 }
+
 /* 悬停按钮时的鼠标指针 */
-button:hover{
-    cursor: url(/assets/cursor/btn.cur),auto;
+button:hover {
+  cursor: url(/assets/cursor/btn.cur), auto;
 }
+
 /* 悬停列表标签时的鼠标指针 */
-i:hover{
-    cursor: url(/assets/cursor/link.cur),auto;
+i:hover {
+  cursor: url(/assets/cursor/link.cur), auto;
 }
+
 /* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
-#footer-wrap a:hover{
-      cursor: url(/assets/cursor/hf.cur),auto;
+#footer-wrap a:hover {
+  cursor: url(/assets/cursor/hf.cur), auto;
 }
+
 /* 悬停菜单栏时的鼠标指针 */
-#nav .site-page:hover{
-      cursor: url(/assets/cursor/hf.cur),auto;
+#nav .site-page:hover {
+  cursor: url(/assets/cursor/hf.cur), auto;
 }
