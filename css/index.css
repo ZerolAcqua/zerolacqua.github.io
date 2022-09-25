@@ -3221,6 +3221,12 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap .vuser:hover {
   transform: rotate(360deg);
 }
+#waline-wrap textarea {
+  background: url("/images/comment_bg.png") 100% 100% no-repeat;
+}
+#waline-wrap textarea:focus {
+  background-image: none;
+}
 .fireworks {
   position: fixed;
   top: 0;
