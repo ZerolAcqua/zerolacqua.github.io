@@ -1,4 +1,9 @@
 /* --- 字体修改 --- */
+@font-face{
+  font-family: 'ZCOOL KuaiLe';
+  src: url('../assets/fonts/zcool-happy.ttf');  
+}
+
 body {
   font-family: ZCOOL KuaiLe;
 }
