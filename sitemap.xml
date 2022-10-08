@@ -315,20 +315,6 @@
   </url>
   
   <url>
-    <loc>http://zerolacqua.top/tags/Lua/</loc>
-    <lastmod>2022-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/</loc>
-    <lastmod>2022-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://zerolacqua.top/tags/LaTeX/</loc>
     <lastmod>2022-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -343,7 +329,14 @@
   </url>
   
   <url>
-    <loc>http://zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
+    <loc>http://zerolacqua.top/tags/Lua/</loc>
+    <lastmod>2022-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/</loc>
     <lastmod>2022-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -351,6 +344,13 @@
   
   <url>
     <loc>http://zerolacqua.top/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2022-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
     <lastmod>2022-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
