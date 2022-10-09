@@ -50,9 +50,9 @@
     <category term="编程学习" scheme="http://zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Lua" scheme="http://zerolacqua.top/tags/Lua/"/>
-    
     <category term="俄罗斯方块" scheme="http://zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
+    
+    <category term="Lua" scheme="http://zerolacqua.top/tags/Lua/"/>
     
   </entry>
   
@@ -352,7 +352,7 @@
     <link href="http://zerolacqua.top/posts/6b405ec0.html"/>
     <id>http://zerolacqua.top/posts/6b405ec0.html</id>
     <published>2022-02-23T16:05:37.000Z</published>
-    <updated>2022-10-08T14:37:12.522Z</updated>
+    <updated>2022-10-09T06:37:59.800Z</updated>
     
     
     <summary type="html">记下一些可能会忘的东西。</summary>
