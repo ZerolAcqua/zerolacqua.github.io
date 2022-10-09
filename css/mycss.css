@@ -29,41 +29,39 @@ body {
 }
 
 /* -- 白天模式 -- */
-/* 导航栏 */
-
 /* 首页文章卡片 */
 [data-theme="light"] #recent-posts>.recent-post-item {
-  background: rgba(226, 248, 251, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* 首页侧栏卡片 */
 [data-theme="light"] .card-widget {
-  background: rgba(204, 231, 255, 0.85) !important;
+  background: rgba(255, 255, 255, 0.85) !important;
 }
 
 /* 文章页面正文背景 */
 [data-theme="light"] div#post {
-  background: rgba(226, 248, 251, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* 分页页面 */
 [data-theme="light"] div#page {
-  background: rgba(226, 248, 251, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* 归档页面 */
 [data-theme="light"] div#archive {
-  background: rgba(226, 248, 251, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* 标签页面 */
 [data-theme="light"] div#tag {
-  background: rgba(226, 248, 251, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* 分类页面 */
 [data-theme="light"] div#category {
-  background: rgba(226, 248, 251, 0.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* -- 夜间模式 -- */
