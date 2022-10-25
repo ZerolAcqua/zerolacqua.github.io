@@ -1,7 +1,7 @@
 /* --- 字体修改 --- */
 @font-face{
   font-family: 'ZCOOL KuaiLe';
-  src: url('https://unpkg.com/zerolacqua-assets/fonts/zcool-happy.ttf');  
+  src: url('assets/fonts/zcool-happy.ttf');  
 }
 
 body {
