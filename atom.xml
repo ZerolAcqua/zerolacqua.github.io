@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>丘卡饮品店</title>
-  <icon>https://zerolacqua.top/icon.png</icon>
+  <icon>https://blog.zerolacqua.top/icon.png</icon>
   
-  <link href="https://zerolacqua.top/atom.xml" rel="self"/>
+  <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
-  <link href="https://zerolacqua.top/"/>
-  <updated>2022-10-25T04:38:31.355Z</updated>
-  <id>https://zerolacqua.top/</id>
+  <link href="https://blog.zerolacqua.top/"/>
+  <updated>2022-10-27T04:01:48.688Z</updated>
+  <id>https://blog.zerolacqua.top/</id>
   
   <author>
     <name>Zerol Acqua</name>
@@ -17,9 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记一次博客迁移历程</title>
+    <link href="https://blog.zerolacqua.top/posts/9a76c0ee.html"/>
+    <id>https://blog.zerolacqua.top/posts/9a76c0ee.html</id>
+    <published>2022-10-26T02:08:12.000Z</published>
+    <updated>2022-10-27T04:01:48.688Z</updated>
+    
+    
+    <summary type="html">出于对以后博客的稳定性的考虑，加上天生的爱整事性格，我决定把博客迁移到服务器上试试。</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>选择</title>
-    <link href="https://zerolacqua.top/posts/7b2c5414.html"/>
-    <id>https://zerolacqua.top/posts/7b2c5414.html</id>
+    <link href="https://blog.zerolacqua.top/posts/7b2c5414.html"/>
+    <id>https://blog.zerolacqua.top/posts/7b2c5414.html</id>
     <published>2022-10-22T13:40:12.000Z</published>
     <updated>2022-10-25T04:38:31.355Z</updated>
     
@@ -28,17 +47,17 @@
     
     
     
-    <category term="随笔" scheme="https://zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="吐槽" scheme="https://zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
     
   </entry>
   
   <entry>
     <title>Zotero 教程</title>
-    <link href="https://zerolacqua.top/posts/aedb3e8c.html"/>
-    <id>https://zerolacqua.top/posts/aedb3e8c.html</id>
+    <link href="https://blog.zerolacqua.top/posts/aedb3e8c.html"/>
+    <id>https://blog.zerolacqua.top/posts/aedb3e8c.html</id>
     <published>2022-09-11T04:35:32.000Z</published>
     <updated>2022-10-25T04:38:31.349Z</updated>
     
@@ -47,17 +66,17 @@
     
     
     
-    <category term="软件" scheme="https://zerolacqua.top/categories/%E8%BD%AF%E4%BB%B6/"/>
+    <category term="软件" scheme="https://blog.zerolacqua.top/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="文献管理" scheme="https://zerolacqua.top/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/"/>
+    <category term="文献管理" scheme="https://blog.zerolacqua.top/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>Lua 学习记录</title>
-    <link href="https://zerolacqua.top/posts/3944b39.html"/>
-    <id>https://zerolacqua.top/posts/3944b39.html</id>
+    <link href="https://blog.zerolacqua.top/posts/3944b39.html"/>
+    <id>https://blog.zerolacqua.top/posts/3944b39.html</id>
     <published>2022-07-29T09:31:41.000Z</published>
     <updated>2022-10-25T04:38:31.349Z</updated>
     
@@ -66,19 +85,19 @@
     
     
     
-    <category term="编程学习" scheme="https://zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Lua" scheme="https://zerolacqua.top/tags/Lua/"/>
+    <category term="Lua" scheme="https://blog.zerolacqua.top/tags/Lua/"/>
     
-    <category term="俄罗斯方块" scheme="https://zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
+    <category term="俄罗斯方块" scheme="https://blog.zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
     
   </entry>
   
   <entry>
     <title>LaTeX 初体验</title>
-    <link href="https://zerolacqua.top/posts/1f2f2064.html"/>
-    <id>https://zerolacqua.top/posts/1f2f2064.html</id>
+    <link href="https://blog.zerolacqua.top/posts/1f2f2064.html"/>
+    <id>https://blog.zerolacqua.top/posts/1f2f2064.html</id>
     <published>2022-07-23T05:27:55.000Z</published>
     <updated>2022-10-25T04:38:31.353Z</updated>
     
@@ -87,17 +106,17 @@
     
     
     
-    <category term="编程学习" scheme="https://zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="LaTeX" scheme="https://zerolacqua.top/tags/LaTeX/"/>
+    <category term="LaTeX" scheme="https://blog.zerolacqua.top/tags/LaTeX/"/>
     
   </entry>
   
   <entry>
     <title>博客样式测试</title>
-    <link href="https://zerolacqua.top/posts/7cd08a64.html"/>
-    <id>https://zerolacqua.top/posts/7cd08a64.html</id>
+    <link href="https://blog.zerolacqua.top/posts/7cd08a64.html"/>
+    <id>https://blog.zerolacqua.top/posts/7cd08a64.html</id>
     <published>2022-07-16T09:45:20.000Z</published>
     <updated>2022-10-25T04:35:56.688Z</updated>
     
@@ -106,17 +125,17 @@
     
     
     
-    <category term="博客相关" scheme="https://zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="博客搭建" scheme="https://zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
   <entry>
     <title>colmap 三维重建极简教程</title>
-    <link href="https://zerolacqua.top/posts/abd9a5f1.html"/>
-    <id>https://zerolacqua.top/posts/abd9a5f1.html</id>
+    <link href="https://blog.zerolacqua.top/posts/abd9a5f1.html"/>
+    <id>https://blog.zerolacqua.top/posts/abd9a5f1.html</id>
     <published>2022-06-25T12:10:18.000Z</published>
     <updated>2022-10-25T04:38:31.354Z</updated>
     
@@ -125,19 +144,19 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="摄影测量" scheme="https://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
-    <category term="计算机视觉" scheme="https://zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+    <category term="计算机视觉" scheme="https://blog.zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
   </entry>
   
   <entry>
     <title>C 与 C++ 的文件读写</title>
-    <link href="https://zerolacqua.top/posts/e85bfb6a.html"/>
-    <id>https://zerolacqua.top/posts/e85bfb6a.html</id>
+    <link href="https://blog.zerolacqua.top/posts/e85bfb6a.html"/>
+    <id>https://blog.zerolacqua.top/posts/e85bfb6a.html</id>
     <published>2022-06-18T02:21:57.000Z</published>
     <updated>2022-10-25T04:38:31.355Z</updated>
     
@@ -146,17 +165,17 @@
     
     
     
-    <category term="编程学习" scheme="https://zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="c++" scheme="https://zerolacqua.top/tags/c/"/>
+    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
     
   </entry>
   
   <entry>
     <title>C++ 矩阵类实现</title>
-    <link href="https://zerolacqua.top/posts/ff321836.html"/>
-    <id>https://zerolacqua.top/posts/ff321836.html</id>
+    <link href="https://blog.zerolacqua.top/posts/ff321836.html"/>
+    <id>https://blog.zerolacqua.top/posts/ff321836.html</id>
     <published>2022-06-14T16:39:19.000Z</published>
     <updated>2022-10-25T04:38:31.355Z</updated>
     
@@ -165,17 +184,17 @@
     
     
     
-    <category term="编程学习" scheme="https://zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="c++" scheme="https://zerolacqua.top/tags/c/"/>
+    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
     
   </entry>
   
   <entry>
     <title>数学公式测试</title>
-    <link href="https://zerolacqua.top/posts/67588483.html"/>
-    <id>https://zerolacqua.top/posts/67588483.html</id>
+    <link href="https://blog.zerolacqua.top/posts/67588483.html"/>
+    <id>https://blog.zerolacqua.top/posts/67588483.html</id>
     <published>2022-05-17T11:47:43.000Z</published>
     <updated>2022-10-25T04:38:31.357Z</updated>
     
@@ -184,19 +203,19 @@
     
     
     
-    <category term="博客相关" scheme="https://zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="博客搭建" scheme="https://zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-    <category term="测试" scheme="https://zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>俄罗斯方块心得记录</title>
-    <link href="https://zerolacqua.top/posts/531cccb5.html"/>
-    <id>https://zerolacqua.top/posts/531cccb5.html</id>
+    <link href="https://blog.zerolacqua.top/posts/531cccb5.html"/>
+    <id>https://blog.zerolacqua.top/posts/531cccb5.html</id>
     <published>2022-05-03T11:52:13.000Z</published>
     <updated>2022-10-25T04:38:31.359Z</updated>
     
@@ -205,17 +224,17 @@
     
     
     
-    <category term="游戏" scheme="https://zerolacqua.top/categories/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://blog.zerolacqua.top/categories/%E6%B8%B8%E6%88%8F/"/>
     
     
-    <category term="俄罗斯方块" scheme="https://zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
+    <category term="俄罗斯方块" scheme="https://blog.zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
     
   </entry>
   
   <entry>
     <title>地理建模方法编程</title>
-    <link href="https://zerolacqua.top/posts/ef2fa561.html"/>
-    <id>https://zerolacqua.top/posts/ef2fa561.html</id>
+    <link href="https://blog.zerolacqua.top/posts/ef2fa561.html"/>
+    <id>https://blog.zerolacqua.top/posts/ef2fa561.html</id>
     <published>2022-04-22T08:22:22.000Z</published>
     <updated>2022-10-25T04:37:02.973Z</updated>
     
@@ -224,17 +243,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="地理建模" scheme="https://zerolacqua.top/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/"/>
+    <category term="地理建模" scheme="https://blog.zerolacqua.top/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/"/>
     
   </entry>
   
   <entry>
     <title>基于卫星遥感的西藏湖泊监测</title>
-    <link href="https://zerolacqua.top/posts/1562fb12.html"/>
-    <id>https://zerolacqua.top/posts/1562fb12.html</id>
+    <link href="https://blog.zerolacqua.top/posts/1562fb12.html"/>
+    <id>https://blog.zerolacqua.top/posts/1562fb12.html</id>
     <published>2022-04-14T16:33:36.000Z</published>
     <updated>2022-10-25T04:38:31.358Z</updated>
     
@@ -243,17 +262,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="遥感" scheme="https://zerolacqua.top/tags/%E9%81%A5%E6%84%9F/"/>
+    <category term="遥感" scheme="https://blog.zerolacqua.top/tags/%E9%81%A5%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>卫星摄影测量编程</title>
-    <link href="https://zerolacqua.top/posts/9df20c2d.html"/>
-    <id>https://zerolacqua.top/posts/9df20c2d.html</id>
+    <link href="https://blog.zerolacqua.top/posts/9df20c2d.html"/>
+    <id>https://blog.zerolacqua.top/posts/9df20c2d.html</id>
     <published>2022-04-11T10:53:17.000Z</published>
     <updated>2022-10-25T04:38:31.357Z</updated>
     
@@ -262,17 +281,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="摄影测量" scheme="https://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
   </entry>
   
   <entry>
     <title>TIN的三种构建方式</title>
-    <link href="https://zerolacqua.top/posts/3cd52e14.html"/>
-    <id>https://zerolacqua.top/posts/3cd52e14.html</id>
+    <link href="https://blog.zerolacqua.top/posts/3cd52e14.html"/>
+    <id>https://blog.zerolacqua.top/posts/3cd52e14.html</id>
     <published>2022-04-05T15:02:38.000Z</published>
     <updated>2022-10-25T04:38:31.349Z</updated>
     
@@ -281,17 +300,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="摄影测量" scheme="https://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
   </entry>
   
   <entry>
     <title>数字摄影测量编程与实习</title>
-    <link href="https://zerolacqua.top/posts/4ee41539.html"/>
-    <id>https://zerolacqua.top/posts/4ee41539.html</id>
+    <link href="https://blog.zerolacqua.top/posts/4ee41539.html"/>
+    <id>https://blog.zerolacqua.top/posts/4ee41539.html</id>
     <published>2022-03-24T08:35:39.000Z</published>
     <updated>2022-10-25T04:38:31.357Z</updated>
     
@@ -300,17 +319,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="摄影测量" scheme="https://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
   </entry>
   
   <entry>
     <title>近景摄影测量编程与实习</title>
-    <link href="https://zerolacqua.top/posts/5f0fff90.html"/>
-    <id>https://zerolacqua.top/posts/5f0fff90.html</id>
+    <link href="https://blog.zerolacqua.top/posts/5f0fff90.html"/>
+    <id>https://blog.zerolacqua.top/posts/5f0fff90.html</id>
     <published>2022-03-20T12:25:02.000Z</published>
     <updated>2022-10-25T04:38:31.358Z</updated>
     
@@ -319,17 +338,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="摄影测量" scheme="https://zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
   </entry>
   
   <entry>
     <title>坦克大战记录</title>
-    <link href="https://zerolacqua.top/posts/8baa3f41.html"/>
-    <id>https://zerolacqua.top/posts/8baa3f41.html</id>
+    <link href="https://blog.zerolacqua.top/posts/8baa3f41.html"/>
+    <id>https://blog.zerolacqua.top/posts/8baa3f41.html</id>
     <published>2022-03-13T09:42:26.000Z</published>
     <updated>2022-10-25T04:38:31.357Z</updated>
     
@@ -338,17 +357,17 @@
     
     
     
-    <category term="课程学习" scheme="https://zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="c++" scheme="https://zerolacqua.top/tags/c/"/>
+    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
     
   </entry>
   
   <entry>
     <title>可爱的水伊布</title>
-    <link href="https://zerolacqua.top/posts/a04972d8.html"/>
-    <id>https://zerolacqua.top/posts/a04972d8.html</id>
+    <link href="https://blog.zerolacqua.top/posts/a04972d8.html"/>
+    <id>https://blog.zerolacqua.top/posts/a04972d8.html</id>
     <published>2022-02-25T06:07:47.000Z</published>
     <updated>2022-10-25T04:38:31.357Z</updated>
     
@@ -357,19 +376,19 @@
     
     
     
-    <category term="博客相关" scheme="https://zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="博客搭建" scheme="https://zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-    <category term="测试" scheme="https://zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>博客搭建备忘录</title>
-    <link href="https://zerolacqua.top/posts/6b405ec0.html"/>
-    <id>https://zerolacqua.top/posts/6b405ec0.html</id>
+    <link href="https://blog.zerolacqua.top/posts/6b405ec0.html"/>
+    <id>https://blog.zerolacqua.top/posts/6b405ec0.html</id>
     <published>2022-02-23T16:05:37.000Z</published>
     <updated>2022-10-25T04:19:25.857Z</updated>
     
@@ -378,27 +397,12 @@
     
     
     
-    <category term="博客相关" scheme="https://zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="博客搭建" scheme="https://zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-    <category term="博客魔改" scheme="https://zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>欢迎光临小店</title>
-    <link href="https://zerolacqua.top/posts/c0297c2d.html"/>
-    <id>https://zerolacqua.top/posts/c0297c2d.html</id>
-    <published>2022-02-23T03:06:51.000Z</published>
-    <updated>2022-10-25T04:38:31.358Z</updated>
-    
-    
-    <summary type="html">欢迎！诶，你说我是笨蛋？！才不是！！</summary>
-    
-    
-    
+    <category term="博客魔改" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9/"/>
     
   </entry>
   
