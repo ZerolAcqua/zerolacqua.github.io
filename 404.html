@@ -50,7 +50,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2022-10-28 09:23:41'
+  postUpdate: '2022-10-28 09:33:49'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -139,7 +139,7 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/rightmenu.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><style type="text/css">
+    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><link rel="stylesheet" href="/css/rightmenu.css"><meta name="msvalidate.01" content="F83A44487AB436E1389EAD8A79D44FD1" /><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><style type="text/css">
 .spoiler {
   display: inline-flex;
 }
@@ -197,53 +197,4 @@ p.spoiler {
         }
     </script>
     <style>#github_container{min-height:248px}@media screen and (max-width:650px) {#github_container{background-image:;min-height:0px}}</style>
-    <style></style><!-- hexo injector body_end end -->
-      <div id="sakana" style="position:fixed;left:0;bottom:0px;"></div>
-      <script async onload='initSakanaWidget({"character":"Acqua","enable":true,"enable_mobile":false,"size":200,"autoFit":false,"bottom":"0px","controls":true,"stroke":{"color":"#b4b4b4","width":20},"threshold":0.1,"rotate":0,"customCharacters":[{"base":"chisato","name":"Acqua","image":"https://unpkg.com/zerolacqua-assets/images/about/Acqua.png","i":0.2,"s":0.2,"d":0.988,"r":0,"y":2,"t":0,"w":0}]})' src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js"></script>
-      <script>
-      function log(msg) {
-        console.log("[hexo-sakana] " + msg);
-      }
-
-      function initSakanaWidget(config) {
-        if (
-          !config.enable_mobile &&
-          window.navigator.userAgent.match(
-            /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
-          )
-        ) {
-          log(
-            '检测为移动端，且配置中未开启在移动端启用组件，hexo-sakana 已禁用'
-          );
-          return;
-        }
-        for (character of config.customCharacters) {
-          if (!["takina", "chisato"].includes(character.base)) {
-            log(`无效基础角色 ${character.base}，取消注册`);
-            continue;
-          }
-          if (character.name === "") {
-            log("名称为空，取消注册");
-            continue;
-          }
-          const originCharacter = SakanaWidget.getCharacter(character.base);
-          originCharacter.initialState = {
-            ...originCharacter.initialState,
-            ...character,
-          };
-          originCharacter.image = !character.image ? originCharacter.image : character.image
-          SakanaWidget.registerCharacter(character.name, originCharacter);
-          log(`注册自定义角色：${character.name}`)
-        }
-        new SakanaWidget({
-          character: config.character,
-          size: config.size,
-          autoFit: config.autoFit,
-          controls: config.controls,
-          stroke: config.stroke,
-          threshold: config.threshold,
-          rotate: config.rotate,
-        }).mount("#sakana");
-      }
-  </script>
-    </body></html>
+    <style></style><!-- hexo injector body_end end --></body></html>
