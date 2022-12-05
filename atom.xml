@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2022-11-29T07:39:05.225Z</updated>
+  <updated>2022-12-02T16:42:12.286Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>计算思维</title>
+    <link href="https://blog.zerolacqua.top/posts/4263a541.html"/>
+    <id>https://blog.zerolacqua.top/posts/4263a541.html</id>
+    <published>2022-12-02T15:26:42.000Z</published>
+    <updated>2022-12-02T16:42:12.286Z</updated>
+    
+    
+    <summary type="html">MIT 开设的一门计算思维入门课，使用 Juila 编程语言</summary>
+    
+    
+    
+    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Julia" scheme="https://blog.zerolacqua.top/tags/Julia/"/>
+    
+    <category term="数值分析" scheme="https://blog.zerolacqua.top/tags/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>记一次博客迁移历程</title>
     <link href="https://blog.zerolacqua.top/posts/9a76c0ee.html"/>
     <id>https://blog.zerolacqua.top/posts/9a76c0ee.html</id>
     <published>2022-10-26T02:08:12.000Z</published>
-    <updated>2022-11-29T07:39:05.225Z</updated>
+    <updated>2022-12-02T16:32:00.863Z</updated>
     
     
     <summary type="html">出于对以后博客的稳定性的考虑，加上天生的爱整事性格，我决定把博客迁移到服务器上试试。</summary>
@@ -118,7 +139,7 @@
     <link href="https://blog.zerolacqua.top/posts/7cd08a64.html"/>
     <id>https://blog.zerolacqua.top/posts/7cd08a64.html</id>
     <published>2022-07-16T09:45:20.000Z</published>
-    <updated>2022-11-29T07:23:09.362Z</updated>
+    <updated>2022-12-02T16:42:09.640Z</updated>
     
     
     <summary type="html">样式与兼容性测试</summary>
@@ -382,27 +403,6 @@
     <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     <category term="测试" scheme="https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客搭建备忘录</title>
-    <link href="https://blog.zerolacqua.top/posts/6b405ec0.html"/>
-    <id>https://blog.zerolacqua.top/posts/6b405ec0.html</id>
-    <published>2022-02-23T16:05:37.000Z</published>
-    <updated>2022-11-09T05:52:27.124Z</updated>
-    
-    
-    <summary type="html">记下一些可能会忘的东西。</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="博客魔改" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9/"/>
     
   </entry>
   
