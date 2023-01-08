@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2022-12-11T10:21:28.247Z</updated>
+  <updated>2023-01-08T07:06:34.489Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.zerolacqua.top/posts/4263a541.html"/>
     <id>https://blog.zerolacqua.top/posts/4263a541.html</id>
     <published>2022-12-02T15:26:42.000Z</published>
-    <updated>2022-12-11T10:21:28.247Z</updated>
+    <updated>2023-01-08T07:06:34.489Z</updated>
     
     
     <summary type="html">MIT 开设的一门计算思维入门课，使用 Juila 编程语言</summary>
@@ -42,7 +42,7 @@
     <link href="https://blog.zerolacqua.top/posts/9a76c0ee.html"/>
     <id>https://blog.zerolacqua.top/posts/9a76c0ee.html</id>
     <published>2022-10-26T02:08:12.000Z</published>
-    <updated>2022-12-02T16:32:00.863Z</updated>
+    <updated>2023-01-08T07:06:34.488Z</updated>
     
     
     <summary type="html">出于对以后博客的稳定性的考虑，加上天生的爱整事性格，我决定把博客迁移到服务器上试试。</summary>
@@ -61,7 +61,7 @@
     <link href="https://blog.zerolacqua.top/posts/7b2c5414.html"/>
     <id>https://blog.zerolacqua.top/posts/7b2c5414.html</id>
     <published>2022-10-22T13:40:12.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.484Z</updated>
     
     
     <summary type="html">保研后的一些回顾</summary>
@@ -80,7 +80,7 @@
     <link href="https://blog.zerolacqua.top/posts/aedb3e8c.html"/>
     <id>https://blog.zerolacqua.top/posts/aedb3e8c.html</id>
     <published>2022-09-11T04:35:32.000Z</published>
-    <updated>2022-11-29T07:35:23.510Z</updated>
+    <updated>2023-01-08T07:06:28.665Z</updated>
     
     
     <summary type="html">又开新坑！</summary>
@@ -99,7 +99,7 @@
     <link href="https://blog.zerolacqua.top/posts/3944b39.html"/>
     <id>https://blog.zerolacqua.top/posts/3944b39.html</id>
     <published>2022-07-29T09:31:41.000Z</published>
-    <updated>2022-10-27T09:56:33.541Z</updated>
+    <updated>2023-01-08T07:06:34.482Z</updated>
     
     
     <summary type="html">这个家伙又在开新坑！</summary>
@@ -120,7 +120,7 @@
     <link href="https://blog.zerolacqua.top/posts/1f2f2064.html"/>
     <id>https://blog.zerolacqua.top/posts/1f2f2064.html</id>
     <published>2022-07-23T05:27:55.000Z</published>
-    <updated>2022-10-27T09:56:33.541Z</updated>
+    <updated>2023-01-08T07:06:34.482Z</updated>
     
     
     <summary type="html">试试用 LaTeX 排版写作</summary>
@@ -139,7 +139,7 @@
     <link href="https://blog.zerolacqua.top/posts/7cd08a64.html"/>
     <id>https://blog.zerolacqua.top/posts/7cd08a64.html</id>
     <published>2022-07-16T09:45:20.000Z</published>
-    <updated>2022-12-02T16:42:09.640Z</updated>
+    <updated>2023-01-08T07:03:54.348Z</updated>
     
     
     <summary type="html">样式与兼容性测试</summary>
@@ -158,7 +158,7 @@
     <link href="https://blog.zerolacqua.top/posts/abd9a5f1.html"/>
     <id>https://blog.zerolacqua.top/posts/abd9a5f1.html</id>
     <published>2022-06-25T12:10:18.000Z</published>
-    <updated>2022-10-27T09:56:33.541Z</updated>
+    <updated>2023-01-08T07:06:34.483Z</updated>
     
     
     <summary type="html">低素质水贴</summary>
@@ -179,7 +179,7 @@
     <link href="https://blog.zerolacqua.top/posts/e85bfb6a.html"/>
     <id>https://blog.zerolacqua.top/posts/e85bfb6a.html</id>
     <published>2022-06-18T02:21:57.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.483Z</updated>
     
     
     <summary type="html">记录总结 C 和 C++ 文件读写的低质量水贴</summary>
@@ -198,7 +198,7 @@
     <link href="https://blog.zerolacqua.top/posts/ff321836.html"/>
     <id>https://blog.zerolacqua.top/posts/ff321836.html</id>
     <published>2022-06-14T16:39:19.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.484Z</updated>
     
     
     <summary type="html">自己实现的一个矩阵类</summary>
@@ -217,7 +217,7 @@
     <link href="https://blog.zerolacqua.top/posts/67588483.html"/>
     <id>https://blog.zerolacqua.top/posts/67588483.html</id>
     <published>2022-05-17T11:47:43.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.488Z</updated>
     
     
     <summary type="html">测试数学公式的渲染情况。</summary>
@@ -238,7 +238,7 @@
     <link href="https://blog.zerolacqua.top/posts/531cccb5.html"/>
     <id>https://blog.zerolacqua.top/posts/531cccb5.html</id>
     <published>2022-05-03T11:52:13.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:03:51.263Z</updated>
     
     
     <summary type="html">嘛，就是一些关于入坑以来玩俄罗斯方块的一些感受吧。</summary>
@@ -257,7 +257,7 @@
     <link href="https://blog.zerolacqua.top/posts/ef2fa561.html"/>
     <id>https://blog.zerolacqua.top/posts/ef2fa561.html</id>
     <published>2022-04-22T08:22:22.000Z</published>
-    <updated>2022-10-27T09:56:33.547Z</updated>
+    <updated>2023-01-08T07:03:52.669Z</updated>
     
     
     <summary type="html">地理建模方法编程作业记录。</summary>
@@ -276,7 +276,7 @@
     <link href="https://blog.zerolacqua.top/posts/1562fb12.html"/>
     <id>https://blog.zerolacqua.top/posts/1562fb12.html</id>
     <published>2022-04-14T16:33:36.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.489Z</updated>
     
     
     <summary type="html">扎日南木错高程和面积监测。</summary>
@@ -295,7 +295,7 @@
     <link href="https://blog.zerolacqua.top/posts/9df20c2d.html"/>
     <id>https://blog.zerolacqua.top/posts/9df20c2d.html</id>
     <published>2022-04-11T10:53:17.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.484Z</updated>
     
     
     <summary type="html">卫星摄影测量编程记录。</summary>
@@ -314,7 +314,7 @@
     <link href="https://blog.zerolacqua.top/posts/3cd52e14.html"/>
     <id>https://blog.zerolacqua.top/posts/3cd52e14.html</id>
     <published>2022-04-05T15:02:38.000Z</published>
-    <updated>2022-10-27T09:56:33.541Z</updated>
+    <updated>2023-01-08T07:06:29.616Z</updated>
     
     
     <summary type="html">数字摄影测量小作业</summary>
@@ -333,7 +333,7 @@
     <link href="https://blog.zerolacqua.top/posts/4ee41539.html"/>
     <id>https://blog.zerolacqua.top/posts/4ee41539.html</id>
     <published>2022-03-24T08:35:39.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.488Z</updated>
     
     
     <summary type="html">数字摄影测量编程记录。</summary>
@@ -352,7 +352,7 @@
     <link href="https://blog.zerolacqua.top/posts/5f0fff90.html"/>
     <id>https://blog.zerolacqua.top/posts/5f0fff90.html</id>
     <published>2022-03-20T12:25:02.000Z</published>
-    <updated>2022-11-01T15:22:14.860Z</updated>
+    <updated>2023-01-08T07:06:34.488Z</updated>
     
     
     <summary type="html">近景摄影测量编程记录与学习总结。</summary>
@@ -371,7 +371,7 @@
     <link href="https://blog.zerolacqua.top/posts/8baa3f41.html"/>
     <id>https://blog.zerolacqua.top/posts/8baa3f41.html</id>
     <published>2022-03-13T09:42:26.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.487Z</updated>
     
     
     <summary type="html">当初上“面向对象的程序设计”时写的坦克大战。</summary>
@@ -390,7 +390,7 @@
     <link href="https://blog.zerolacqua.top/posts/a04972d8.html"/>
     <id>https://blog.zerolacqua.top/posts/a04972d8.html</id>
     <published>2022-02-25T06:07:47.000Z</published>
-    <updated>2022-10-27T09:56:33.544Z</updated>
+    <updated>2023-01-08T07:06:34.488Z</updated>
     
     
     <summary type="html">图库、图床与评论测试。</summary>

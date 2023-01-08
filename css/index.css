@@ -765,7 +765,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://unpkg.com/zerolacqua-assets/images/background.png);
+  background: url(https://cdn.zerolacqua.top/images/background.png);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -3221,7 +3221,7 @@ h1.page-title + .tag-cloud-list {
   padding-right: 4px;
 }
 #waline-wrap textarea {
-  background: url("https://unpkg.com/zerolacqua-assets/images/comment_bg.png") 100% 100% no-repeat;
+  background: url("https://cdn.zerolacqua.top/images/comment_bg.png") 100% 100% no-repeat;
 }
 #waline-wrap textarea:focus {
   background-image: none;
