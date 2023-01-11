@@ -53,7 +53,21 @@ rmf.switchAsideMode = function(){
       : saveToLocal.set('aside-status', 'hide', 2)
     $htmlDom.toggle('hide-aside')
 }
-
+//Sakana开关
+rmf.switchSakanaStatus = function(){
+    if(!saveToLocal.get('sakana-status'))
+        saveToLocal.set('sakana-status', 'show', 2)
+    let sakanaStatus = saveToLocal.get('sakana-status')
+    
+    if(sakanaStatus=='show'){
+        $('#sakana').show();
+        saveToLocal.set('sakana-status', 'hide', 2)
+    }
+    else{
+        $('#sakana').hide();
+        saveToLocal.set('sakana-status', 'show', 2)
+    }
+}
 //复制选中文字
 rmf.copySelect = function(){
     document.execCommand('Copy',false,null);

@@ -263,3 +263,11 @@ i:hover {
 #rightside{
   display: none;
 }
+
+/* --- 设置 sakana 组件 --- */
+#sakana{
+  z-index: 20;
+}
+.sakana-widget-ctrl{
+  display: none;
+}
