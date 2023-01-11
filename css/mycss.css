@@ -258,3 +258,8 @@ i:hover {
 #nav .site-page:hover {
   cursor: url(https://cdn.zerolacqua.top/cursor/hf.cur), auto;
 }
+
+/* --- 隐藏右下角按钮 --- */
+#rightside{
+  display: none;
+}

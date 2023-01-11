@@ -9,6 +9,7 @@ rmf.showRightMenu = function(isTrue, x=0, y=0){
         $rightMenu.hide();
     }
 }
+//黑夜模式
 rmf.switchDarkMode = function(){
     const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
     if (nowMode === 'light') {
@@ -27,6 +28,7 @@ rmf.switchDarkMode = function(){
     typeof FB === 'object' && window.loadFBComment()
     window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)
 };
+//阅读模式
 rmf.switchReadMode = function(){
     const $body = document.body
     $body.classList.add('read-mode')
@@ -42,6 +44,14 @@ rmf.switchReadMode = function(){
     }
 
     newEle.addEventListener('click', clickFn)
+}
+//单双栏切换
+rmf.switchAsideMode = function(){
+    const $htmlDom = document.documentElement.classList
+    $htmlDom.contains('hide-aside')
+      ? saveToLocal.set('aside-status', 'show', 2)
+      : saveToLocal.set('aside-status', 'hide', 2)
+    $htmlDom.toggle('hide-aside')
 }
 
 //复制选中文字
@@ -63,13 +73,21 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
     document.addEventListener('keyup',function(event){if(event.key=="Control")ctrlDown=false;});
     
     window.oncontextmenu = function(event){
-        if(!ctrlDown)
+        if(!ctrlDown&& !document.body.classList.contains("read-mode"))
         {
             $('.rightMenu-group.hide').hide();
-            //如果有文字选中，则显示 文字选中相关的菜单项
+            //如果有文字选中，则显示文字选中相关的菜单项
             if(document.getSelection().toString()){
                 $('#menu-text').show();
             }
+            //评论存在，则显示直达评论菜单项
+            if(document.getElementById("post-comment")){
+                $('#menu-comment').show();
+            }
+            else{
+                $('#menu-comment').hide();
+            }
+
             let pageX = event.clientX + 10;
             let pageY = event.clientY;
             let rmWidth = $('#rightMenu').width();

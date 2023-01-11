@@ -58,3 +58,9 @@
 .rightMenu-group.hide{
 	display: none;
 }
+
+@media screen and (max-width: 900px) {
+	#rightMenu #menu-hide-aside{
+	  display: none;
+	}
+}
