@@ -44,6 +44,7 @@ rmf.switchReadMode = function(){
     }
 
     newEle.addEventListener('click', clickFn)
+    rmf.closeSakanaStatus()
 }
 //单双栏切换
 rmf.switchAsideMode = function(){
@@ -71,7 +72,12 @@ rmf.switchSakanaStatus = function(){
         $('#menu-sakana').children("i").addClass('fa-toggle-on')
         $('#menu-sakana').children("i").removeClass('fa-toggle-ff')
     }
-    //开关状态
+}
+rmf.closeSakanaStatus = function(){
+    $('#sakana').fadeOut();
+    saveToLocal.set('sakana-status', 'hide', 2)
+    $('#menu-sakana').children("i").addClass('fa-toggle-off')
+    $('#menu-sakana').children("i").removeClass('fa-toggle-on')
 }
 //复制选中文字
 rmf.copySelect = function(){
@@ -106,7 +112,7 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
             else{
                 $('#menu-comment').hide();
             }
-            //石蒜模拟器状态
+            //更改石蒜模拟器状态
             let sakanaStatus = saveToLocal.get('sakana-status')
             if(sakanaStatus=='show'){
                 $('#menu-sakana').children("i").removeClass('fa-toggle-off')

@@ -224,9 +224,9 @@ html {
   cursor: url(https://cdn.zerolacqua.top/cursor/arrow.cur), auto !important;
 }
 
-body,
-html {
-  cursor: url(https://cdn.zerolacqua.top/cursor/move.cur), move;
+
+div.sakana-widget-img{
+  cursor: url(https://cdn.zerolacqua.top/cursor/move.cur), auto;
 }
 
 /* 悬停图片时的鼠标指针 */
