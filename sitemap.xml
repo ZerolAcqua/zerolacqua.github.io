@@ -336,6 +336,13 @@
   </url>
   
   <url>
+    <loc>https://blog.zerolacqua.top/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2023-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/</loc>
     <lastmod>2023-01-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -344,13 +351,6 @@
   
   <url>
     <loc>https://blog.zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
-    <lastmod>2023-01-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zerolacqua.top/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2023-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -371,14 +371,14 @@
   </url>
   
   <url>
-    <loc>https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://blog.zerolacqua.top/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/</loc>
     <lastmod>2023-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.zerolacqua.top/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/</loc>
+    <loc>https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
