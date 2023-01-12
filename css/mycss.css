@@ -224,6 +224,11 @@ html {
   cursor: url(https://cdn.zerolacqua.top/cursor/arrow.cur), auto !important;
 }
 
+body,
+html {
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), move;
+}
+
 /* 悬停图片时的鼠标指针 */
 img {
   cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
