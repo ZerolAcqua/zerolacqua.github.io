@@ -60,13 +60,18 @@ rmf.switchSakanaStatus = function(){
     let sakanaStatus = saveToLocal.get('sakana-status')
     
     if(sakanaStatus=='show'){
-        $('#sakana').show();
+        $('#sakana').fadeOut();
         saveToLocal.set('sakana-status', 'hide', 2)
+        $('#menu-sakana').children("i").addClass('fa-toggle-off')
+        $('#menu-sakana').children("i").removeClass('fa-toggle-on')
     }
     else{
-        $('#sakana').hide();
+        $('#sakana').fadeIn();
         saveToLocal.set('sakana-status', 'show', 2)
+        $('#menu-sakana').children("i").addClass('fa-toggle-on')
+        $('#menu-sakana').children("i").removeClass('fa-toggle-ff')
     }
+    //开关状态
 }
 //复制选中文字
 rmf.copySelect = function(){
@@ -101,7 +106,16 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
             else{
                 $('#menu-comment').hide();
             }
-
+            //石蒜模拟器状态
+            let sakanaStatus = saveToLocal.get('sakana-status')
+            if(sakanaStatus=='show'){
+                $('#menu-sakana').children("i").removeClass('fa-toggle-off')
+                $('#menu-sakana').children("i").addClass('fa-toggle-on')
+            }
+            else{
+                $('#menu-sakana').children("i").removeClass('fa-toggle-on')
+                $('#menu-sakana').children("i").addClass('fa-toggle-off')
+            }
             let pageX = event.clientX + 10;
             let pageY = event.clientY;
             let rmWidth = $('#rightMenu').width();
