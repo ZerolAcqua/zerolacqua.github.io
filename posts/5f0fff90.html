@@ -378,7 +378,7 @@ b_2&amp;=\cfrac{\gamma_3(l_6+l_{10}y_0)(1+\mathrm{d}s)\cos{\mathrm{d}\beta}}{f_x
   function insertCSS () {
     const link = document.createElement("link")
     link.rel = "stylesheet"
-    link.href = "https://unpkg.com/@waline/client@v2/dist/waline.css"
+    link.href = "/pluginsSrc/@waline/client/dist/waline.css"
     document.head.appendChild(link)
   }
 
@@ -396,7 +396,7 @@ b_2&amp;=\cfrac{\gamma_3(l_6+l_{10}y_0)(1+\mathrm{d}s)\cos{\mathrm{d}\beta}}{f_x
   if (typeof Waline === 'function') initWaline()
   else {
     insertCSS()
-    getScript('https://unpkg.com/@waline/client@v2/dist/waline.js').then(initWaline)
+    getScript('/pluginsSrc/@waline/client/dist/waline.js').then(initWaline)
   }
 }
 

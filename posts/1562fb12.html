@@ -285,7 +285,7 @@ Y=T\times S\times C\times I
   function insertCSS () {
     const link = document.createElement("link")
     link.rel = "stylesheet"
-    link.href = "https://unpkg.com/@waline/client@v2/dist/waline.css"
+    link.href = "/pluginsSrc/@waline/client/dist/waline.css"
     document.head.appendChild(link)
   }
 
@@ -303,7 +303,7 @@ Y=T\times S\times C\times I
   if (typeof Waline === 'function') initWaline()
   else {
     insertCSS()
-    getScript('https://unpkg.com/@waline/client@v2/dist/waline.js').then(initWaline)
+    getScript('/pluginsSrc/@waline/client/dist/waline.js').then(initWaline)
   }
 }
 

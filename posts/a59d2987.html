@@ -192,7 +192,7 @@ p.spoiler {
   function insertCSS () {
     const link = document.createElement("link")
     link.rel = "stylesheet"
-    link.href = "https://unpkg.com/@waline/client@v2/dist/waline.css"
+    link.href = "/pluginsSrc/@waline/client/dist/waline.css"
     document.head.appendChild(link)
   }
 
@@ -210,7 +210,7 @@ p.spoiler {
   if (typeof Waline === 'function') initWaline()
   else {
     insertCSS()
-    getScript('https://unpkg.com/@waline/client@v2/dist/waline.js').then(initWaline)
+    getScript('/pluginsSrc/@waline/client/dist/waline.js').then(initWaline)
   }
 }
 
