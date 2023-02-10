@@ -216,6 +216,16 @@ body {
 .mini-sandbox{
   margin-bottom: 10px;
 }
+/*统计图的夜间模式没做是因为不会*/
+/* [data-theme=dark]
+div[_echarts_instance_] canvas {
+  background: rgba(255, 253, 253, 0.526) !important;
+}
+div[_echarts_instance_] canvas{
+  background: rgba(0,0,0,0) !important;
+} */
+
+
 
 /* --- 鼠标指针修改 --- */
 /* 全局默认鼠标指针 */
@@ -223,15 +233,22 @@ body,
 html {
   cursor: url(https://cdn.zerolacqua.top/cursor/arrow.cur), auto !important;
 }
+/* sandbox：默认鼠标指针 */
+div#sandbox {
+  cursor: auto;
+}
 
-
+/* 石蒜模拟器：鼠标指针 */
 div.sakana-widget-img{
   cursor: url(https://cdn.zerolacqua.top/cursor/move.cur), auto;
 }
 
-/* 悬停图片时的鼠标指针 */
-img {
-  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
+/* 选中文字 */
+::-moz-selection{
+  cursor: url(https://cdn.zerolacqua.top/cursor/textselete.cur), auto;
+}
+::selection{
+  cursor: url(https://cdn.zerolacqua.top/cursor/textselete.cur), auto;
 }
 
 /* 选择链接标签时的鼠标指针 */
@@ -239,14 +256,58 @@ a:hover {
   cursor: url(https://cdn.zerolacqua.top/cursor/link.cur), auto;
 }
 
-/* 选中输入框时的鼠标指针 */
-input:hover {
-  cursor: url(https://cdn.zerolacqua.top/cursor/input.cur), auto;
+/* 网页卡片：选择链接标签时的鼠标指针 */
+a.link-card:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/link.cur), auto;
 }
+
+/* 选中输入框时的鼠标指针 */
+input:hover{
+  cursor: url(https://cdn.zerolacqua.top/cursor/input.cur), auto !important;
+}
+
 
 /* 悬停按钮时的鼠标指针 */
 button:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
+}
+/* Waline：悬停 Waline 打开图片时的鼠标指针 */
+label.wl-action:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
+}
+/* Waline：切换评论排序方式 */
+ul.wl-sort li{
   cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto;
+}
+/* Waline: 投票计数 */
+.wl-reaction-votes{
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto;
+}
+/* Waline：悬停 Waline 文本框时的鼠标指针 */
+textarea:hover{
+  cursor: url(https://cdn.zerolacqua.top/cursor/input.cur), auto;
+}
+/* Waline：悬停 markdown 打开图片时的鼠标指针 */
+a.wl-action:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/link.cur), auto !important;
+}
+/* Waline：普通标签 */
+div.wl-header-item label{
+  cursor: url(https://cdn.zerolacqua.top/cursor/input.cur), auto;
+}
+
+/* 网页卡片 */
+a.link-card:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
+}
+
+/* 悬停折叠框时的鼠标指针 */
+summary:hover {
+  cursor: url(https://cdn.zerolacqua.top/cursor/btn.cur), auto !important;
 }
 
 /* 悬停列表标签时的鼠标指针 */
@@ -258,13 +319,15 @@ i:hover {
 #footer-wrap a:hover {
   cursor: url(https://cdn.zerolacqua.top/cursor/hf.cur), auto;
 }
-
 /* 悬停菜单栏时的鼠标指针 */
 #nav .site-page:hover {
   cursor: url(https://cdn.zerolacqua.top/cursor/hf.cur), auto;
 }
 
+
+
 /* --- 隐藏右下角按钮 --- */
+/* 我也不知道为啥没找到 Butterfly 隐藏右下角按钮的配置，所以只好自己隐藏了 */
 #rightside{
   display: none;
 }

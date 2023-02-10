@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2023-01-08T07:06:34.489Z</updated>
+  <updated>2023-02-10T13:27:52.839Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于最近的一些事情</title>
+    <link href="https://blog.zerolacqua.top/posts/53e8e35.html"/>
+    <id>https://blog.zerolacqua.top/posts/53e8e35.html</id>
+    <published>2023-02-10T12:39:20.000Z</published>
+    <updated>2023-02-10T13:27:52.839Z</updated>
+    
+    
+    <summary type="html">简单的建站一周年回顾</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>计算思维</title>
@@ -382,27 +401,6 @@
     
     
     <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>可爱的水伊布</title>
-    <link href="https://blog.zerolacqua.top/posts/a04972d8.html"/>
-    <id>https://blog.zerolacqua.top/posts/a04972d8.html</id>
-    <published>2022-02-25T06:07:47.000Z</published>
-    <updated>2023-01-15T08:15:06.781Z</updated>
-    
-    
-    <summary type="html">图库、图床与评论测试。</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="测试" scheme="https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
