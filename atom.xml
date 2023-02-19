@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2023-02-10T13:45:22.682Z</updated>
+  <updated>2023-02-19T02:22:54.162Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QQ 机器人搭建体验</title>
+    <link href="https://blog.zerolacqua.top/posts/781b999a.html"/>
+    <id>https://blog.zerolacqua.top/posts/781b999a.html</id>
+    <published>2023-02-18T15:50:57.000Z</published>
+    <updated>2023-02-19T02:22:54.162Z</updated>
+    
+    
+    <summary type="html">记录一下我磕磕绊绊的 Nonebot2 qq 机器人搭建过程</summary>
+    
+    
+    
+    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="各种摸鱼" scheme="https://blog.zerolacqua.top/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/"/>
+    
+  </entry>
   
   <entry>
     <title>关于最近的一些事情</title>
@@ -382,25 +401,6 @@
     
     
     <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>坦克大战记录</title>
-    <link href="https://blog.zerolacqua.top/posts/8baa3f41.html"/>
-    <id>https://blog.zerolacqua.top/posts/8baa3f41.html</id>
-    <published>2022-03-13T09:42:26.000Z</published>
-    <updated>2023-01-08T07:06:34.487Z</updated>
-    
-    
-    <summary type="html">当初上“面向对象的程序设计”时写的坦克大战。</summary>
-    
-    
-    
-    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
     
   </entry>
   
