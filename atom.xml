@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2023-02-19T02:27:52.821Z</updated>
+  <updated>2023-05-18T16:41:53.546Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>游戏推荐：Screeps</title>
+    <link href="https://blog.zerolacqua.top/posts/2d7ab288.html"/>
+    <id>https://blog.zerolacqua.top/posts/2d7ab288.html</id>
+    <published>2023-05-18T13:12:00.000Z</published>
+    <updated>2023-05-18T16:41:53.546Z</updated>
+    
+    
+    <summary type="html">毕业设计终于告一段落了，这几天是完全不想去实验室学习。</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://blog.zerolacqua.top/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.zerolacqua.top/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>QQ 机器人搭建体验</title>
     <link href="https://blog.zerolacqua.top/posts/781b999a.html"/>
     <id>https://blog.zerolacqua.top/posts/781b999a.html</id>
     <published>2023-02-18T15:50:57.000Z</published>
-    <updated>2023-02-19T02:27:52.821Z</updated>
+    <updated>2023-05-18T14:09:42.974Z</updated>
     
     
     <summary type="html">记录一下我磕磕绊绊的 Nonebot2 qq 机器人搭建过程</summary>
@@ -375,25 +394,6 @@
     
     
     <summary type="html">数字摄影测量编程记录。</summary>
-    
-    
-    
-    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>近景摄影测量编程与实习</title>
-    <link href="https://blog.zerolacqua.top/posts/5f0fff90.html"/>
-    <id>https://blog.zerolacqua.top/posts/5f0fff90.html</id>
-    <published>2022-03-20T12:25:02.000Z</published>
-    <updated>2023-01-08T09:04:04.621Z</updated>
-    
-    
-    <summary type="html">近景摄影测量编程记录与学习总结。</summary>
     
     
     
