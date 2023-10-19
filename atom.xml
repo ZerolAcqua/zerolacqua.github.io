@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2023-08-20T06:17:02.944Z</updated>
+  <updated>2023-10-19T03:06:51.248Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客今后的方向</title>
+    <link href="https://blog.zerolacqua.top/posts/b1e7d13a.html"/>
+    <id>https://blog.zerolacqua.top/posts/b1e7d13a.html</id>
+    <published>2023-10-19T02:09:47.000Z</published>
+    <updated>2023-10-19T03:06:51.248Z</updated>
+    
+    
+    <summary type="html">浅浅水一篇博客</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏推荐：Screeps</title>
@@ -375,25 +394,6 @@
     
     
     <summary type="html">数字摄影测量小作业</summary>
-    
-    
-    
-    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数字摄影测量编程与实习</title>
-    <link href="https://blog.zerolacqua.top/posts/4ee41539.html"/>
-    <id>https://blog.zerolacqua.top/posts/4ee41539.html</id>
-    <published>2022-03-24T08:35:39.000Z</published>
-    <updated>2023-01-08T07:06:34.488Z</updated>
-    
-    
-    <summary type="html">数字摄影测量编程记录。</summary>
     
     
     
