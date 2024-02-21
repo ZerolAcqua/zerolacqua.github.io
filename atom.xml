@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2023-10-19T03:06:51.248Z</updated>
+  <updated>2024-02-21T02:11:54.533Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>时间与陪伴</title>
+    <link href="https://blog.zerolacqua.top/posts/839b6e46.html"/>
+    <id>https://blog.zerolacqua.top/posts/839b6e46.html</id>
+    <published>2024-02-20T13:12:09.815Z</published>
+    <updated>2024-02-21T02:11:54.533Z</updated>
+    
+    
+    <summary type="html">感觉想做的事越来越多了，能用的时间越来越少了</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>博客今后的方向</title>
@@ -375,25 +394,6 @@
     
     
     <summary type="html">卫星摄影测量编程记录。</summary>
-    
-    
-    
-    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TIN的三种构建方式</title>
-    <link href="https://blog.zerolacqua.top/posts/3cd52e14.html"/>
-    <id>https://blog.zerolacqua.top/posts/3cd52e14.html</id>
-    <published>2022-04-05T15:02:38.000Z</published>
-    <updated>2023-01-08T09:04:04.628Z</updated>
-    
-    
-    <summary type="html">数字摄影测量小作业</summary>
     
     
     
