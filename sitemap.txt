@@ -1,3 +1,5 @@
+https://blog.zerolacqua.top/about/blog/index.html
+https://blog.zerolacqua.top/about/me/index.html
 https://blog.zerolacqua.top/posts/839b6e46.html
 https://blog.zerolacqua.top/posts/6b405ec0.html
 https://blog.zerolacqua.top/posts/7cd08a64.html
@@ -6,7 +8,6 @@ https://blog.zerolacqua.top/about/oc/index.html
 https://blog.zerolacqua.top/posts/1562fb12.html
 https://blog.zerolacqua.top/posts/b1e7d13a.html
 https://blog.zerolacqua.top/resources/index.html
-https://blog.zerolacqua.top/about/blog/index.html
 https://blog.zerolacqua.top/posts/2d7ab288.html
 https://blog.zerolacqua.top/diary/2023/index.html
 https://blog.zerolacqua.top/posts/4263a541.html
@@ -25,8 +26,8 @@ https://blog.zerolacqua.top/posts/abd9a5f1.html
 https://blog.zerolacqua.top/posts/3cd52e14.html
 https://blog.zerolacqua.top/posts/ef2fa561.html
 https://blog.zerolacqua.top/posts/9a76c0ee.html
-https://blog.zerolacqua.top/posts/4ee41539.html
 https://blog.zerolacqua.top/posts/67588483.html
+https://blog.zerolacqua.top/posts/4ee41539.html
 https://blog.zerolacqua.top/posts/8baa3f41.html
 https://blog.zerolacqua.top/posts/ff321836.html
 https://blog.zerolacqua.top/posts/9df20c2d.html
@@ -37,7 +38,6 @@ https://blog.zerolacqua.top/posts/3944b39.html
 https://blog.zerolacqua.top/statistics/index.html
 https://blog.zerolacqua.top/categories/index.html
 https://blog.zerolacqua.top/tags/index.html
-https://blog.zerolacqua.top/about/me/index.html
 https://blog.zerolacqua.top/
 https://blog.zerolacqua.top/tags/c/
 https://blog.zerolacqua.top/tags/LaTeX/
