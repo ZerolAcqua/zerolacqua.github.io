@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2024-02-21T02:11:54.533Z</updated>
+  <updated>2024-04-18T00:45:37.066Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>华为软件精英挑战赛感想</title>
+    <link href="https://blog.zerolacqua.top/posts/f7e04c6.html"/>
+    <id>https://blog.zerolacqua.top/posts/f7e04c6.html</id>
+    <published>2024-04-15T14:32:41.000Z</published>
+    <updated>2024-04-18T00:45:37.066Z</updated>
+    
+    
+    <summary type="html">陪跑到复赛！</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>时间与陪伴</title>
@@ -382,25 +401,6 @@
     
     
     <category term="遥感" scheme="https://blog.zerolacqua.top/tags/%E9%81%A5%E6%84%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>卫星摄影测量编程</title>
-    <link href="https://blog.zerolacqua.top/posts/9df20c2d.html"/>
-    <id>https://blog.zerolacqua.top/posts/9df20c2d.html</id>
-    <published>2022-04-11T10:53:17.000Z</published>
-    <updated>2023-01-08T07:06:34.484Z</updated>
-    
-    
-    <summary type="html">卫星摄影测量编程记录。</summary>
-    
-    
-    
-    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
   </entry>
   
