@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2024-04-22T15:00:07.728Z</updated>
+  <updated>2024-06-13T10:36:40.000Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高性能计算课程作业</title>
+    <link href="https://blog.zerolacqua.top/posts/35a33f10.html"/>
+    <id>https://blog.zerolacqua.top/posts/35a33f10.html</id>
+    <published>2024-06-12T14:02:41.000Z</published>
+    <updated>2024-06-13T10:36:40.000Z</updated>
+    
+    
+    <summary type="html">做得最认真的一次研究生课程作业x</summary>
+    
+    
+    
+    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
+    
+  </entry>
   
   <entry>
     <title>华为软件精英挑战赛感想</title>
@@ -253,7 +272,7 @@
     <link href="https://blog.zerolacqua.top/posts/7cd08a64.html"/>
     <id>https://blog.zerolacqua.top/posts/7cd08a64.html</id>
     <published>2022-07-16T09:45:20.000Z</published>
-    <updated>2023-12-18T05:58:38.141Z</updated>
+    <updated>2024-06-13T09:22:46.620Z</updated>
     
     
     <summary type="html">样式与兼容性测试</summary>
@@ -382,25 +401,6 @@
     
     
     <category term="地理建模" scheme="https://blog.zerolacqua.top/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基于卫星遥感的西藏湖泊监测</title>
-    <link href="https://blog.zerolacqua.top/posts/1562fb12.html"/>
-    <id>https://blog.zerolacqua.top/posts/1562fb12.html</id>
-    <published>2022-04-14T16:33:36.000Z</published>
-    <updated>2023-11-05T04:00:32.603Z</updated>
-    
-    
-    <summary type="html">扎日南木错高程和面积监测。</summary>
-    
-    
-    
-    <category term="课程学习" scheme="https://blog.zerolacqua.top/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="遥感" scheme="https://blog.zerolacqua.top/tags/%E9%81%A5%E6%84%9F/"/>
     
   </entry>
   
