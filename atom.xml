@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2024-07-10T15:43:49.218Z</updated>
+  <updated>2024-07-13T03:35:07.298Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -17,14 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>关于本站 CDN 访问控制策略修改问题</title>
+    <title>本站 CDN 被盗刷</title>
     <link href="https://blog.zerolacqua.top/posts/42f38ff2.html"/>
     <id>https://blog.zerolacqua.top/posts/42f38ff2.html</id>
     <published>2024-07-10T15:14:34.000Z</published>
-    <updated>2024-07-10T15:43:49.218Z</updated>
+    <updated>2024-07-13T03:35:07.298Z</updated>
     
     
-    <summary type="html">CDN 流量被恶意盗刷，修改了访问策略，可能会导致友站部分图片无法显示。</summary>
+    <summary type="html">CDN 流量被恶意盗刷，加强了访问控制，可能会导致友站部分图片无法显示，山西的访客可能浏览本站时也会受到影响。</summary>
     
     
     
