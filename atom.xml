@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2024-07-13T03:35:07.298Z</updated>
+  <updated>2024-10-14T05:56:14.235Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>这几年折腾博客的总结</title>
+    <link href="https://blog.zerolacqua.top/posts/802109e2.html"/>
+    <id>https://blog.zerolacqua.top/posts/802109e2.html</id>
+    <published>2024-10-14T04:23:31.000Z</published>
+    <updated>2024-10-14T05:56:14.235Z</updated>
+    
+    
+    <summary type="html">一眨眼又是一年多</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>本站 CDN 被盗刷</title>
     <link href="https://blog.zerolacqua.top/posts/42f38ff2.html"/>
     <id>https://blog.zerolacqua.top/posts/42f38ff2.html</id>
     <published>2024-07-10T15:14:34.000Z</published>
-    <updated>2024-07-13T03:35:07.298Z</updated>
+    <updated>2024-10-14T05:40:29.622Z</updated>
     
     
     <summary type="html">CDN 流量被恶意盗刷，加强了访问控制，可能会导致友站部分图片无法显示，山西的访客可能浏览本站时也会受到影响。</summary>
@@ -190,7 +209,7 @@
     <link href="https://blog.zerolacqua.top/posts/9a76c0ee.html"/>
     <id>https://blog.zerolacqua.top/posts/9a76c0ee.html</id>
     <published>2022-10-26T02:08:12.000Z</published>
-    <updated>2023-01-08T08:16:03.224Z</updated>
+    <updated>2024-10-07T12:05:05.714Z</updated>
     
     
     <summary type="html">出于对以后博客的稳定性的考虑，加上天生的爱整事性格，我决定把博客迁移到服务器上试试。</summary>
@@ -378,25 +397,6 @@
     <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     <category term="测试" scheme="https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>俄罗斯方块心得记录</title>
-    <link href="https://blog.zerolacqua.top/posts/531cccb5.html"/>
-    <id>https://blog.zerolacqua.top/posts/531cccb5.html</id>
-    <published>2022-05-03T11:52:13.000Z</published>
-    <updated>2023-12-18T05:58:36.408Z</updated>
-    
-    
-    <summary type="html">嘛，就是一些关于入坑以来玩俄罗斯方块的一些感受吧。</summary>
-    
-    
-    
-    <category term="游戏" scheme="https://blog.zerolacqua.top/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    
-    <category term="俄罗斯方块" scheme="https://blog.zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
     
   </entry>
   
