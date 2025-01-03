@@ -128,94 +128,7 @@ body {
   background: transparent !important;
 }
 
-/* MiniSandbox 夜间适配 */
-.mini-sandbox{
-  box-shadow: none!important;
-  border-radius: 7px;
-}
-[data-theme=dark]
-.mini-sandbox{
-  background-color: #151515!important;
-}
-[data-theme=dark]
-.cm-activeLine{
-   background-color: #252525!important;
-}
-[data-theme=dark]
-.mini-sandbox .sandbox-head{
-  background: #202020!important;
-}
-[data-theme=dark]
-.mini-sandbox .cm-gutters{
-  background: #202020!important;
-}
-.mini-sandbox .sandbox-head .sandbox-tab .sandbox-tab-active{
-  box-shadow: none!important;
-}
-[data-theme=dark]
-.mini-sandbox .sandbox-head .sandbox-tab .sandbox-tab-active{
-  background: #363636!important;
-}
-[data-theme=dark]
-.cm-activeLineGutter{
-  background: #363636!important;
-}
-[data-theme=dark]
-.sandbox-body .sandbox-gutter{
-  background: #363636!important;
-}
-[data-theme=dark]
-.mini-sandbox .sandbox-gutter{
-  border-left: 1px solid #404040!important;
-  border-right: 1px solid #404040!important;
-}
-[data-theme=dark]
-.mini-sandbox .sandbox-head .sandbox-tab .sandbox-tab-active::after{
-  background: none!important;
-}
-[data-theme=dark]
-.mini-sandbox .sandbox-head .sandbox-tab .sandbox-tab-active::before{
-  background: none!important;
-}
-[data-theme=dark]
-.mini-sandbox .sandbox-render{
-  background: #E1E1E1!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼd{
-  color: #c3e88d!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼc{
-  color: #c3e88d!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼb{
-  color: #1E90FF!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼf{
-  color: #1E90FF!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼh{
-  color: #ff5370!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼa{
-  color: #FF00FF!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼi{
-  color:#5F9EA0!important;
-}
-[data-theme=dark]
-.mini-sandbox .ͼl{
-  color:#969896!important;
-}
-.mini-sandbox{
-  margin-bottom: 10px;
-}
+
 /*统计图的夜间模式没做是因为不会*/
 /* [data-theme=dark]
 div[_echarts_instance_] canvas {
@@ -224,7 +137,6 @@ div[_echarts_instance_] canvas {
 div[_echarts_instance_] canvas{
   background: rgba(0,0,0,0) !important;
 } */
-
 
 
 /* --- 鼠标指针修改 --- */
