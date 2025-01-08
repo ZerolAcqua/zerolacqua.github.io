@@ -31,6 +31,10 @@ body {
   background: transparent !important;
 }
 
+
+
+
+
 /* -- 白天模式 -- */
 /* 首页文章卡片 */
 [data-theme="light"] #recent-posts>.recent-post-item {
@@ -129,6 +133,9 @@ body {
 }
 
 
+
+
+
 /*统计图的夜间模式没做是因为不会*/
 /* [data-theme=dark]
 div[_echarts_instance_] canvas {
@@ -137,6 +144,8 @@ div[_echarts_instance_] canvas {
 div[_echarts_instance_] canvas{
   background: rgba(0,0,0,0) !important;
 } */
+
+
 
 
 /* --- 鼠标指针修改 --- */
@@ -177,7 +186,6 @@ a.link-card:hover {
 input:hover{
   cursor: url(https://cdn.zerolacqua.top/cursor/input.cur), auto !important;
 }
-
 
 /* 悬停按钮时的鼠标指针 */
 button:hover {
@@ -238,11 +246,17 @@ i:hover {
 
 
 
+
+
 /* --- 隐藏右下角按钮 --- */
 /* 我也不知道为啥没找到 Butterfly 隐藏右下角按钮的配置，所以只好自己隐藏了 */
 #rightside{
   display: none;
 }
+
+
+
+
 
 /* --- 设置 sakana 组件 --- */
 #sakana{

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>友情链接 | 丘卡饮品店</title><meta name="author" content="Zerol Acqua"><meta name="copyright" content="Zerol Acqua"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="交换友链 本店信息 由于本站 CDN 遭受盗刷暂时限制访问，请您尽量自行保存本站的头像和网站缩略图，非常抱歉给您带不便。 目前除山西部分 IP 受影响外，其他地区可正常使用。 butterfly🦋candy🍬volantis💎general✨- name: 丘卡饮品店  link: https:&#x2F;&#x2F;blog.zerolacqua.top  avatar: https:&#x2F;&#x2F;cdn.zerol">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>友情链接 | 丘卡饮品店</title><meta name="author" content="Zerol Acqua"><meta name="copyright" content="Zerol Acqua"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="交换友链 本店信息 由于本站 CDN 遭受盗刷暂时限制访问，请您尽量自行保存本站的头像和网站缩略图，非常抱歉给您带不便。 目前除山西部分 IP 受影响外，其他地区可正常使用。 butterfly🦋candy🍬volantis💎general✨- name: 丘卡饮品店  link: https:&#x2F;&#x2F;blog.zerolacqua.top  avatar: https:&#x2F;&#x2F;cdn.zerol">
 <meta property="og:type" content="website">
 <meta property="og:title" content="友情链接">
 <meta property="og:url" content="https://blog.zerolacqua.top/link/index.html">
@@ -7,19 +7,111 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.zerolacqua.top/images/avatar.png">
 <meta property="article:published_time" content="2022-02-25T09:21:41.000Z">
-<meta property="article:modified_time" content="2024-07-13T03:39:48.393Z">
+<meta property="article:modified_time" content="2024-07-13T03:39:48.000Z">
 <meta property="article:author" content="Zerol Acqua">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cdn.zerolacqua.top/images/avatar.png"><link rel="shortcut icon" href="https://cdn.zerolacqua.top/images/favicon.png"><link rel="canonical" href="https://blog.zerolacqua.top/link/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="OB1ciIrT2r_nAUTxc8B6YjLbaq-RxDkClFG00jbXrXM"/><meta name="baidu-site-verification" content="code-7USdMaHYMW"/><meta name="msvalidate.01" content="F83A44487AB436E1389EAD8A79D44FD1"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://cdn.zerolacqua.top/images/avatar.png"><link rel="shortcut icon" href="https://cdn.zerolacqua.top/images/favicon.png"><link rel="canonical" href="https://blog.zerolacqua.top/link/index.html"><link rel="preconnect"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="OB1ciIrT2r_nAUTxc8B6YjLbaq-RxDkClFG00jbXrXM"/><meta name="baidu-site-verification" content="code-7USdMaHYMW"/><meta name="msvalidate.01" content="F83A44487AB436E1389EAD8A79D44FD1"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
-  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
   translate: undefined,
-  noticeOutdate: {"limitDay":200,"position":"top","messagePrev":"距离丘卡上次施工已经过去","messageNext":"天啦！请注意保质期哦！"},
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200,"highlightFullpage":false,"highlightMacStyle":false},
   copy: {
     success: '复制成功',
-    error: '复制错误',
+    error: '复制失败',
     noSupport: '浏览器不支持'
   },
   relativeDate: {
@@ -27,7 +119,7 @@
     post: false
   },
   runtime: '天',
-  date_suffix: {
+  dateSuffix: {
     just: '刚刚',
     min: '分钟前',
     hour: '小时前',
@@ -37,11 +129,9 @@
   copyright: {"limitCount":200,"languages":{"author":"作者: Zerol Acqua","link":"链接: ","source":"来源: 丘卡饮品店","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
   lightbox: 'fancybox',
   Snackbar: undefined,
-  source: {
-    justifiedGallery: {
-      js: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.css'
-    }
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
   islazyload: true,
@@ -49,116 +139,16 @@
   percent: {
     toc: true,
     rightside: false,
-  }
+  },
+  autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '友情链接',
   isPost: false,
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-07-13 11:39:48'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = url => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      link.onload = () => resolve()
-      link.onerror = () => reject()
-      document.head.appendChild(link)
-    })
-  
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
-          else if (t === 'light') activateLightMode()
-          else activateDarkMode()
-        
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
-    
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
-      }
-    }
-    detectApple()
-    })(window)</script><link rel="stylesheet" href="https://cdn.zerolacqua.top/css/rightmenu.css"><meta name="baidu-site-verification" content="code-7USdMaHYMW" /><meta name="google-site-verification" content="OB1ciIrT2r_nAUTxc8B6YjLbaq-RxDkClFG00jbXrXM" /><meta name="msvalidate.01" content="F83A44487AB436E1389EAD8A79D44FD1" /><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><style type="text/css">
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="https://cdn.zerolacqua.top/css/rightmenu.css"><style type="text/css">
 .spoiler {
   display: inline-flex;
 }
@@ -189,7 +179,7 @@ p.spoiler {
   background-color: black;
   text-shadow: none;
 }</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="丘卡饮品店" type="application/atom+xml">
-</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/avatar.png" onerror="onerror=null;src='https://cdn.zerolacqua.top/images/img_error.png'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-camera-retro"></i><span> 瞬间</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/painting/"><i class="fa-fw fas fa-palette"></i><span> 画册</span></a></li><li><a class="site-page child" href="/diary/"><i class="fa-fw fas fa-book-bookmark"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-layer-group"></i><span> 汇总</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://note.zerolacqua.top/"><i class="fa-fw fa-solid fa-scroll"></i><span> 笔记</span></a></li><li><a class="site-page child" href="/works/"><i class="fa-fw fas fa-lines-leaning"></i><span> 作品集</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-user-group"></i><span> 朋友</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/fcircle"><i class="fa-fw fa-solid fa-circle-user"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-feather-alt"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/statistics/"><i class="fa-fw fa-solid fa-chart-pie"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/me/"><i class="fa-fw fa-solid fa-user"></i><span> 个人</span></a></li><li><a class="site-page child" href="/about/oc/"><i class="fa-fw fa-solid fa-horse-head"></i><span> 自设</span></a></li><li><a class="site-page child" href="/about/blog/"><i class="fa-fw fas fa-blog"></i><span> 博客</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="丘卡饮品店"><span class="site-name">丘卡饮品店</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-camera-retro"></i><span> 瞬间</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/painting/"><i class="fa-fw fas fa-palette"></i><span> 画册</span></a></li><li><a class="site-page child" href="/diary/"><i class="fa-fw fas fa-book-bookmark"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-layer-group"></i><span> 汇总</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://note.zerolacqua.top/"><i class="fa-fw fa-solid fa-scroll"></i><span> 笔记</span></a></li><li><a class="site-page child" href="/works/"><i class="fa-fw fas fa-lines-leaning"></i><span> 作品集</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-user-group"></i><span> 朋友</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/fcircle"><i class="fa-fw fa-solid fa-circle-user"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-feather-alt"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/statistics/"><i class="fa-fw fa-solid fa-chart-pie"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/me/"><i class="fa-fw fa-solid fa-user"></i><span> 个人</span></a></li><li><a class="site-page child" href="/about/oc/"><i class="fa-fw fa-solid fa-horse-head"></i><span> 自设</span></a></li><li><a class="site-page child" href="/about/blog/"><i class="fa-fw fas fa-blog"></i><span> 博客</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="page"><h1 class="page-title">友情链接</h1><div id="article-container"><div class="flink"><h2 id="呆呆小水驹">呆呆小水驹</h2>
+</head><body><div id="web_bg" style="background-image: url(https://cdn.zerolacqua.top/images/background.png);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/avatar.png" onerror="onerror=null;src='https://cdn.zerolacqua.top/images/img_error.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-camera-retro"></i><span> 瞬间</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/painting/"><i class="fa-fw fas fa-palette"></i><span> 画册</span></a></li><li><a class="site-page child" href="/diary/"><i class="fa-fw fas fa-book-bookmark"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-layer-group"></i><span> 汇总</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://note.zerolacqua.top/"><i class="fa-fw fa-solid fa-scroll"></i><span> 笔记</span></a></li><li><a class="site-page child" href="/works/"><i class="fa-fw fas fa-lines-leaning"></i><span> 作品集</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-user-group"></i><span> 朋友</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/fcircle"><i class="fa-fw fa-solid fa-circle-user"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-feather-alt"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/statistics/"><i class="fa-fw fa-solid fa-chart-pie"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/me/"><i class="fa-fw fa-solid fa-user"></i><span> 个人</span></a></li><li><a class="site-page child" href="/about/oc/"><i class="fa-fw fa-solid fa-horse-head"></i><span> 自设</span></a></li><li><a class="site-page child" href="/about/blog/"><i class="fa-fw fas fa-blog"></i><span> 博客</span></a></li></ul></div></div></div></div><div class="page type-link" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">丘卡饮品店</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-camera-retro"></i><span> 瞬间</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/painting/"><i class="fa-fw fas fa-palette"></i><span> 画册</span></a></li><li><a class="site-page child" href="/diary/"><i class="fa-fw fas fa-book-bookmark"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-layer-group"></i><span> 汇总</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://note.zerolacqua.top/"><i class="fa-fw fa-solid fa-scroll"></i><span> 笔记</span></a></li><li><a class="site-page child" href="/works/"><i class="fa-fw fas fa-lines-leaning"></i><span> 作品集</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-user-group"></i><span> 朋友</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/fcircle"><i class="fa-fw fa-solid fa-circle-user"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-feather-alt"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/statistics/"><i class="fa-fw fa-solid fa-chart-pie"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/me/"><i class="fa-fw fa-solid fa-user"></i><span> 个人</span></a></li><li><a class="site-page child" href="/about/oc/"><i class="fa-fw fa-solid fa-horse-head"></i><span> 自设</span></a></li><li><a class="site-page child" href="/about/blog/"><i class="fa-fw fas fa-blog"></i><span> 博客</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">友情链接</h1></header><main class="layout" id="content-inner"><div id="page"><div class="page-title">友情链接</div><div class="container" id="article-container"><div class="flink"><h2 id="呆呆小水驹">呆呆小水驹</h2>
 <div class="flink-desc">是咱自己！</div> <div class="flink-list">
   <div class="flink-list-item">
     <a href="https://blog.zerolacqua.top" title="丘卡饮品店" target="_blank">
@@ -469,7 +459,7 @@ p.spoiler {
 <h3 id="本店信息">本店信息</h3>
 <p><del>由于本站 CDN 遭受盗刷暂时限制访问，请您尽量自行保存本站的头像和网站缩略图，非常抱歉给您带不便。</del><br>
 目前除山西部分 IP 受影响外，其他地区可正常使用。</p>
-<div class="tabs" id="link"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#link-1">butterfly🦋</button></li><li class="tab"><button type="button" data-href="#link-2">candy🍬</button></li><li class="tab"><button type="button" data-href="#link-3">volantis💎</button></li><li class="tab active"><button type="button" data-href="#link-4">general✨</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="link-1"><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">丘卡饮品店</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.zerolacqua.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.zerolacqua.top/images/avatar.png</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">要来点喝的吗？</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-2"><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">丘卡饮品店</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.zerolacqua.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.zerolacqua.top/images/avatar.png</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">要来点喝的吗？</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="string">https://cdn.zerolacqua.top/images/siteshot.png</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-3"><figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;丘卡饮品店&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.zerolacqua.top/images/avatar.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://blog.zerolacqua.top&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;screenshot&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.zerolacqua.top/images/siteshot.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="string">&quot;学习记录&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;要来点喝的吗？&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content active" id="link-4"><table>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab">butterfly🦋</button><button type="button" class="tab">candy🍬</button><button type="button" class="tab">volantis💎</button><button type="button" class="tab active">general✨</button></div><div class="tab-contents"><div class="tab-item-content"><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">丘卡饮品店</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.zerolacqua.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.zerolacqua.top/images/avatar.png</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">要来点喝的吗？</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">丘卡饮品店</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://blog.zerolacqua.top</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.zerolacqua.top/images/avatar.png</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">要来点喝的吗？</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="string">https://cdn.zerolacqua.top/images/siteshot.png</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;丘卡饮品店&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.zerolacqua.top/images/avatar.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://blog.zerolacqua.top&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;screenshot&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.zerolacqua.top/images/siteshot.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="string">&quot;学习记录&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;要来点喝的吗？&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content active"><table>
 <thead>
 <tr>
 <th></th>
@@ -514,7 +504,7 @@ p.spoiler {
 <td><font color='#A2E5F4'>“#A2E5F4”</font></td>
 </tr>
 </tbody>
-</table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+</table></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
 <p><del>注：如确实需要本站托管图片，可将 <code>cdn</code> 替换为 <code>blog</code> 域名，即可访问图像资源。亦可直接与博主联系加入 CDN 防盗链白名单。</del></p>
 <h3 id="内容要求">内容要求</h3>
 <ul>
@@ -547,145 +537,223 @@ p.spoiler {
 <p>最后希望大家能共同进步</p>
 </li>
 </ul>
-</div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/avatar.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="avatar"/></div><div class="author-info__name">Zerol Acqua</div><div class="author-info__description">一只喜欢小马和编程的 WHUer</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://zerolacqua.top/" target="_blank" title="个人主页"><i class="fas fa-home"></i></a><a class="social-icon" href="https://github.com/ZerolAcqua" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://space.bilibili.com/26960382" target="_blank" title="bilibili"><i class="fab fa-bilibili"></i></a><a class="social-icon" href="https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2502727534" target="_blank" title="qq"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:hlc118@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">小店开业……啦？</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/802109e2.html" title="这几年折腾博客的总结"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/这几年折腾博客的总结.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="这几年折腾博客的总结"/></a><div class="content"><a class="title" href="/posts/802109e2.html" title="这几年折腾博客的总结">这几年折腾博客的总结</a><time datetime="2024-10-14T04:23:31.000Z" title="发表于 2024-10-14 12:23:31">2024-10-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/42f38ff2.html" title="本站 CDN 被盗刷"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/404.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="本站 CDN 被盗刷"/></a><div class="content"><a class="title" href="/posts/42f38ff2.html" title="本站 CDN 被盗刷">本站 CDN 被盗刷</a><time datetime="2024-07-10T15:14:34.000Z" title="发表于 2024-07-10 23:14:34">2024-07-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/35a33f10.html" title="高性能计算课程作业"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/高性能计算课程作业.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="高性能计算课程作业"/></a><div class="content"><a class="title" href="/posts/35a33f10.html" title="高性能计算课程作业">高性能计算课程作业</a><time datetime="2024-06-12T14:02:41.000Z" title="发表于 2024-06-12 22:02:41">2024-06-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/f7e04c6.html" title="华为软件精英挑战赛感想"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/华为软件精英挑战赛感想.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="华为软件精英挑战赛感想"/></a><div class="content"><a class="title" href="/posts/f7e04c6.html" title="华为软件精英挑战赛感想">华为软件精英挑战赛感想</a><time datetime="2024-04-15T14:32:41.000Z" title="发表于 2024-04-15 22:32:41">2024-04-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/839b6e46.html" title="时间与陪伴"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/时间与陪伴.jpg" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="时间与陪伴"/></a><div class="content"><a class="title" href="/posts/839b6e46.html" title="时间与陪伴">时间与陪伴</a><time datetime="2024-02-20T13:12:09.815Z" title="发表于 2024-02-20 21:12:09">2024-02-20</time></div></div></div></div><div class="card-widget" id="card-newest-comments"><div class="item-headline"><i class="fas fa-comment-dots"></i><span>最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div><div class="card-widget card-categories"><div class="item-headline">
+</div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/avatar.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="avatar"/></div><div class="author-info-name">Zerol Acqua</div><div class="author-info-description">一只喜欢小马和编程的 WHUer</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="card-info-social-icons"><a class="social-icon" href="https://zerolacqua.top/" target="_blank" title="个人主页"><i class="fas fa-home"></i></a><a class="social-icon" href="https://github.com/ZerolAcqua" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://space.bilibili.com/26960382" target="_blank" title="bilibili"><i class="fab fa-bilibili"></i></a><a class="social-icon" href="https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2502727534" target="_blank" title="qq"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:hlc118@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">小店开业……啦？</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/839b6e46.html" title="时间与陪伴"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/时间与陪伴.jpg" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="时间与陪伴"/></a><div class="content"><a class="title" href="/posts/839b6e46.html" title="时间与陪伴">时间与陪伴</a><time datetime="2025-01-08T03:26:10.692Z" title="发表于 2025-01-08 11:26:10">2025-01-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/802109e2.html" title="这几年折腾博客的总结"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/这几年折腾博客的总结.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="这几年折腾博客的总结"/></a><div class="content"><a class="title" href="/posts/802109e2.html" title="这几年折腾博客的总结">这几年折腾博客的总结</a><time datetime="2024-10-14T04:23:31.000Z" title="发表于 2024-10-14 12:23:31">2024-10-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/42f38ff2.html" title="本站 CDN 被盗刷"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/404.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="本站 CDN 被盗刷"/></a><div class="content"><a class="title" href="/posts/42f38ff2.html" title="本站 CDN 被盗刷">本站 CDN 被盗刷</a><time datetime="2024-07-10T15:14:34.000Z" title="发表于 2024-07-10 23:14:34">2024-07-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/35a33f10.html" title="高性能计算课程作业"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/高性能计算课程作业.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="高性能计算课程作业"/></a><div class="content"><a class="title" href="/posts/35a33f10.html" title="高性能计算课程作业">高性能计算课程作业</a><time datetime="2024-06-12T14:02:41.000Z" title="发表于 2024-06-12 22:02:41">2024-06-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/f7e04c6.html" title="华为软件精英挑战赛感想"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/华为软件精英挑战赛感想.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="华为软件精英挑战赛感想"/></a><div class="content"><a class="title" href="/posts/f7e04c6.html" title="华为软件精英挑战赛感想">华为软件精英挑战赛感想</a><time datetime="2024-04-15T14:32:41.000Z" title="发表于 2024-04-15 22:32:41">2024-04-15</time></div></div></div></div><div class="card-widget" id="card-newest-comments"><div class="item-headline"><i class="fas fa-comment-dots"></i><span>最新评论</span></div><div class="aside-list"><span>加载中...</span></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             
-            </div>
-            <ul class="card-category-list" id="aside-cat-list">
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"><span class="card-category-list-name">博客相关</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%B8%B8%E6%88%8F/"><span class="card-category-list-name">游戏</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">编程学习</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">课程学习</span><span class="card-category-list-count">9</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%BD%AF%E4%BB%B6/"><span class="card-category-list-name">软件</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">6</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/c/" style="font-size: 1.3em; color: rgb(3, 157, 199)">c++</a><a href="/tags/LaTeX/" style="font-size: 1.15em; color: rgb(11, 57, 43)">LaTeX</a><a href="/tags/Lua/" style="font-size: 1.15em; color: rgb(162, 164, 98)">Lua</a><a href="/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/" style="font-size: 1.22em; color: rgb(4, 170, 66)">俄罗斯方块</a><a href="/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/" style="font-size: 1.15em; color: rgb(172, 10, 79)">各种摸鱼</a><a href="/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/" style="font-size: 1.38em; color: rgb(116, 105, 142)">摄影测量</a><a href="/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/" style="font-size: 1.15em; color: rgb(12, 188, 60)">文献管理</a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/" style="font-size: 1.15em; color: rgb(74, 17, 134)">计算机视觉</a><a href="/tags/%E5%90%90%E6%A7%BD/" style="font-size: 1.45em; color: rgb(128, 8, 39)">吐槽</a><a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 1.38em; color: rgb(164, 64, 115)">博客搭建</a><a href="/tags/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9/" style="font-size: 1.15em; color: rgb(66, 119, 4)">博客魔改</a><a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.22em; color: rgb(115, 87, 151)">测试</a><a href="/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/" style="font-size: 1.15em; color: rgb(118, 174, 141)">地理建模</a><a href="/tags/%E9%81%A5%E6%84%9F/" style="font-size: 1.15em; color: rgb(45, 139, 6)">遥感</a><a href="/tags/JavaScript/" style="font-size: 1.15em; color: rgb(114, 181, 96)">JavaScript</a><a href="/tags/Julia/" style="font-size: 1.15em; color: rgb(115, 103, 162)">Julia</a><a href="/tags/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90/" style="font-size: 1.15em; color: rgb(143, 122, 12)">数值分析</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
-    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">十月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">二月 2023</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">30</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-02-23T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">66.7k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-01-03T05:28:08.079Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2025 By Zerol Acqua</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa-solid fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa-solid fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa-solid fa-arrow-rotate-right"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa-solid fa-arrow-up"></i></a><a class="rightMenu-item" href="#post-comment" id="menu-comment"><i class="fa-solid fa-comments"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa-solid fa-copy"></i><span>复制</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:rmf.switchDarkMode();"><i class="fa-solid fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="javascript:rmf.switchReadMode();"><i class="fa-solid fa-book-open"></i><span>阅读模式</span></a><a class="rightMenu-item" href="javascript:rmf.switchAsideMode();" id="menu-hide-aside"><i class="fa-solid fa-arrows-alt-h"></i><span>单双栏切换</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:rmf.switchSakanaStatus();" id="menu-sakana"><i class="fa-solid fa-toggle-on"></i><span>石蒜模拟器</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadWaline () {
-  function initWaline () {
-    const waline = Waline.init(Object.assign({
-      el: '#waline-wrap',
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/c/" style="font-size: 1.3em; color: rgb(182, 95, 113);">c++</a><a href="/tags/LaTeX/" style="font-size: 1.15em; color: rgb(184, 74, 50);">LaTeX</a><a href="/tags/Lua/" style="font-size: 1.15em; color: rgb(96, 101, 77);">Lua</a><a href="/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/" style="font-size: 1.22em; color: rgb(183, 124, 50);">俄罗斯方块</a><a href="/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/" style="font-size: 1.15em; color: rgb(132, 50, 100);">各种摸鱼</a><a href="/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/" style="font-size: 1.38em; color: rgb(130, 50, 101);">摄影测量</a><a href="/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/" style="font-size: 1.15em; color: rgb(53, 50, 105);">文献管理</a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/" style="font-size: 1.15em; color: rgb(50, 50, 54);">计算机视觉</a><a href="/tags/%E5%90%90%E6%A7%BD/" style="font-size: 1.45em; color: rgb(68, 99, 63);">吐槽</a><a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 1.38em; color: rgb(87, 97, 101);">博客搭建</a><a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.22em; color: rgb(82, 120, 73);">测试</a><a href="/tags/%E5%9C%B0%E7%90%86%E5%BB%BA%E6%A8%A1/" style="font-size: 1.15em; color: rgb(50, 50, 56);">地理建模</a><a href="/tags/%E5%8D%9A%E5%AE%A2%E9%AD%94%E6%94%B9/" style="font-size: 1.15em; color: rgb(179, 139, 50);">博客魔改</a><a href="/tags/%E9%81%A5%E6%84%9F/" style="font-size: 1.15em; color: rgb(50, 50, 182);">遥感</a><a href="/tags/JavaScript/" style="font-size: 1.15em; color: rgb(50, 127, 124);">JavaScript</a><a href="/tags/Julia/" style="font-size: 1.15em; color: rgb(50, 103, 58);">Julia</a><a href="/tags/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90/" style="font-size: 1.15em; color: rgb(152, 148, 144);">数值分析</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      <a class="card-more-btn" href="/archives/" title="查看更多"><i class="fas fa-angle-right"></i></a>
+    </div>
+    <ul class="card-archive-list">
+  
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2025/01/">
+          <span class="card-archive-list-date">一月 2025</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/10/">
+          <span class="card-archive-list-date">十月 2024</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/07/">
+          <span class="card-archive-list-date">七月 2024</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/06/">
+          <span class="card-archive-list-date">六月 2024</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/04/">
+          <span class="card-archive-list-date">四月 2024</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2023/10/">
+          <span class="card-archive-list-date">十月 2023</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2023/05/">
+          <span class="card-archive-list-date">五月 2023</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2023/02/">
+          <span class="card-archive-list-date">二月 2023</span>
+          <span class="card-archive-list-count">2</span>
+        </a>
+      </li>
+    </ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">30</div></div><div class="webinfo-item"><div class="item-name">运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-02-23T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">66.7k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-01-08T09:40:08.100Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2025 By Zerol Acqua</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  let initFn = window.walineFn || null
+  const isShuoshuo = GLOBAL_CONFIG_SITE.isShuoshuo
+  const option = {"emoji":["https://unpkg.com/@waline/emojis@1.1.0/weibo","https://unpkg.com/@waline/emojis@1.1.0/bilibili","https://unpkg.com/@waline/emojis@1.1.0/tieba","https://cdn.zerolacqua.top/images/emoji"],"reaction":["https://cdn.zerolacqua.top/images/emoji/acqua_haoye.png","https://cdn.zerolacqua.top/images/emoji/acqua_xinxin.png","https://cdn.zerolacqua.top/images/emoji/acqua_haqian.png","https://cdn.zerolacqua.top/images/emoji/acqua_wunian.png","https://cdn.zerolacqua.top/images/emoji/acqua_aba.png","https://cdn.zerolacqua.top/images/emoji/acqua_shengqi.png"],"locale":{"placeholder":"来和丘卡随便聊些什么吧~💖（已开启评论审核，评论将在审核通过后显示）","admin":"小店员工","level0":"初来乍到","level1":"偶有光临","level2":"小店常客","level3":"核心用户","level4":"反客为主","level5":"幕后黑蹄","reactionTitle":"看过文章你觉得怎么样呀？","reaction0":null,"reaction1":null,"reaction2":null,"reaction3":null,"reaction4":null,"reaction5":null}}
+
+  const destroyWaline = ele => ele.destroy()
+
+  const initWaline = (Fn, el = document, path = window.location.pathname) => {
+    const waline = Fn({
+      el: el.querySelector('#waline-wrap'),
       serverURL: 'https://waline.zerolacqua.top',
       pageview: false,
       dark: 'html[data-theme="dark"]',
-      path: window.location.pathname,
       comment: false,
-    }, {"emoji":["https://unpkg.com/@waline/emojis@1.1.0/weibo","https://unpkg.com/@waline/emojis@1.1.0/bilibili","https://unpkg.com/@waline/emojis@1.1.0/tieba","https://cdn.zerolacqua.top/images/emoji"],"reaction":["https://cdn.zerolacqua.top/images/emoji/acqua_haoye.png","https://cdn.zerolacqua.top/images/emoji/acqua_xinxin.png","https://cdn.zerolacqua.top/images/emoji/acqua_haqian.png","https://cdn.zerolacqua.top/images/emoji/acqua_wunian.png","https://cdn.zerolacqua.top/images/emoji/acqua_aba.png","https://cdn.zerolacqua.top/images/emoji/acqua_shengqi.png"],"locale":{"placeholder":"来和丘卡随便聊些什么吧~💖（已开启评论审核，评论将在审核通过后显示）","admin":"小店员工","level0":"初来乍到","level1":"偶有光临","level2":"小店常客","level3":"核心用户","level4":"反客为主","level5":"幕后黑蹄","reactionTitle":"看过文章你觉得怎么样呀？","reaction0":null,"reaction1":null,"reaction2":null,"reaction3":null,"reaction4":null,"reaction5":null}}))
-  }
-
-  if (typeof Waline === 'object') initWaline()
-  else {
-    getCSS('/pluginsSrc/@waline/client/dist/waline.css').then(() => {
-      getScript('/pluginsSrc/@waline/client/dist/waline.js').then(initWaline)
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
     })
-  }
-}
 
-if ('Waline' === 'Waline' || !false) {
-  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
-  else setTimeout(loadWaline, 0)
-} else {
-  function loadOtherComment () {
-    loadWaline()
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyWaline = () => {
+        destroyWaline(waline)
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
   }
-}</script></div><script>window.addEventListener('load', () => {
-  const changeContent = (content) => {
+
+  const loadWaline = (el, path) => {
+    if (initFn) initWaline(initFn, el, path)
+    else {
+      btf.getCSS('/pluginsSrc/@waline/client/dist/waline.css')
+        .then(() => import('/pluginsSrc/@waline/client/dist/waline.js'))
+        .then(({ init }) => {
+          initFn = init || Waline.init
+          initWaline(initFn, el, path)
+          window.walineFn = initFn
+        })
+    }
+  }
+
+  if (isShuoshuo) {
+    'Waline' === 'Waline'
+      ? window.shuoshuoComment = { loadComment: loadWaline } 
+      : window.loadOtherComment = loadWaline
+    return
+  }
+
+  if ('Waline' === 'Waline' || !false) {
+    if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script></div><script>window.newestComments = {
+  changeContent: content => {
     if (content === '') return content
 
     content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
     content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
     content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
-    content = content.replace(/<[^>]+>/g,"") // remove html tag
+    content = content.replace(/<code>.*?<\/code>/gi, '[代码]') // replace code      
+    content = content.replace(/<[^>]+>/g, "") // remove html tag
 
     if (content.length > 150) {
-      content = content.substring(0,150) + '...'
+      content = content.substring(0, 150) + '...'
     }
     return content
-  }
+  },
 
-  const generateHtml = array => {
+  generateHtml: (array, ele) => {
     let result = ''
 
     if (array.length) {
       for (let i = 0; i < array.length; i++) {
-        result += '<div class=\'aside-list-item\'>'
+        result += '<div class="aside-list-item">'
 
-        if (false) {
-          const name = 'data-lazy-src'
-          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        if (true && array[i].avatar) {
+          const imgAttr = 'data-lazy-src'
+          result += `<a href="${array[i].url}" class="thumbnail"><img ${imgAttr}="${array[i].avatar}" alt="${array[i].nick}"></a>`
         }
 
-        result += `<div class='content'>
-        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
-        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        result += `<div class="content">
+        <a class="comment" href="${array[i].url}" title="${array[i].content}">${array[i].content}</a>
+        <div class="name"><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
         </div></div>`
       }
     } else {
-      result += '没有评论'
+      result += '暂无评论'
     }
 
-    let $dom = document.querySelector('#card-newest-comments .aside-list')
-    $dom.innerHTML= result
+    ele.innerHTML = result
     window.lazyLoadInstance && window.lazyLoadInstance.update()
-    window.pjax && window.pjax.refresh($dom)
-  }
+    window.pjax && window.pjax.refresh(ele)
+  },
 
-  const getComment = () => {
-    const loadWaline = () => {
-      Waline.RecentComments({
-        serverURL: 'https://waline.zerolacqua.top',
-        count: 6
-      }).then(({comments}) => {
-        const walineArray = comments.map(e => {
-          return {
-            'content': changeContent(e.comment),
-            'avatar': e.avatar,
-            'nick': e.nick,
-            'url': e.url + '#' + e.objectId,
-            'date': e.insertedAt,
-          }
-        })
-        saveToLocal.set('waline-newest-comments', JSON.stringify(walineArray), 10/(60*24))
-        generateHtml(walineArray)
-      }).catch(e => {
-        const $dom = document.querySelector('#card-newest-comments .aside-list')
-        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
-      }) 
-    }
-
-    if (typeof Waline === 'object') loadWaline()
-    else getScript('/pluginsSrc/@waline/client/dist/waline.js').then(loadWaline)
-  }
-
-  const newestCommentInit = () => {
-    if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('waline-newest-comments')
+  newestCommentInit: (name, getComment) => {
+    const $dom = document.querySelector('#card-newest-comments .aside-list')
+    if ($dom) {
+      const data = btf.saveToLocal.get(name)
       if (data) {
-        generateHtml(JSON.parse(data))
+        newestComments.generateHtml(JSON.parse(data), $dom)
       } else {
-        getComment()
+        getComment($dom)
       }
     }
+  },
+
+  run: (name, getComment) => {
+    newestComments.newestCommentInit(name, getComment)
+    btf.addGlobalFn('pjaxComplete', () => newestComments.newestCommentInit(name, getComment), name)
+  }
+}</script><script>window.addEventListener('load', () => {
+  const keyName = 'waline-newest-comments'
+  const { changeContent, generateHtml, run } = window.newestComments
+
+  const getComment = async (ele) => {
+    try {
+      const res = await fetch('https://waline.zerolacqua.top/api/comment?type=recent&count=6', { method: 'GET' })
+      const result = await res.json()
+      const walineArray = result.data.map(e => {
+        return {
+          'content': changeContent(e.comment),
+          'avatar': e.avatar,
+          'nick': e.nick,
+          'url': e.url + '#' + e.objectId,
+          'date': e.time || e.insertedAt
+        }
+      })
+      btf.saveToLocal.set(keyName, JSON.stringify(walineArray), 10/(60*24))
+      generateHtml(walineArray, ele)
+    } catch (err) {
+      console.error(err)
+      ele.textContent= "无法获取评论，请确认相关配置是否正确"
+    }
   }
 
-  newestCommentInit()
-  document.addEventListener('pjax:complete', newestCommentInit)
-})</script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.zerolacqua.top/js/rightmenu.js"></script><link rel="stylesheet" href="/css/sandbox.css"><link rel="stylesheet" href="/css/mycss.css"><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div>
+  run(keyName, getComment)
+})</script><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.zerolacqua.top/js/rightmenu.js"></script><link rel="stylesheet" href="/css/mycss.css"><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div>
       <div id="sakana" style="position:fixed;right:0;bottom:0px;"></div>
-      <script async onload='initSakanaWidget({"character":"Acqua","enable":true,"enable_mobile":false,"size":220,"autoFit":false,"bottom":"0px","controls":false,"stroke":{"color":"#b4b4b4","width":13},"threshold":0.1,"rotate":0,"customCharacters":[{"base":"takina","name":"Acqua","image":"https://cdn.zerolacqua.top/images/other/acqua_sakana.png","i":0.005,"s":0.2,"d":0.988,"r":0,"y":2,"t":0,"w":0}]})' src="https://cdn.zerolacqua.top/js/sakana.min.js"></script>
+      <script async onload='initSakanaWidget({"character":"Acqua","enable":true,"enable_mobile":false,"size":220,"autoFit":false,"bottom":"0px","controls":false,"stroke":{"color":"#b4b4b4","width":13},"threshold":0.1,"rotate":0,"customCharacters":[{"base":"takina","name":"Acqua","image":"https://cdn.zerolacqua.top/images/other/acqua_sakana.png","i":0.005,"s":0.2,"d":0.988,"r":0,"y":2,"t":0,"w":0}]})' src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js"></script>
       <script>
       function log(msg) {
         console.log("[hexo-sakana] " + msg);
       }
 
-      function myFadeIn(elemt, speed) { //淡入 0 ~ 1
-        if(elemt.style.opacity == 0 && elemt.style.opacity != "") {
-          var speed = speed || 16.6; //默认速度为16.6ms
-          var num = 0; //累加器
-          var timer = setInterval(function() {
-            num++;
-            elemt.style.opacity = num / 20;
-            if(num >= 20) {
-              clearInterval(timer);
-            }
-          }, speed);
-        }
-      }
-      
       function initSakanaWidget(config) {
         if (
           !config.enable_mobile &&
@@ -725,14 +793,6 @@ if ('Waline' === 'Waline' || !false) {
           threshold: config.threshold,
           rotate: config.rotate,
         }).mount("#sakana");
-        let sakanaStatus = saveToLocal.get('sakana-status') 
-        if(sakanaStatus =='hide'){
-          document.getElementById('sakana').style.display="none";
-        }
-        else{
-          document.getElementById('sakana').style.opacity=0;
-          myFadeIn(document.getElementById('sakana'),60)
-        }
       }
   </script>
     </body></html>

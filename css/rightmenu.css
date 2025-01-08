@@ -3,7 +3,6 @@
 	display: none;
 	position: fixed;
 	width: 160px;
-	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
 	top: 10%;
