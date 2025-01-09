@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2024-02-21T02:11:54.000Z</updated>
+  <updated>2024-10-14T05:56:14.000Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>时间与陪伴</title>
-    <link href="https://blog.zerolacqua.top/posts/839b6e46.html"/>
-    <id>https://blog.zerolacqua.top/posts/839b6e46.html</id>
-    <published>2025-01-08T03:26:10.692Z</published>
-    <updated>2024-02-21T02:11:54.000Z</updated>
-    
-    
-    <summary type="html">感觉想做的事越来越多了，能用的时间越来越少了</summary>
-    
-    
-    
-    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
-    
-  </entry>
   
   <entry>
     <title>这几年折腾博客的总结</title>
@@ -59,10 +40,10 @@
     <link href="https://blog.zerolacqua.top/posts/42f38ff2.html"/>
     <id>https://blog.zerolacqua.top/posts/42f38ff2.html</id>
     <published>2024-07-10T15:14:34.000Z</published>
-    <updated>2024-10-14T05:40:28.000Z</updated>
+    <updated>2025-01-08T10:03:16.835Z</updated>
     
     
-    <summary type="html">CDN 流量被恶意盗刷，加强了访问控制，可能会导致友站部分图片无法显示，山西的访客可能浏览本站时也会受到影响。</summary>
+    <summary type="html">CDN 流量被恶意盗刷，加强了访问控制。</summary>
     
     
     
@@ -108,6 +89,25 @@
   </entry>
   
   <entry>
+    <title>时间与陪伴</title>
+    <link href="https://blog.zerolacqua.top/posts/839b6e46.html"/>
+    <id>https://blog.zerolacqua.top/posts/839b6e46.html</id>
+    <published>2024-02-23T09:15:24.000Z</published>
+    <updated>2025-01-09T03:04:44.368Z</updated>
+    
+    
+    <summary type="html">感觉想做的事越来越多了，能用的时间越来越少了</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客今后的方向</title>
     <link href="https://blog.zerolacqua.top/posts/b1e7d13a.html"/>
     <id>https://blog.zerolacqua.top/posts/b1e7d13a.html</id>
@@ -131,10 +131,10 @@
     <link href="https://blog.zerolacqua.top/posts/2d7ab288.html"/>
     <id>https://blog.zerolacqua.top/posts/2d7ab288.html</id>
     <published>2023-05-18T13:12:00.000Z</published>
-    <updated>2023-08-20T06:17:02.000Z</updated>
+    <updated>2025-01-08T10:02:57.237Z</updated>
     
     
-    <summary type="html">毕业设计终于告一段落了，这几天是完全不想去实验室学习。</summary>
+    <summary type="html">毕业设计终于告一段落了，这几天是完全不想学习。</summary>
     
     
     
@@ -209,10 +209,10 @@
     <link href="https://blog.zerolacqua.top/posts/9a76c0ee.html"/>
     <id>https://blog.zerolacqua.top/posts/9a76c0ee.html</id>
     <published>2022-10-26T02:08:12.000Z</published>
-    <updated>2024-10-07T12:05:04.000Z</updated>
+    <updated>2025-01-08T10:02:33.249Z</updated>
     
     
-    <summary type="html">出于对以后博客的稳定性的考虑，加上天生的爱整事性格，我决定把博客迁移到服务器上试试。</summary>
+    <summary type="html">稳定性考虑+爱整事性格=博客迁移到服务器上试试</summary>
     
     
     
