@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2024-10-14T05:56:14.000Z</updated>
+  <updated>2025-05-01T16:10:10.778Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我与空竹的故事</title>
+    <link href="https://blog.zerolacqua.top/posts/d2153b05.html"/>
+    <id>https://blog.zerolacqua.top/posts/d2153b05.html</id>
+    <published>2025-05-01T12:05:25.000Z</published>
+    <updated>2025-05-01T16:10:10.778Z</updated>
+    
+    
+    <summary type="html">那是从小学开始的梦</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>这几年折腾博客的总结</title>
@@ -376,27 +395,6 @@
     
     
     <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数学公式测试</title>
-    <link href="https://blog.zerolacqua.top/posts/67588483.html"/>
-    <id>https://blog.zerolacqua.top/posts/67588483.html</id>
-    <published>2022-05-17T11:47:43.000Z</published>
-    <updated>2023-01-08T07:06:34.000Z</updated>
-    
-    
-    <summary type="html">测试数学公式的渲染情况。</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="测试" scheme="https://blog.zerolacqua.top/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
