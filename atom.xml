@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2025-05-01T16:10:10.778Z</updated>
+  <updated>2025-05-25T14:04:49.400Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>找实习的心路经历</title>
+    <link href="https://blog.zerolacqua.top/posts/1b0c9a2f.html"/>
+    <id>https://blog.zerolacqua.top/posts/1b0c9a2f.html</id>
+    <published>2025-05-25T10:56:30.000Z</published>
+    <updated>2025-05-25T14:04:49.400Z</updated>
+    
+    
+    <summary type="html">带着忐忑和兴奋走向未知</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>我与空竹的故事</title>
@@ -369,25 +388,6 @@
     
     
     <summary type="html">记录总结 C 和 C++ 文件读写的低质量水贴</summary>
-    
-    
-    
-    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++ 矩阵类实现</title>
-    <link href="https://blog.zerolacqua.top/posts/ff321836.html"/>
-    <id>https://blog.zerolacqua.top/posts/ff321836.html</id>
-    <published>2022-06-14T16:39:19.000Z</published>
-    <updated>2023-01-08T07:06:34.000Z</updated>
-    
-    
-    <summary type="html">自己实现的一个矩阵类</summary>
     
     
     
