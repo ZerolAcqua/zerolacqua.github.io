@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2025-05-25T14:04:49.400Z</updated>
+  <updated>2025-06-27T15:42:59.709Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「幻想の杂谈」放置游戏，真的“放置”吗？</title>
+    <link href="https://blog.zerolacqua.top/posts/3d5408fb.html"/>
+    <id>https://blog.zerolacqua.top/posts/3d5408fb.html</id>
+    <published>2025-06-27T14:31:12.421Z</published>
+    <updated>2025-06-27T15:42:59.709Z</updated>
+    
+    
+    <summary type="html">关于放置类游戏的一点杂谈</summary>
+    
+    
+    
+    <category term="幻想の杂谈" scheme="https://blog.zerolacqua.top/categories/%E5%B9%BB%E6%83%B3%E3%81%AE%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+    <category term="游戏" scheme="https://blog.zerolacqua.top/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>找实习的心路经历</title>
@@ -376,25 +397,6 @@
     <category term="摄影测量" scheme="https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
     <category term="计算机视觉" scheme="https://blog.zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C 与 C++ 的文件读写</title>
-    <link href="https://blog.zerolacqua.top/posts/e85bfb6a.html"/>
-    <id>https://blog.zerolacqua.top/posts/e85bfb6a.html</id>
-    <published>2022-06-18T02:21:57.000Z</published>
-    <updated>2023-01-08T07:06:34.000Z</updated>
-    
-    
-    <summary type="html">记录总结 C 和 C++ 文件读写的低质量水贴</summary>
-    
-    
-    
-    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="c++" scheme="https://blog.zerolacqua.top/tags/c/"/>
     
   </entry>
   

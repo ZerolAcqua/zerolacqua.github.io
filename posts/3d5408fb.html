@@ -1,0 +1,390 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>「幻想の杂谈」放置游戏，真的“放置”吗？ | 丘卡饮品店</title><meta name="author" content="Zerol Acqua"><meta name="copyright" content="Zerol Acqua"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="关于放置类游戏的一点杂谈">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「幻想の杂谈」放置游戏，真的“放置”吗？">
+<meta property="og:url" content="https://blog.zerolacqua.top/posts/3d5408fb.html">
+<meta property="og:site_name" content="丘卡饮品店">
+<meta property="og:description" content="关于放置类游戏的一点杂谈">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.zerolacqua.top/images/blog_covers/%E6%94%BE%E7%BD%AE%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%B8%B8%E6%88%8F.png">
+<meta property="article:published_time" content="2025-06-27T14:31:12.421Z">
+<meta property="article:modified_time" content="2025-06-27T15:42:59.709Z">
+<meta property="article:author" content="Zerol Acqua">
+<meta property="article:tag" content="吐槽">
+<meta property="article:tag" content="游戏">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.zerolacqua.top/images/blog_covers/%E6%94%BE%E7%BD%AE%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%B8%B8%E6%88%8F.png"><link rel="shortcut icon" href="https://cdn.zerolacqua.top/images/favicon.png"><link rel="canonical" href="https://blog.zerolacqua.top/posts/3d5408fb.html"><link rel="preconnect"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="OB1ciIrT2r_nAUTxc8B6YjLbaq-RxDkClFG00jbXrXM"/><meta name="baidu-site-verification" content="code-7USdMaHYMW"/><meta name="msvalidate.01" content="F83A44487AB436E1389EAD8A79D44FD1"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":200,"languages":{"author":"作者: Zerol Acqua","link":"链接: ","source":"来源: 丘卡饮品店","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '「幻想の杂谈」放置游戏，真的“放置”吗？',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  isShuoshuo: false
+}</script><link rel="stylesheet" href="https://cdn.zerolacqua.top/css/rightmenu.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="丘卡饮品店" type="application/atom+xml">
+</head><body><div id="web_bg" style="background-image: url(https://cdn.zerolacqua.top/images/background.png);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/avatar.png" onerror="onerror=null;src='https://cdn.zerolacqua.top/images/img_error.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="menus_items"><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-camera-retro"></i><span> 瞬间</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/painting/"><i class="fa-fw fas fa-palette"></i><span> 画册</span></a></li><li><a class="site-page child" href="/diary/"><i class="fa-fw fas fa-book-bookmark"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-layer-group"></i><span> 汇总</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://note.zerolacqua.top/"><i class="fa-fw fa-solid fa-scroll"></i><span> 笔记</span></a></li><li><a class="site-page child" href="/works/"><i class="fa-fw fas fa-lines-leaning"></i><span> 作品集</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-user-group"></i><span> 朋友</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/fcircle"><i class="fa-fw fa-solid fa-circle-user"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-feather-alt"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/statistics/"><i class="fa-fw fa-solid fa-chart-pie"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/me/"><i class="fa-fw fa-solid fa-user"></i><span> 个人</span></a></li><li><a class="site-page child" href="/about/oc/"><i class="fa-fw fa-solid fa-horse-head"></i><span> 自设</span></a></li><li><a class="site-page child" href="/about/blog/"><i class="fa-fw fas fa-blog"></i><span> 博客</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">丘卡饮品店</span></a><a class="nav-page-title" href="/"><span class="site-name">「幻想の杂谈」放置游戏，真的“放置”吗？</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-camera-retro"></i><span> 瞬间</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/painting/"><i class="fa-fw fas fa-palette"></i><span> 画册</span></a></li><li><a class="site-page child" href="/diary/"><i class="fa-fw fas fa-book-bookmark"></i><span> 日记</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-layer-group"></i><span> 汇总</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/resources/"><i class="fa-fw fas fa-cloud-download"></i><span> 资源</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://note.zerolacqua.top/"><i class="fa-fw fa-solid fa-scroll"></i><span> 笔记</span></a></li><li><a class="site-page child" href="/works/"><i class="fa-fw fas fa-lines-leaning"></i><span> 作品集</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-user-group"></i><span> 朋友</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/fcircle"><i class="fa-fw fa-solid fa-circle-user"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-feather-alt"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/statistics/"><i class="fa-fw fa-solid fa-chart-pie"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/me/"><i class="fa-fw fa-solid fa-user"></i><span> 个人</span></a></li><li><a class="site-page child" href="/about/oc/"><i class="fa-fw fa-solid fa-horse-head"></i><span> 自设</span></a></li><li><a class="site-page child" href="/about/blog/"><i class="fa-fw fas fa-blog"></i><span> 博客</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">「幻想の杂谈」放置游戏，真的“放置”吗？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-06-27T14:31:12.421Z" title="发表于 2025-06-27 22:31:12">2025-06-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-06-27T15:42:59.709Z" title="更新于 2025-06-27 23:42:59">2025-06-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B9%BB%E6%83%B3%E3%81%AE%E6%9D%82%E8%B0%88/">幻想の杂谈</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">4.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>12分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:200,&quot;messagePrev&quot;:&quot;距离丘卡上次施工已经过去&quot;,&quot;messageNext&quot;:&quot;天啦！请注意保质期哦！&quot;,&quot;postUpdate&quot;:&quot;2025-06-27 23:42:59&quot;}" hidden></div><div class="tip info faa-horizontal animated-hover"><p>本文作者：过度幻想（是我的一个懒到博客都不想搭的笨笨朋友）</p>
+</div>
+<h2 id="引言">引言</h2>
+<p>我在近年来高强度游玩了大量的放置游戏，比如Bitburner、Your Chronicle、The Perfect Tower II、Unnamed Space Idle以及后文中有列出的很多游戏，深度体验了一些，简单涉猎了另一些。但是这些游戏并没有真的让我感觉很放置，哪怕仅仅只是认真游玩其中一款都会魔法般地吞掉我大量的个人时间，更别说同时有几款游戏同时运行了。这篇杂谈就简单聊一下自己对放置游戏的看法。</p>
+<p><strong>放置游戏</strong>（Idle Game），或称挂机游戏，是一个在游戏界不能说家喻户晓，也能称得上名声在外。Steam平台就曾有过不少放置节（Idler Festival），为这类游戏做了曝光和推广。这个词的字面意思很容易理解，不过我相信还是有不少人在网上搜索过这个词，百度百科的页面是一坨烂泥，好在维基百科的放置游戏页面还算提供了相对中肯的解释：</p>
+<blockquote>
+<p>An incremental game (also known as an idle game, clicker game, or tap game) is a video game genre centered on minimal player interaction, where simple actions—such as clicking a button—generate in-game currency.<br>
+增量游戏（Incremental game），俗称放置游戏（Idle game），又称点击游戏（Clicker game），是一种电子游戏类型。玩家于此类游戏只需进行简单操作，如重复点击屏幕。玩家会于游玩过程中获得游戏货币，并使用货币提升货币获取速度。玩家于一些游戏中可不需点击，游戏会自动取得货币。（注：此维基百科中文页面的对应内容，非笔者翻译。）<br>
+<em>PS：英文甚至没有Idle Game这个页面，只有Incremental Game，中文好歹有个重定向。</em></p>
+</blockquote>
+<div class="tip warning faa-horizontal animated-hover"><p>本文大多数内容仅为笔者个人观点，不代表大众意见，若有疏漏或不同看法，欢迎评论区友好补充与讨论</p>
+</div>
+<h2 id="有什么放置游戏？">有什么放置游戏？</h2>
+<p>时至今日，Steam上早已有了一个放置游戏专属的标签——“<strong>挂机游戏</strong>”（Idler），在这个标签下，随便翻翻就能看到几个耳熟能详的游戏，比如鼎鼎有名的Cookie Clicker，亦或是总是跳上推荐栏的梅尔沃放置（Melvor Idle）。有的放置游戏名字中会带有明确的<strong>放置</strong>（Idle）二字，比如旋转放置（Revolution Idle），文明放置（CivIdle）；有的则是明确的带有<strong>点击</strong>（Clicker）二字，比如Time Clickers，Clicker Heroes；名字中带有<strong>增量</strong>（Incremental）的也不在少数。即便不考虑这三个词，也有很多游戏毫无异议地属于这个类型，比如反物质维度（Antimatter Dimension），在近年爆火的休闲桌面种田游戏Rusty’s Retirement，与其类似的桌面牧场小游戏Tiny Pasture等等。</p>
+<p><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blogs/%E6%94%BE%E7%BD%AE%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%B8%B8%E6%88%8F/image.png" alt="Steam“挂机游戏”分类中的部分游戏（截图时间：2025年5月22日）"></p>
+<p>这还仅仅只是Steam上的冰山一角。在电子游戏发展尚未成熟的过去，很多游戏仅以网页或Flash小游戏的形式存在。我在以前就沉迷过一款叫<strong>进化</strong>（Evolve）的网页游戏，也浅浅体验了一下朋友和群友推荐的其他一些网页游戏，虽然受限于浏览器的限制，这类游戏往往画面粗糙，但并不代表玩法枯燥乏味，也能玩个津津有味。</p>
+<h2 id="什么是放置游戏？增量游戏又是啥？">什么是放置游戏？增量游戏又是啥？</h2>
+<p><em>连维基都把这两个词混用了，你就从了吧（汗颜）。</em></p>
+<p><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blogs/%E6%94%BE%E7%BD%AE%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%B8%B8%E6%88%8F/image-1.png" alt="旋转放置的游戏画面"></p>
+<p>我第一次接触增量游戏这个名词的时候也有过疑惑，于是逛过杂七杂八的论坛帖子博客，从中汲取过各种观点和看法。主流观点认为增量游戏和放置游戏是同义词（因此常常混用），或者把增量游戏归为放置游戏的一个子类。事实上，“增量”这个词就是很少被使用，在国内的游戏环境甚至可能完全不会接触到这个名词。至于这两个词过去的具体含义，如今已不那么重要，我们不妨来看看它们在当下是如何被诠释的。</p>
+<p>先来看看什么是<strong>放置游戏</strong>吧。放置放置，顾名思义，就是你只需要放在那边，就可以玩了。根据维基百科的说法，放置游戏只要求玩家进行简单操作，就能获取资源，提升效率。你可能觉得不合理——别急，听我慢慢道来。</p>
+<p>这个定义听上去——老实说——跟放置八竿子打不着边，如果你仔细对比过中英文的两段话，会发现中文的多了一句“玩家于一些游戏中可不需点击，游戏会自动取得货币”。这听上去才真正贴近“放置”这个概念。而之前所提到的“操作，获利，提升”这一游戏循环，反而更符合增量游戏。“增量”这个词，字面意思理解就是“增加某种量”，可以是数字（资源、货币、经验）、可以是玩法（新机制、新内容、新地图）或其他什么东西。他对于玩家所投入的时间是多是少没有任何暗示，你可能得时刻盯着游戏，疯狂点这点那；也可能是上线一波，收菜一下，下线一挂，最终你的目标大概率会是获得足够的资源以解锁新的东西，直到游戏内容全部体验完毕，游戏进入长草阶段或者直接吃灰。</p>
+<p>那该怎么划分放置游戏、增量游戏？这是一个没有标准答案的问题。哪怕是玩家普遍认为算放置的那些游戏中，也很难提取出一个共同的元素，简单操作、自动化、离线收益、逐渐变大的数字，这些都是一部分“特征”，但并非充要元素。一篇红迪的帖子中提出了一个我个人比较认可的分类方式：</p>
+<blockquote>
+<ul>
+<li>“增量”表明玩家会获得某种“额外的事物”：比如说升级房屋以获得更多的产出。换句话说，就是你投入资源，提升某些东西，从而获得额外的效率。</li>
+<li>“放置”表明你可以什么都不做。也就是说，如果我只是坐着，盯着屏幕，游戏也会自己运转。</li>
+<li>“点击”仅指那些你可以重复点击某个东西获得奖励的游戏。</li>
+</ul>
+</blockquote>
+<p>这仍然是比较粗略的一个划分，深入思考会带来很多更细碎的问题。比如说：</p>
+<ul>
+<li>那魔兽世界这种，我升级角色，有新任务、新地图、新天赋/技能，是不是也算增量游戏了？这不是有增加新的内容吗？</li>
+<li>如果一款放置游戏，我什么都不操作，游戏自己玩，自己通关，那我在干什么？</li>
+<li>Cookie Clicker肯定是点击游戏吧？但它后面完全不用我自己点击啊。</li>
+</ul>
+<p>这三个问题其实是很多人仔细思考后都会出现的疑惑，同样的，这是一个开放性问题，我会在此给出我自己的答案。第一个问题比较复杂所以会放在最后回答，我先回答后面两个问题。</p>
+<h3 id="放置的悖论">放置的悖论</h3>
+<blockquote>
+<p>如果一款放置游戏，我什么都不操作，游戏自己玩，自己通关，那我在干什么？</p>
+</blockquote>
+<p>有的放置游戏确实是你什么都不需要干，这类游戏还有个专门的称呼，叫<strong>零玩家游戏</strong>（Zero-player game），这类游戏的设计理念就是，一旦设定好初始条件（不一定要花费大量时间手动设置，这个也可以一键配置，比如导入，或者随机生成等），游戏将会完全自动运行，比如康威生命游戏（Conway’s Game of Life），或者是无尽的进度条（Progress Quest）。</p>
+<p>当然，我自己…不太感冒这种类型。玩游戏嘛，很多时候图的就是那么一份<strong>参与感</strong>，大多数放置游戏都需要玩家进行一些操作，且主要都体现在宏观决策上，比如购买自动化相关组件，消耗升级点数之类的。但相比于其他非放置游戏来说，放置游戏不要求玩家投入大量精力，你大可以打开游戏，挂在那边，等资源满了随便挥霍一波，重复这一过程（现在绝大多数放置游戏更是提供了离线收益，连开游戏这步都可以省略了，可喜可贺）。玩家在这个过程中，可能会收获宏观决策后收集资源变快的成就感，还可能获得体验游戏新元素的新鲜感，抑或是单纯地享受数字增长的快感，这些都可以算是参与感的一种，每个玩家都有自己喜欢的地方，读文学小说的读者跟大脑寄存后爽读龙傲天小说的读者也许可能互相不太理解，但这并不妨碍他们都能从各自的阅读中获得乐趣。</p>
+<blockquote>
+<p>Cookie Clicker肯定是点击游戏吧？但它后面完全不用我自己点击啊。</p>
+</blockquote>
+<p>至于第三个问题，Cookie Clicker当然是点击游戏啊，它名字里不就有“点击”吗？下一个问题。</p>
+<p><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blogs/%E6%94%BE%E7%BD%AE%E4%B8%8E%E5%A2%9E%E9%87%8F%E6%B8%B8%E6%88%8F/image-2.png" alt="Cookie Clicker，左边的大曲奇是可以疯狂点击的"></p>
+<p>咳，言归正传。如果这个游戏就是让你一直点那个大曲奇，那你不会腻吗？所以在游戏的某些节点，就会引入自动获取曲奇的方式，在你觉得卡住无法继续推进的时候，就有重置机制（也就是游戏中的飞升）来获得一些额外升级，这类游戏毋庸置疑应该属于点击游戏。</p>
+<p>我曾经玩过另一款点击游戏：Time Clickers，其核心玩法跟Cookie Clicker大差不差，只是点击曲奇变成了通过射击击碎方块获得金钱，然后升级武器、自动化再不断重置，大多数点击游戏不外乎也是如此——它们都要求在初期进行大量的点击，再慢慢引入自动点击或其他元素提供自动化，到中后期自然演变成了一款增量/放置游戏。</p>
+<p>回答完这两个问题，我相信聪明的你肯定能够明白：一个游戏可以既是放置，又是增量，还是点击游戏。</p>
+<h3 id="判断的依据">判断的依据</h3>
+<blockquote>
+<p>那魔兽世界这种，我升级角色，有新任务、新地图、新天赋/技能，是不是也算增量游戏了？这不是有增加新的内容吗？</p>
+</blockquote>
+<p>回到第一个问题上来，应该不会有多少人认为魔兽世界是一款放置游戏，但它算不算增量游戏呢？<strong>我觉得</strong>如何判断一个游戏是不是放置游戏，最核心的一点在于搞清楚这个游戏到底是<strong>怎么玩</strong>的。不管是增量，还是放置，它们不仅仅是描述一个游戏的<strong>游戏类型</strong>（Game Genre），更描述了一个游戏的<strong>游戏核心玩法</strong>（Core Gameplay Mechanic）。</p>
+<p>举例来说，魔兽世界是一款大型多人在线网游（Massively Multiplayer Online Role-Playing Game, MMORPG），但你就是要玩成宠物对战模拟器，那在你的眼中这就只是个回合策略游戏；你也可以成天蹲拍卖行进行一些交易行为，那就可能变成了金融模拟器；你如果只打大秘境，那是一个PVE游戏；你如果只打竞技场，那就是一个PVP游戏。我们可以看到，一个游戏的标签并不只局限于一种，我们谈到魔兽世界都会说是MMO，因为不论你怎么玩这个游戏，你都处于一个游戏社会中，会有成千上万的其他玩家跟你一同在线，因此“大型多人在线”+“网游”这个标签是脱离不开的。再比如说文明6，我们会说它是一款回合制策略游戏（Turn-based Strategy Game, TBS），因为它的核心玩法就是回合制的策略对战，无论你单机联机PVPPVE，都无法摆脱这个限制，虽然游戏也有很多其他的元素，比如你可以选择一个领袖代入去玩角色扮演，但这只是游戏的一种玩法，并不是核心玩法。</p>
+<blockquote>
+<p>P.S. 说到这里我有必要补充一点，游戏类型的定义是跟着时代发展而再改变的，我们不应该执着于把某游戏归类到A，而不考虑它也同时属于B的可能性。</p>
+</blockquote>
+<p>至于增量，我倾向于将点天赋树、开新地图等都算做<strong>增量属性（attribute）</strong>，很多游戏都有这个属性，但有这个属性并不代表游戏就是增量游戏。魔兽世界的玩家在游玩过程中的主要目标并不是无脑升级以解锁天赋、地图。玩家有不同的生活职业可以体验，能够与其他玩家交互（交易下本打PVP等），抑或是在地图中遨游观赏美景，这之中的很多内容都不强制玩家一定要升级才能体验。正是这些丰富多样的、需要玩家主动参与的互动和选择，组成了其主动、多维、高参与度的核心玩法，使得魔兽世界与以自动化和数字增长为核心的放置/增量游戏截然不同。</p>
+<h2 id="结语">结语</h2>
+<p>一个有趣的事实是，在2015年3月15日，一段编辑将增量游戏页面的第一句话改成了：</p>
+<blockquote>
+<ul>
+<li>An incremental game(not to be confused with an Idle Game) is a video game.</li>
+<li>增量游戏（Incremental game）是一个电子游戏类型（不要和放置游戏混淆）。</li>
+</ul>
+</blockquote>
+<p>这句话在持续两个月后，于2015年5月21日先是被打上<i>[why]</i>标签，后于同日被移除。我提及这个是想说明，本来这些游戏类型其实本身并没有一个明确的、公认的定义，执着于把一个游戏归类正确是不可取的心态。一万个读者有一万个哈利波特；一万名玩家就有一万个游戏分类夹。定义一个游戏的永远先是游戏内容和你游玩游戏的目的，而不是游戏的分类。我写这篇杂谈的初衷也只是表述我自身的观点，可能会有些偏颇，如果能引发一些思考和讨论，那将是笔者的荣幸。</p>
+<p>至于全文都没有提及增量游戏跟放置游戏的关系和区别这个问题，我认为理解这两者本质的区别就足够了，但在日常应用中实在没必要把这两个分开考虑。一方面放置游戏几乎都是增量的（往大的说，游戏几乎都是增量的）；另一方面，现在的增量游戏往往不会缺少自动化元素和离线收益，所以这两者自然而然就结合在一起混为一谈了。与其费脑筋把模糊的边界彻底理清，不如干脆一锅端了事。</p>
+<p>最后的最后，所有的游戏归根到底还是为了娱乐所服务，不要成为游戏的奴隶，劳逸结合，适度游玩。</p>
+<h2 id="后记">后记</h2>
+<p>这是我近五年来第一次重新写杂谈/博文性质的内容，上一次写正经稿件都是在…侏罗纪时代之前了。我的语言能力不算太好，写出来的东西可能会有些拗口，甚至出现表达不清楚、逻辑混乱的现象。在可预见的将来我会写更多内容，也希望我能表达清楚我所想表达之物，作为读者的你能看到你想要的东西或者单纯图个乐，共勉。</p>
+<h2 id="参考资料">参考资料</h2>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/w/index.php?title=Incremental_game&amp;oldid=663385721">Incremental game - Wikipedia</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.reddit.com/r/incremental_games/comments/1cfx1o2/difference_between_incremental_games_and_idle/">Difference_between_incremental_games_and_idle - reddit</a></li>
+<li><a target="_blank" rel="noopener" href="https://paperpilot.dev/guide-to-incrementals/ludology/definition/">Guide to incrementals - paperpilot</a></li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.zerolacqua.top">Zerol Acqua</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.zerolacqua.top/posts/3d5408fb.html">https://blog.zerolacqua.top/posts/3d5408fb.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://blog.zerolacqua.top" target="_blank">丘卡饮品店</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%90%90%E6%A7%BD/">吐槽</a><a class="post-meta__tags" href="/tags/%E6%B8%B8%E6%88%8F/">游戏</a></div><div class="post-share"><div class="social-share" data-image="https://cdn.zerolacqua.top/images/blog_covers/放置与增量游戏.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="/pluginsSrc/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="/pluginsSrc/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/posts/1b0c9a2f.html" title="找实习的心路经历"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/找实习的心路经历.png" onerror="onerror=null;src='https://cdn.zerolacqua.top/images/img_error.png'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">找实习的心路经历</div></div><div class="info-2"><div class="info-item-1">带着忐忑和兴奋走向未知</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/53e8e35.html" title="关于最近的一些事情"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/关于最近的一些事情.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-02-10</div><div class="info-item-2">关于最近的一些事情</div></div><div class="info-2"><div class="info-item-1">简单的建站一周年回顾</div></div></div></a><a class="pagination-related" href="/posts/f7e04c6.html" title="华为软件精英挑战赛感想"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/华为软件精英挑战赛感想.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-15</div><div class="info-item-2">华为软件精英挑战赛感想</div></div><div class="info-2"><div class="info-item-1">陪跑到复赛！</div></div></div></a><a class="pagination-related" href="/posts/b1e7d13a.html" title="博客今后的方向"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/博客今后的方向.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-19</div><div class="info-item-2">博客今后的方向</div></div><div class="info-2"><div class="info-item-1">浅浅水一篇博客</div></div></div></a><a class="pagination-related" href="/posts/d2153b05.html" title="我与空竹的故事"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/我与空竹的故事.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-01</div><div class="info-item-2">我与空竹的故事</div></div><div class="info-2"><div class="info-item-1">那是从小学开始的梦</div></div></div></a><a class="pagination-related" href="/posts/1b0c9a2f.html" title="找实习的心路经历"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/找实习的心路经历.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-25</div><div class="info-item-2">找实习的心路经历</div></div><div class="info-2"><div class="info-item-1">带着忐忑和兴奋走向未知</div></div></div></a><a class="pagination-related" href="/posts/839b6e46.html" title="时间与陪伴"><img class="cover" src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/时间与陪伴.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-02-23</div><div class="info-item-2">时间与陪伴</div></div><div class="info-2"><div class="info-item-1">感觉想做的事越来越多了，能用的时间越来越少了</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/avatar.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="avatar"/></div><div class="author-info-name">Zerol Acqua</div><div class="author-info-description">一只喜欢小马和编程的 WHUer</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="card-info-social-icons"><a class="social-icon" href="https://zerolacqua.top/" target="_blank" title="个人主页"><i class="fas fa-home"></i></a><a class="social-icon" href="https://github.com/ZerolAcqua" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://space.bilibili.com/26960382" target="_blank" title="bilibili"><i class="fab fa-bilibili"></i></a><a class="social-icon" href="https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2502727534" target="_blank" title="qq"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:hlc118@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%95%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E4%BB%80%E4%B9%88%E6%94%BE%E7%BD%AE%E6%B8%B8%E6%88%8F%EF%BC%9F"><span class="toc-number">2.</span> <span class="toc-text">有什么放置游戏？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%94%BE%E7%BD%AE%E6%B8%B8%E6%88%8F%EF%BC%9F%E5%A2%9E%E9%87%8F%E6%B8%B8%E6%88%8F%E5%8F%88%E6%98%AF%E5%95%A5%EF%BC%9F"><span class="toc-number">3.</span> <span class="toc-text">什么是放置游戏？增量游戏又是啥？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%BE%E7%BD%AE%E7%9A%84%E6%82%96%E8%AE%BA"><span class="toc-number">3.1.</span> <span class="toc-text">放置的悖论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A4%E6%96%AD%E7%9A%84%E4%BE%9D%E6%8D%AE"><span class="toc-number">3.2.</span> <span class="toc-text">判断的依据</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-number">4.</span> <span class="toc-text">结语</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">5.</span> <span class="toc-text">后记</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-number">6.</span> <span class="toc-text">参考资料</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/3d5408fb.html" title="「幻想の杂谈」放置游戏，真的“放置”吗？"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/放置与增量游戏.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="「幻想の杂谈」放置游戏，真的“放置”吗？"/></a><div class="content"><a class="title" href="/posts/3d5408fb.html" title="「幻想の杂谈」放置游戏，真的“放置”吗？">「幻想の杂谈」放置游戏，真的“放置”吗？</a><time datetime="2025-06-27T14:31:12.421Z" title="发表于 2025-06-27 22:31:12">2025-06-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/1b0c9a2f.html" title="找实习的心路经历"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/找实习的心路经历.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="找实习的心路经历"/></a><div class="content"><a class="title" href="/posts/1b0c9a2f.html" title="找实习的心路经历">找实习的心路经历</a><time datetime="2025-05-25T10:56:30.000Z" title="发表于 2025-05-25 18:56:30">2025-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/d2153b05.html" title="我与空竹的故事"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/我与空竹的故事.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="我与空竹的故事"/></a><div class="content"><a class="title" href="/posts/d2153b05.html" title="我与空竹的故事">我与空竹的故事</a><time datetime="2025-05-01T12:05:25.000Z" title="发表于 2025-05-01 20:05:25">2025-05-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/802109e2.html" title="这几年折腾博客的总结"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/blog_covers/这几年折腾博客的总结.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="这几年折腾博客的总结"/></a><div class="content"><a class="title" href="/posts/802109e2.html" title="这几年折腾博客的总结">这几年折腾博客的总结</a><time datetime="2024-10-14T04:23:31.000Z" title="发表于 2024-10-14 12:23:31">2024-10-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/42f38ff2.html" title="本站 CDN 被盗刷"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://cdn.zerolacqua.top/images/404.png" onerror="this.onerror=null;this.src='https://cdn.zerolacqua.top/images/img_error.png'" alt="本站 CDN 被盗刷"/></a><div class="content"><a class="title" href="/posts/42f38ff2.html" title="本站 CDN 被盗刷">本站 CDN 被盗刷</a><time datetime="2024-07-10T15:14:34.000Z" title="发表于 2024-07-10 23:14:34">2024-07-10</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2025 By Zerol Acqua</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa-solid fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa-solid fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa-solid fa-arrow-rotate-right"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa-solid fa-arrow-up"></i></a><a class="rightMenu-item" href="#post-comment" id="menu-comment"><i class="fa-solid fa-comments"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa-solid fa-copy"></i><span>复制</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:rmf.switchDarkMode();"><i class="fa-solid fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="javascript:rmf.switchReadMode();"><i class="fa-solid fa-book-open"></i><span>阅读模式</span></a><a class="rightMenu-item" href="javascript:rmf.switchAsideMode();" id="menu-hide-aside"><i class="fa-solid fa-arrows-alt-h"></i><span>单双栏切换</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:rmf.switchSakanaStatus();" id="menu-sakana"><i class="fa-solid fa-toggle-on"></i><span>石蒜模拟器</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  let initFn = window.walineFn || null
+  const isShuoshuo = GLOBAL_CONFIG_SITE.isShuoshuo
+  const option = {"emoji":["https://unpkg.com/@waline/emojis@1.1.0/weibo","https://unpkg.com/@waline/emojis@1.1.0/bilibili","https://unpkg.com/@waline/emojis@1.1.0/tieba","https://cdn.zerolacqua.top/images/emoji"],"reaction":["https://cdn.zerolacqua.top/images/emoji/acqua_haoye.png","https://cdn.zerolacqua.top/images/emoji/acqua_xinxin.png","https://cdn.zerolacqua.top/images/emoji/acqua_haqian.png","https://cdn.zerolacqua.top/images/emoji/acqua_wunian.png","https://cdn.zerolacqua.top/images/emoji/acqua_aba.png","https://cdn.zerolacqua.top/images/emoji/acqua_shengqi.png"],"locale":{"placeholder":"来和丘卡随便聊些什么吧~💖（已开启评论审核，评论将在审核通过后显示）","admin":"小店员工","level0":"初来乍到","level1":"偶有光临","level2":"小店常客","level3":"核心用户","level4":"反客为主","level5":"幕后黑蹄","reactionTitle":"看过文章你觉得怎么样呀？","reaction0":null,"reaction1":null,"reaction2":null,"reaction3":null,"reaction4":null,"reaction5":null}}
+
+  const destroyWaline = ele => ele.destroy()
+
+  const initWaline = (Fn, el = document, path = window.location.pathname) => {
+    const waline = Fn({
+      el: el.querySelector('#waline-wrap'),
+      serverURL: 'https://waline.zerolacqua.top',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      comment: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyWaline = () => {
+        destroyWaline(waline)
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const loadWaline = (el, path) => {
+    if (initFn) initWaline(initFn, el, path)
+    else {
+      btf.getCSS('/pluginsSrc/@waline/client/dist/waline.css')
+        .then(() => import('/pluginsSrc/@waline/client/dist/waline.js'))
+        .then(({ init }) => {
+          initFn = init || Waline.init
+          initWaline(initFn, el, path)
+          window.walineFn = initFn
+        })
+    }
+  }
+
+  if (isShuoshuo) {
+    'Waline' === 'Waline'
+      ? window.shuoshuoComment = { loadComment: loadWaline } 
+      : window.loadOtherComment = loadWaline
+    return
+  }
+
+  if ('Waline' === 'Waline' || !false) {
+    if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script></div><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.zerolacqua.top/js/rightmenu.js"></script><link rel="stylesheet" href="/css/mycss.css"><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div>
+      <div id="sakana" style="position:fixed;right:0;bottom:0px;"></div>
+      <script async onload='initSakanaWidget({"character":"Acqua","enable":true,"enable_mobile":false,"size":220,"autoFit":false,"bottom":"0px","controls":false,"stroke":{"color":"#b4b4b4","width":13},"threshold":0.1,"rotate":0,"customCharacters":[{"base":"takina","name":"Acqua","image":"https://cdn.zerolacqua.top/images/other/acqua_sakana.png","i":0.005,"s":0.2,"d":0.988,"r":0,"y":2,"t":0,"w":0}]})' src="https://cdn.zerolacqua.top/js/sakana.min.js"></script>
+      <script>
+      function log(msg) {
+        console.log("[hexo-sakana] " + msg);
+      }
+
+      function myFadeIn(elemt, speed) { //淡入 0 ~ 1
+        if(elemt.style.opacity == 0 && elemt.style.opacity != "") {
+          var speed = speed || 16.6; //默认速度为16.6ms
+          var num = 0; //累加器
+          var timer = setInterval(function() {
+            num++;
+            elemt.style.opacity = num / 20;
+            if(num >= 20) {
+              clearInterval(timer);
+            }
+          }, speed);
+        }
+      }
+      
+      function initSakanaWidget(config) {
+        if (
+          !config.enable_mobile &&
+          window.navigator.userAgent.match(
+            /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+          )
+        ) {
+          log(
+            '检测为移动端，且配置中未开启在移动端启用组件，hexo-sakana 已禁用'
+          );
+          return;
+        }
+        for (character of config.customCharacters) {
+          if (!["takina", "chisato"].includes(character.base)) {
+            log(`无效基础角色 ${character.base}，取消注册`);
+            continue;
+          }
+          if (character.name === "") {
+            log("名称为空，取消注册");
+            continue;
+          }
+          const originCharacter = SakanaWidget.getCharacter(character.base);
+          originCharacter.initialState = {
+            ...originCharacter.initialState,
+            ...character,
+          };
+          originCharacter.image = !character.image ? originCharacter.image : character.image
+          SakanaWidget.registerCharacter(character.name, originCharacter);
+          log(`注册自定义角色：${character.name}`)
+        }
+        new SakanaWidget({
+          character: config.character,
+          size: config.size,
+          autoFit: config.autoFit,
+          controls: config.controls,
+          stroke: config.stroke,
+          threshold: config.threshold,
+          rotate: config.rotate,
+        }).mount("#sakana");
+        let sakanaStatus = btf.saveToLocal.get('sakana-status') 
+        if(sakanaStatus =='hide'){
+          document.getElementById('sakana').style.display="none";
+        }
+        else{
+          document.getElementById('sakana').style.opacity=0;
+          myFadeIn(document.getElementById('sakana'),60)
+        }
+      }
+  </script>
+    </body></html>
