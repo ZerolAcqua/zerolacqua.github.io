@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2025-08-23T09:23:10.143Z</updated>
+  <updated>2025-08-24T15:06:13.242Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tee 心协力，tee 乐无穷——DDNet 入坑回忆</title>
+    <link href="https://blog.zerolacqua.top/posts/637574a3.html"/>
+    <id>https://blog.zerolacqua.top/posts/637574a3.html</id>
+    <published>2025-08-24T04:21:43.000Z</published>
+    <updated>2025-08-24T15:06:13.242Z</updated>
+    
+    
+    <summary type="html">每个人都有自己路要走，精不精彩只有自己知道。</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="游戏" scheme="https://blog.zerolacqua.top/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏推荐：图灵完备</title>
@@ -378,25 +399,6 @@
     
     
     <category term="LaTeX" scheme="https://blog.zerolacqua.top/tags/LaTeX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客样式测试</title>
-    <link href="https://blog.zerolacqua.top/posts/7cd08a64.html"/>
-    <id>https://blog.zerolacqua.top/posts/7cd08a64.html</id>
-    <published>2022-07-16T09:45:20.000Z</published>
-    <updated>2025-01-03T04:07:58.000Z</updated>
-    
-    
-    <summary type="html">样式与兼容性测试</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
