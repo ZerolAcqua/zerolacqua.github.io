@@ -1,8 +1,8 @@
+https://blog.zerolacqua.top/about/blog/index.html
 https://blog.zerolacqua.top/posts/637574a3.html
 https://blog.zerolacqua.top/posts/6b405ec0.html
 https://blog.zerolacqua.top/posts/b91359e5.html
 https://blog.zerolacqua.top/posts/2d7ab288.html
-https://blog.zerolacqua.top/about/blog/index.html
 https://blog.zerolacqua.top/posts/1b0c9a2f.html
 https://blog.zerolacqua.top/link/fcircle/index.html
 https://blog.zerolacqua.top/posts/3d5408fb.html
@@ -54,9 +54,9 @@ https://blog.zerolacqua.top/tags/c/
 https://blog.zerolacqua.top/tags/%E6%B8%B8%E6%88%8F/
 https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/
 https://blog.zerolacqua.top/tags/LaTeX/
-https://blog.zerolacqua.top/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/
 https://blog.zerolacqua.top/tags/Lua/
 https://blog.zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/
+https://blog.zerolacqua.top/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/
 https://blog.zerolacqua.top/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/
 https://blog.zerolacqua.top/tags/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86/
 https://blog.zerolacqua.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/
