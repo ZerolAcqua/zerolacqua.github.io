@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2025-09-19T09:49:35.818Z</updated>
+  <updated>2025-11-07T15:12:22.753Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数独笔记：XYZ 环</title>
+    <link href="https://blog.zerolacqua.top/posts/f62d75d5.html"/>
+    <id>https://blog.zerolacqua.top/posts/f62d75d5.html</id>
+    <published>2025-11-07T12:58:23.000Z</published>
+    <updated>2025-11-07T15:12:22.753Z</updated>
+    
+    
+    <summary type="html">数独技巧学习过程中的一点记录。</summary>
+    
+    
+    
+    <category term="杂七杂八" scheme="https://blog.zerolacqua.top/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+    
+    <category term="各种摸鱼" scheme="https://blog.zerolacqua.top/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/"/>
+    
+  </entry>
   
   <entry>
     <title>tee 心协力，tee 乐无穷——DDNet 入坑回忆</title>
@@ -380,25 +399,6 @@
     <category term="Lua" scheme="https://blog.zerolacqua.top/tags/Lua/"/>
     
     <category term="俄罗斯方块" scheme="https://blog.zerolacqua.top/tags/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LaTeX 初体验</title>
-    <link href="https://blog.zerolacqua.top/posts/1f2f2064.html"/>
-    <id>https://blog.zerolacqua.top/posts/1f2f2064.html</id>
-    <published>2022-07-23T05:27:55.000Z</published>
-    <updated>2023-01-08T07:06:34.000Z</updated>
-    
-    
-    <summary type="html">试试用 LaTeX 排版写作</summary>
-    
-    
-    
-    <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="LaTeX" scheme="https://blog.zerolacqua.top/tags/LaTeX/"/>
     
   </entry>
   
