@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2025-11-09T04:27:20.437Z</updated>
+  <updated>2025-11-12T03:08:05.244Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.zerolacqua.top/posts/f62d75d5.html"/>
     <id>https://blog.zerolacqua.top/posts/f62d75d5.html</id>
     <published>2025-11-07T12:58:23.000Z</published>
-    <updated>2025-11-09T04:27:20.437Z</updated>
+    <updated>2025-11-12T03:08:05.244Z</updated>
     
     
     <summary type="html">数独技巧学习过程中的一点记录。</summary>
@@ -32,6 +32,10 @@
     
     
     <category term="各种摸鱼" scheme="https://blog.zerolacqua.top/tags/%E5%90%84%E7%A7%8D%E6%91%B8%E9%B1%BC/"/>
+    
+    <category term="爱好" scheme="https://blog.zerolacqua.top/tags/%E7%88%B1%E5%A5%BD/"/>
+    
+    <category term="谜题" scheme="https://blog.zerolacqua.top/tags/%E8%B0%9C%E9%A2%98/"/>
     
   </entry>
   
@@ -120,7 +124,7 @@
     <link href="https://blog.zerolacqua.top/posts/d2153b05.html"/>
     <id>https://blog.zerolacqua.top/posts/d2153b05.html</id>
     <published>2025-05-01T12:05:25.000Z</published>
-    <updated>2025-05-01T16:10:10.778Z</updated>
+    <updated>2025-11-12T03:08:15.085Z</updated>
     
     
     <summary type="html">那是从小学开始的梦</summary>
@@ -131,6 +135,8 @@
     
     
     <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+    <category term="爱好" scheme="https://blog.zerolacqua.top/tags/%E7%88%B1%E5%A5%BD/"/>
     
   </entry>
   
@@ -158,12 +164,14 @@
     <link href="https://blog.zerolacqua.top/posts/42f38ff2.html"/>
     <id>https://blog.zerolacqua.top/posts/42f38ff2.html</id>
     <published>2024-07-10T15:14:34.000Z</published>
-    <updated>2025-01-08T10:03:16.835Z</updated>
+    <updated>2025-11-12T03:09:58.180Z</updated>
     
     
     <summary type="html">CDN 流量被恶意盗刷，加强了访问控制。</summary>
     
     
+    
+    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
   </entry>
@@ -386,7 +394,7 @@
     <link href="https://blog.zerolacqua.top/posts/3944b39.html"/>
     <id>https://blog.zerolacqua.top/posts/3944b39.html</id>
     <published>2022-07-29T09:31:41.000Z</published>
-    <updated>2023-01-08T07:06:34.000Z</updated>
+    <updated>2025-11-12T03:06:15.770Z</updated>
     
     
     <summary type="html">这个家伙又在开新坑！</summary>
@@ -395,6 +403,8 @@
     
     <category term="编程学习" scheme="https://blog.zerolacqua.top/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
+    
+    <category term="游戏" scheme="https://blog.zerolacqua.top/tags/%E6%B8%B8%E6%88%8F/"/>
     
     <category term="Lua" scheme="https://blog.zerolacqua.top/tags/Lua/"/>
     
