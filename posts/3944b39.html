@@ -229,10 +229,10 @@ p.spoiler {
 <li>出块系统：使用 <code>7-Bag</code> 而不是纯随机的出块方式</li>
 </ul>
 <p>可以参见<a href="/posts/531cccb5.html" title="俄罗斯方块心得记录">俄罗斯方块心得记录</a>。在写代码时，学习参考了 MrZ 大佬的代码：</p>
-<center>  <a class="ghcard" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://github.com/MrZ626/tetris-in-100-lines"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://github-readme-stats.vercel.app/api/pin/?username=MrZ626&amp;repo=tetris-in-100-lines&amp;show_owner=true"></a> </center>
+<center>  <a class="ghcard" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://github.com/MrZ626/tetris-in-100-lines"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://github-readme-stats.zerolacqua.top/api/pin/?username=MrZ626&amp;repo=tetris-in-100-lines&amp;show_owner=true"></a> </center>
 <h3 id="实现">实现</h3>
 <p>以下是我的代码，还没写完（小声）</p>
-<center>  <a class="ghcard" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://github.com/ZerolAcqua/Tetris"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://github-readme-stats.vercel.app/api/pin/?username=ZerolAcqua&amp;repo=Tetris&amp;show_owner=true"></a> </center>
+<center>  <a class="ghcard" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://github.com/ZerolAcqua/Tetris"><img src= "https://cdn.zerolacqua.top/images/lazyload.gif" data-lazy-src="https://github-readme-stats.zerolacqua.top/api/pin/?username=ZerolAcqua&amp;repo=Tetris&amp;show_owner=true"></a> </center>
 <h4 id="场地参考">场地参考</h4>
 <p>场地的话，计划使用 10×40 的场地，其中正常游戏只使用 10×20，剩下 10×20 用于存储顶出显示场地的方块。通过建立一个以场地为参考的坐标描述，我们可以描述方块的位置信息，并将游戏逻辑与绘图的逻辑分开。</p>
 <p>实现起来，主要是通过一个二维数组记录 10*40 场地的情况。其中，每格不同的数值代表不同的方块。目前，<code>0</code> 代表无方块，<code>1~7</code> 代表七种方块。这样，以后既可以拓展格子的类型，又可以绘制彩色的场地。</p>
