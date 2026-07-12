@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2026-06-13T13:39:56.604Z</updated>
+  <updated>2026-07-12T09:19:08.661Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.zerolacqua.top/posts/c4f28648.html"/>
     <id>https://blog.zerolacqua.top/posts/c4f28648.html</id>
     <published>2026-05-11T07:56:32.000Z</published>
-    <updated>2026-06-13T13:39:56.604Z</updated>
+    <updated>2026-07-12T09:19:08.661Z</updated>
     
     
     <summary type="html">回望那些纯粹又复杂的岁月。</summary>
@@ -328,9 +328,9 @@
     <category term="丘卡の推荐" scheme="https://blog.zerolacqua.top/categories/%E4%B8%98%E5%8D%A1%E3%81%AE%E6%8E%A8%E8%8D%90/"/>
     
     
-    <category term="游戏" scheme="https://blog.zerolacqua.top/tags/%E6%B8%B8%E6%88%8F/"/>
-    
     <category term="JavaScript" scheme="https://blog.zerolacqua.top/tags/JavaScript/"/>
+    
+    <category term="游戏" scheme="https://blog.zerolacqua.top/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
