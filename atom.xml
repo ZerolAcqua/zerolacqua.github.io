@@ -6,7 +6,7 @@
   <link href="https://blog.zerolacqua.top/atom.xml" rel="self"/>
   
   <link href="https://blog.zerolacqua.top/"/>
-  <updated>2026-07-12T09:19:08.661Z</updated>
+  <updated>2026-10-24T05:14:25.681Z</updated>
   <id>https://blog.zerolacqua.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>杂谈：关于 AI、写作和迷茫</title>
+    <link href="https://blog.zerolacqua.top/posts/1c119da8.html"/>
+    <id>https://blog.zerolacqua.top/posts/1c119da8.html</id>
+    <published>2026-10-24T04:57:44.000Z</published>
+    <updated>2026-10-24T05:14:25.681Z</updated>
+    
+    
+    <summary type="html">关于 AI 时代、写作动力与一点迷茫的杂谈。</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zerolacqua.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="吐槽" scheme="https://blog.zerolacqua.top/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>小马入坑的东扯西扯</title>
@@ -145,7 +164,7 @@
     <link href="https://blog.zerolacqua.top/posts/3d5408fb.html"/>
     <id>https://blog.zerolacqua.top/posts/3d5408fb.html</id>
     <published>2025-06-27T14:31:12.421Z</published>
-    <updated>2025-12-18T13:58:49.060Z</updated>
+    <updated>2026-10-16T14:28:28.298Z</updated>
     
     
     <summary type="html">关于放置类游戏的一点杂谈</summary>
@@ -390,25 +409,6 @@
     <category term="Julia" scheme="https://blog.zerolacqua.top/tags/Julia/"/>
     
     <category term="数值分析" scheme="https://blog.zerolacqua.top/tags/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次博客迁移历程</title>
-    <link href="https://blog.zerolacqua.top/posts/9a76c0ee.html"/>
-    <id>https://blog.zerolacqua.top/posts/9a76c0ee.html</id>
-    <published>2022-10-26T02:08:12.000Z</published>
-    <updated>2025-12-18T13:35:04.278Z</updated>
-    
-    
-    <summary type="html">稳定性考虑+爱整事性格=博客迁移到服务器上试试</summary>
-    
-    
-    
-    <category term="博客相关" scheme="https://blog.zerolacqua.top/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="博客搭建" scheme="https://blog.zerolacqua.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
